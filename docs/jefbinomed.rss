@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		<title>JefBinomed mixes</title>
+		<link>https://jef.bibomed.fr/binomed_mix/</link>
+		<language>en</language>
+		<itunes:subtitle>Just playing with my DJ experiments</itunes:subtitle>
+		<itunes:author>Jean-François Garreau aka JefBinomed</itunes:author>
+		<itunes:summary>If you love funk, house and some times oldschool hip hop, you will like theses mixes ! Enjoy and don't forget to dance !</itunes:summary>
+		<description>If you love funk, house and some times oldschool hip hop, you will like theses mixes ! Enjoy and don't forget to dance !</description>
+		<itunes:owner>
+			<itunes:name>Jean-François Garreau</itunes:name>
+			<itunes:email>jean.francois.garreau@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+		<itunes:category text="Music" />
+		<itunes:explicit>false</itunes:explicit>
+		<item>
+			<title>JefBinomed - 2025-02-18 - House Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>My first recorded mix with my old Hercules DJ Console</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://bafybeicbmp5wohe5awgewd6wjpaosbaoqpl5vichvcfydeyncvn3lv6a5e.ipfs.w3s.link/2025-02-15-house-mix.mp3" length="41742220" type="audio/mpeg" />
+			<guid>https://bafybeicbmp5wohe5awgewd6wjpaosbaoqpl5vichvcfydeyncvn3lv6a5e.ipfs.w3s.link/2025-02-15-house-mix.mp3</guid>
+			<pubDate>29 Sep 2011 21:10:00 +0100</pubDate>
+			<itunes:duration>28:59</itunes:duration>
+			<itunes:keywords>DJ Dadoo, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+
+
+	</channel>
+</rss>
