@@ -18,13 +18,26 @@
 		<itunes:category text="Music" />
 		<itunes:explicit>false</itunes:explicit>
 		<item>
+			<title>JefBinomed - 2025-03-15 - House Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>House mix of 15 March 2025</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-15-House-mix.mp3" length="88207778" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2025-03-15-House-mix.mp3</guid>
+			<pubDate>15 March 2025 21:10:00 +0100</pubDate>
+			<itunes:duration>1:01:15</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
 			<title>JefBinomed - 2025-03-09 - House Disco Mix</title>
 			<itunes:author>JefBinomed</itunes:author>
 			<itunes:subtitle>House Disco mix</itunes:subtitle>
 			<description>House mix of 09 March 2025</description>
 			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://bafybeif7gd57vqnwb4tkbubb7ao7f46athetzjhmdwig3tts5sqremfk34.ipfs.w3s.link/2025-03-09-house-disco-mix.mp3" length="88277995" type="audio/mpeg" />
-			<guid>https://bafybeif7gd57vqnwb4tkbubb7ao7f46athetzjhmdwig3tts5sqremfk34.ipfs.w3s.link/2025-03-09-house-disco-mix.mp3</guid>
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-09-house-disco-mix.mp3" length="88277995" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2025-03-09-house-disco-mix.mp3</guid>
 			<pubDate>09 March 2025 21:10:00 +0100</pubDate>
 			<itunes:duration>1:01:18</itunes:duration>
 			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
@@ -36,8 +49,8 @@
 			<itunes:subtitle>House mix</itunes:subtitle>
 			<description>House mix of 23 February 2025</description>
 			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://bafybeicdeaa4iawvlqvqrzkqkr37hchqmvbltjddf42jvznby7kfopl56u.ipfs.w3s.link/2025-02-23-house-mix.mp3" length="88837851" type="audio/mpeg" />
-			<guid>https://bafybeicdeaa4iawvlqvqrzkqkr37hchqmvbltjddf42jvznby7kfopl56u.ipfs.w3s.link/2025-02-23-house-mix.mp3</guid>
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-02-23-house-mix.mp3" length="88837851" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2025-02-23-house-mix.mp3</guid>
 			<pubDate>23 Feb 2025 21:10:00 +0100</pubDate>
 			<itunes:duration>1:01:42</itunes:duration>
 			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
@@ -49,10 +62,153 @@
 			<itunes:subtitle>House mix</itunes:subtitle>
 			<description>House mix of 15 February 2025</description>
 			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://bafybeicbmp5wohe5awgewd6wjpaosbaoqpl5vichvcfydeyncvn3lv6a5e.ipfs.w3s.link/2025-02-15-house-mix.mp3" length="59118070" type="audio/mpeg" />
-			<guid>https://bafybeicbmp5wohe5awgewd6wjpaosbaoqpl5vichvcfydeyncvn3lv6a5e.ipfs.w3s.link/2025-02-15-house-mix.mp3</guid>
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-02-15-house-mix.mp3" length="59118070" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2025-02-15-house-mix.mp3</guid>
 			<pubDate>15 Feb 2025 21:10:00 +0100</pubDate>
 			<itunes:duration>1:01:27</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2025-01-19 - House Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>House mix of 19 January 2025</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-01-19-house-mix.mp3" length="29342615" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2025-01-19-house-mix.mp3</guid>
+			<pubDate>19 Jan 2025 21:10:00 +0100</pubDate>
+			<itunes:duration>0:20:03</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2025-01-01 - House Disco Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House Disco mix</itunes:subtitle>
+			<description>House mix of 01 January 2025</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-01-01-house-disco-mix.mp3" length="92167523" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2025-01-01-house-disco-mix.mp3</guid>
+			<pubDate>01 Jan 2025 21:10:00 +0100</pubDate>
+			<itunes:duration>1:04:00</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-12-31 - House Dance Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House Dance mix</itunes:subtitle>
+			<description>House mix of 31 December 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-31-House-dance-mix.mp3" length="84279379" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-12-31-House-dance-mix.mp3</guid>
+			<pubDate>31 Dec 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>0:58:32</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-12-29 - House Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>House mix of 29 December 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-29-house-mix.mp3" length="91245296" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-12-29-house-mix.mp3</guid>
+			<pubDate>29 Dec 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>1:03:22</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-12-21 - House Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>House mix of 21 December 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-21-house-mix.mp3" length="93468421" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-12-21-house-mix.mp3</guid>
+			<pubDate>21 Dec 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>1:04:55</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-12-08 - House Disco Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>House mix of 08 December 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-08-House-Disco.mp3" length="71368202" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-12-08-House-Disco.mp3</guid>
+			<pubDate>08 Dec 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>0:49:34</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-11-09 - Disco Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>Disco mix</itunes:subtitle>
+			<description>House mix of 09 November 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-11-09-disco-mix.mp3" length="21539108" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-11-09-disco-mix.mp3</guid>
+			<pubDate>09 Nov 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>0:14:57</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-10-27 - House Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>House mix of 27 October 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-10-27-house-mix.mp3" length="85977756" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-10-27-house-mix.mp3</guid>
+			<pubDate>27 Oct 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>0:59:42</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-09-29 - House Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>House mix</itunes:subtitle>
+			<description>House mix of 29 September 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-09-29-house-mix.mp3" length="94011350" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-09-29-house-mix.mp3</guid>
+			<pubDate>29 Sept 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>1:05:17</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - 2024-09-14 - Disco Mix</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>Disco mix</itunes:subtitle>
+			<description>House mix of 14 September 2024</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-09-14-disco-mix.mp3" length="89421531" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/2024-09-14-disco-mix.mp3</guid>
+			<pubDate>14 Sept 2024 21:10:00 +0100</pubDate>
+			<itunes:duration>1:02:06</itunes:duration>
+			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+			<itunes:explicit>false</itunes:explicit>
+		</item>
+		<item>
+			<title>JefBinomed - Total Mix Disco</title>
+			<itunes:author>JefBinomed</itunes:author>
+			<itunes:subtitle>Total mix disco</itunes:subtitle>
+			<description>Old reccord of total mix disco</description>
+			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
+			<enclosure url="https://storage.googleapis.com/binomed-mix/total_mix_disco.mp3" length="89421531" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/total_mix_disco.mp3</guid>
+			<pubDate>01 March 2013 21:10:00 +0100</pubDate>
+			<itunes:duration>1:10:05</itunes:duration>
 			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
 			<itunes:explicit>false</itunes:explicit>
 		</item>
@@ -62,8 +218,8 @@
 			<itunes:subtitle>House mix</itunes:subtitle>
 			<description>Old reccord of total Mix 2</description>
 			<itunes:image href="https://jef.bibomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://bafybeiefl6kci5quijhojiwj23o4vtfmlliae6ranod65esb36vvvpfom4.ipfs.w3s.link/total%20mix2.mp3" length="59118070" type="audio/mpeg" />
-			<guid>https://bafybeiefl6kci5quijhojiwj23o4vtfmlliae6ranod65esb36vvvpfom4.ipfs.w3s.link/total%20mix2.mp3</guid>
+			<enclosure url="https://storage.googleapis.com/binomed-mix/total%20mix2.mp3" length="59118070" type="audio/mpeg" />
+			<guid>https://storage.googleapis.com/binomed-mix/total%20mix2.mp3</guid>
 			<pubDate>01 Feb 2012 21:10:00 +0100</pubDate>
 			<itunes:duration>1:13:21</itunes:duration>
 			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
