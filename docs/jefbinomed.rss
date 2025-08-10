@@ -1,465 +1,911 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/">
-	<channel>
-		<title>JefBinomed mixes</title>
-		<link>https://jef.binomed.fr/binomed_mix/</link>
-		<language>en</language>
-		<itunes:subtitle>Just playing with my DJ experiments</itunes:subtitle>
-		<itunes:author>Jean-François Garreau aka JefBinomed</itunes:author>
-		<itunes:summary>If you love funk, house and some times oldschool hip hop, you will like theses mixes ! Enjoy and don't forget to dance !</itunes:summary>
-		<description>If you love funk, house and some times oldschool hip hop, you will like theses mixes ! Enjoy and don't forget to dance !</description>
-		<itunes:owner>
-			<itunes:name>Jean-François Garreau</itunes:name>
-			<itunes:email>jean.francois.garreau@gmail.com</itunes:email>
-		</itunes:owner>
-		<itunes:image href="https://jef.binomed.fr/binomed_mix/img/logo-3000.png" />
-		<itunes:category text="Music" />
-		<itunes:explicit>false</itunes:explicit>
-		<item>
-			<title>JefBinomed - 2025-08-09 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 09 August 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-08-09-House-Mix.mp3" length="86175869" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-08-09-House-Mix.mp3</guid>
-			<pubDate>09 August 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>0:59:51</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-08-03 - House Dance Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 03 August 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-08-03-House-dance-mix.mp3" length="90426514" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-08-03-House-dance-mix.mp3</guid>
-			<pubDate>03 August 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:02:47</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-07-26 - Fresh House</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 26 July 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-07-26-Fresh-House.mp3" length="89040979" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-07-26-Fresh-House.mp3</guid>
-			<pubDate>26 July 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:01:50</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-07-16 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 16 July 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-07-16-House-Mix.mp3" length="91954364" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-07-16-House-Mix.mp3</guid>
-			<pubDate>16 July 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:03:51</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-06-29 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 29 June 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-06-29-House-Mix.mp3" length="94203193" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-06-29-House-Mix.mp3</guid>
-			<pubDate>29 June 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:05:25</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-06-15 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 15 June 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-06-15-House-Mix.mp3" length="89390184" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-06-15-House-Mix.mp3</guid>
-			<pubDate>15 June 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:02:05</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-06-09 - House Beat Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 09 June 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-06-09-House-Beat-Mix.mp3" length="92815778" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-06-09-House-Beat-Mix.mp3</guid>
-			<pubDate>09 June 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:04:27</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-05-31 - House Disco Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 31 May 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-31-House-Disco-Mix.mp3" length="88625319" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-05-31-House-Disco-Mix.mp3</guid>
-			<pubDate>31 May 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:01:33</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-05-25 - Birthday Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 25 May 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-25-Birthday-mix.mp3" length="86982112" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-05-25-Birthday-mix.mp3</guid>
-			<pubDate>25 May 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:00:24</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-05-18 - House Disco Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 18 May 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-18-House-Disco-Mix.mp3" length="91480649" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-05-18-House-Disco-Mix.mp3</guid>
-			<pubDate>18 May 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:05:43</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-05-09 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 09 May 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-09-House-Mix.mp3" length="86740114" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-05-09-House-Mix.mp3</guid>
-			<pubDate>09 May 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:00:14</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-05-03 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 03 May 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-03-House-Mix.mp3" length="87511875" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-05-03-House-Mix.mp3</guid>
-			<pubDate>03 May 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:00:46</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-04-27 - House Dance Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House Dance mix</itunes:subtitle>
-			<description>House mix of 27 April 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-27-House-Dance-Mix.mp3" length="88923115" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-04-27-House-Dance-Mix.mp3</guid>
-			<pubDate>27 April 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:01:45</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-04-19 - House Deep Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House Deep mix</itunes:subtitle>
-			<description>House mix of 19 April 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-19-House-Deep-Mix.mp3" length="89853492" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-04-19-House-Deep-Mix.mp3</guid>
-			<pubDate>19 April 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:02:24</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-04-12 - Fresh House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>Fresh House mix</itunes:subtitle>
-			<description>House mix of 12 April 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-12-Fresh-House-Mix.mp3" length="89921828" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-04-12-Fresh-House-Mix.mp3</guid>
-			<pubDate>12 April 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:02:27</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-04-06 - French House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>French House mix</itunes:subtitle>
-			<description>House mix of 06 April 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-06-French-House-Mix.mp3" length="90150661" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-04-06-French-House-Mix.mp3</guid>
-			<pubDate>06 April 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:02:36</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-03-30 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 30 March 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-30-House-Mix.mp3" length="87492440" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-03-30-House-Mix.mp3</guid>
-			<pubDate>30 March 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:00:46</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-03-23 - House Latino Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House Latino mix</itunes:subtitle>
-			<description>House mix of 23 March 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-23-House-Latino-Mix.mp3" length="90577606" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-03-23-House-Latino-Mix.mp3</guid>
-			<pubDate>23 March 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:02:54</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-03-15 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 15 March 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-15-House-mix.mp3" length="88207778" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-03-15-House-mix.mp3</guid>
-			<pubDate>15 March 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:01:15</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-03-09 - House Disco Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House Disco mix</itunes:subtitle>
-			<description>House mix of 09 March 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-09-house-disco-mix.mp3" length="88277995" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-03-09-house-disco-mix.mp3</guid>
-			<pubDate>09 March 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:01:18</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-02-23 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 23 February 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-02-23-house-mix.mp3" length="88837851" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-02-23-house-mix.mp3</guid>
-			<pubDate>23 Feb 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:01:42</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-02-15 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 15 February 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-02-15-house-mix.mp3" length="59118070" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-02-15-house-mix.mp3</guid>
-			<pubDate>15 Feb 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:01:27</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-01-19 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 19 January 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-01-19-house-mix.mp3" length="29342615" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-01-19-house-mix.mp3</guid>
-			<pubDate>19 Jan 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>0:20:03</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2025-01-01 - House Disco Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House Disco mix</itunes:subtitle>
-			<description>House mix of 01 January 2025</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2025-01-01-house-disco-mix.mp3" length="92167523" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2025-01-01-house-disco-mix.mp3</guid>
-			<pubDate>01 Jan 2025 21:10:00 +0100</pubDate>
-			<itunes:duration>1:04:00</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-12-31 - House Dance Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House Dance mix</itunes:subtitle>
-			<description>House mix of 31 December 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-31-House-dance-mix.mp3" length="84279379" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-12-31-House-dance-mix.mp3</guid>
-			<pubDate>31 Dec 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>0:58:32</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-12-29 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 29 December 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-29-house-mix.mp3" length="91245296" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-12-29-house-mix.mp3</guid>
-			<pubDate>29 Dec 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>1:03:22</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-12-21 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 21 December 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-21-house-mix.mp3" length="93468421" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-12-21-house-mix.mp3</guid>
-			<pubDate>21 Dec 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>1:04:55</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-12-08 - House Disco Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 08 December 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-08-House-Disco.mp3" length="71368202" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-12-08-House-Disco.mp3</guid>
-			<pubDate>08 Dec 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>0:49:34</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-11-09 - Disco Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>Disco mix</itunes:subtitle>
-			<description>House mix of 09 November 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-11-09-disco-mix.mp3" length="21539108" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-11-09-disco-mix.mp3</guid>
-			<pubDate>09 Nov 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>0:14:57</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-10-27 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 27 October 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-10-27-house-mix.mp3" length="85977756" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-10-27-house-mix.mp3</guid>
-			<pubDate>27 Oct 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>0:59:42</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-09-29 - House Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>House mix of 29 September 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-09-29-house-mix.mp3" length="94011350" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-09-29-house-mix.mp3</guid>
-			<pubDate>29 Sept 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>1:05:17</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - 2024-09-14 - Disco Mix</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>Disco mix</itunes:subtitle>
-			<description>House mix of 14 September 2024</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/2024-09-14-disco-mix.mp3" length="89421531" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/2024-09-14-disco-mix.mp3</guid>
-			<pubDate>14 Sept 2024 21:10:00 +0100</pubDate>
-			<itunes:duration>1:02:06</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - Total Mix Disco</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>Total mix disco</itunes:subtitle>
-			<description>Old reccord of total mix disco</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/total_mix_disco.mp3" length="89421531" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/total_mix_disco.mp3</guid>
-			<pubDate>01 March 2013 21:10:00 +0100</pubDate>
-			<itunes:duration>1:10:05</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-		<item>
-			<title>JefBinomed - Total Mix 2</title>
-			<itunes:author>JefBinomed</itunes:author>
-			<itunes:subtitle>House mix</itunes:subtitle>
-			<description>Old reccord of total Mix 2</description>
-			<itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png" />
-			<enclosure url="https://storage.googleapis.com/binomed-mix/total%20mix2.mp3" length="59118070" type="audio/mpeg" />
-			<guid>https://storage.googleapis.com/binomed-mix/total%20mix2.mp3</guid>
-			<pubDate>01 Feb 2012 21:10:00 +0100</pubDate>
-			<itunes:duration>1:13:21</itunes:duration>
-			<itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
-			<itunes:explicit>false</itunes:explicit>
-		</item>
-
-
-	</channel>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JefBinomed mixes</title>
+    <link>https://jef.binomed.fr/binomed_mix/</link>
+    <language>en</language>
+    <itunes:subtitle>Just playing with my DJ experiments</itunes:subtitle>
+    <itunes:author>Jean-François Garreau aka JefBinomed</itunes:author>
+    <itunes:summary>If you love funk, house and some times oldschool hip hop, you will like theses mixes ! Enjoy and don't forget to dance !</itunes:summary>
+    <description>If you love funk, house and some times oldschool hip hop, you will like theses mixes ! Enjoy and don't forget to dance !</description>
+    <itunes:owner>
+      <itunes:name>Jean-François Garreau</itunes:name>
+      <itunes:email>jean.francois.garreau@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://jef.binomed.fr/binomed_mix/img/logo-3000.png"/>
+    <itunes:category text="Music"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>JefBinomed - 2025-08-09 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 09 August 2025</p><h4>Playlist:</h4><ul>
+  <li>Marvin Gaye - Sunny (Baumon Remix / Extended</li>
+  <li>Lacey - Cave In (radio edit)</li>
+  <li>Celeda - The Underground</li>
+  <li>Julien Jabre - Vicious Circle</li>
+  <li>Alex Alicea Feat Sarah T - Straight For You (Dub Mix)</li>
+  <li>Who Da Funk?, Terra Deva - Sting Me Red (Clever) (ATFCs V</li>
+  <li>September - Cry for You (extended mix)</li>
+  <li>Kungs - Lipstick</li>
+  <li>Revival, Phebe Edwards - Ain't No Mountain</li>
+  <li>Lisa Millett - It’s Alright (Jamie Lewis Go Funky dub)</li>
+  <li>Superfunk - Chinatown (Original Mix)</li>
+  <li>Joey Chicago - For Your Lovin (Original Mix)</li>
+  <li>France Gall - Besoin damour (Upsilone Remix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-08-09-House-Mix.mp3" length="86175869" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-08-09-House-Mix.mp3</guid>
+      <pubDate>09 August 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>0:59:51</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-08-03 - House Dance Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 03 August 2025</p><h4>Playlist:</h4><ul>
+  <li>Plaza - (Got My) Dancing Shoes</li>
+  <li>Charles Dockins - Flowers With Kisses (Shelter V</li>
+  <li>Hyde Park Corner - Mysterious Date</li>
+  <li>Leon Bryant - Mighty Body (Hotsy Totsy)</li>
+  <li>Saturday Church, The Voices of Saturday Church - Sunday</li>
+  <li>Martin Solveig with Dragonette - Can't Stop</li>
+  <li>Harry Romero, Jose Nunez, Alex Alicea, Shawnee Taylor - I Wanna Thank You</li>
+  <li>Moonlight vs. Azoto - San Salvador (Vocal Club Mix)</li>
+  <li>Johnny Corporate - Sunday Shoutin’</li>
+  <li>Chilly Gonzales - You Can Dance</li>
+  <li>Jamiroquai - Cloud 9 (Purple Disco Machine</li>
+  <li>Dua Lipa - Hallucinate</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-08-03-House-dance-mix.mp3" length="90426514" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-08-03-House-dance-mix.mp3</guid>
+      <pubDate>03 August 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:47</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-07-26 - Fresh House</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 26 July 2025</p><h4>Playlist:</h4><ul>
+  <li> - Any_Time_Michael_The_Lion_Edit</li>
+  <li> - Roy_Ayers_-_Get_On_Up_Get_On_Down_Joey_Negro_Revibe</li>
+  <li>Harry Romero, Jose Nunez, Alex Alicea, Shawnee Taylor - I Wanna Thank You</li>
+  <li>Jennifer Marley - Good Day</li>
+  <li>Jules Liesl - CHERRY</li>
+  <li>Swales/RuthAnne - Higher (Call My Name)</li>
+  <li>Saturday Church, The Voices of Saturday Church - Sunday</li>
+  <li>Shee - Am I Just Living</li>
+  <li>Kate Stein, Lord Fascinator, Aeroplane, Fascinator - Asteroid</li>
+  <li>Bill Withers - Lovely Day</li>
+  <li>Ken@Work - Get In The Groove</li>
+  <li>M-Gee/Mica Paris - Bodyswerve (Club Mix)</li>
+  <li>LF SYSTEM - All I've Got</li>
+  <li>Wh0/ Anelisa Lamola - The Power</li>
+  <li> - Easy_Going_Go_Away_Little_Girl_FELIX_BZH_Edit</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-07-26-Fresh-House.mp3" length="89040979" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-07-26-Fresh-House.mp3</guid>
+      <pubDate>26 July 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:50</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-07-16 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 16 July 2025</p><h4>Playlist:</h4><ul>
+  <li>Major Boys feat. AurÃ©lia - Sous le soleil (Cuba acoustic mix)</li>
+  <li>Havana Funk - Ya Salio (John Kano's Dirty Ha</li>
+  <li>Degiheugi & La Fine �quipe - Favelas (La Fine Equipe remix)</li>
+  <li>Chlo� Caillet - Doudou (Edit)</li>
+  <li>Afrojack - Radioman</li>
+  <li>Michelle Amador - Because Of You (Yoruba Soul Remix)</li>
+  <li>The Chemical Brothers - Sometimes I Feel So Deserted</li>
+  <li>Dalton John - Karma</li>
+  <li>Purple Disco Machine - Dished (Male Stripper)</li>
+  <li>Static Revenger - Happy People (Doorly Remix)</li>
+  <li>Softmal, Nytron - My Girl</li>
+  <li>Jerk Boy/The Baroness - Satellite (feat. The Baroness)</li>
+  <li>Chilly Gonzales - You Can Dance</li>
+  <li>DJ Dealer Ft. Lisa Millett - You're All I Need (Main Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-07-16-House-Mix.mp3" length="91954364" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-07-16-House-Mix.mp3</guid>
+      <pubDate>16 July 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:03:51</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-06-29 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 29 June 2025</p><h4>Playlist:</h4><ul>
+  <li>Purple Disco Machine - Beat Fantasy</li>
+  <li>Flight Facilities, Drama - Dancing On My Own</li>
+  <li>Margaret Grace - Hope You Feel Better (Remix) (</li>
+  <li>Poolside - Feel Alright (Yuksek remix)</li>
+  <li>Silicone Soul - Right On, Right On</li>
+  <li>Enur - Calabria 2007</li>
+  <li>Bob Sinclar - Ich rocke</li>
+  <li>DJ Ferno - Watching You</li>
+  <li>Dua Lipa - Hallucinate</li>
+  <li>Purple Disco Machine - Dished (Male Stripper)</li>
+  <li>Static Revenger - Happy People (Doorly Remix)</li>
+  <li>Rodney Hunter - Dance (Extended Mix)</li>
+  <li>Ãtienne de CrÃ©cy - Am I Wrong (extended)</li>
+  <li>Panevino Feat. Charles Dockins - The Best of Me (Original Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-06-29-House-Mix.mp3" length="94203193" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-06-29-House-Mix.mp3</guid>
+      <pubDate>29 June 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:05:25</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-06-15 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 15 June 2025</p><h4>Playlist:</h4><ul>
+  <li>Polo & Pan - The Mirror</li>
+  <li>Amber Mark - won't cry</li>
+  <li>LindstrÃ¸m - I Feel Space</li>
+  <li>David Penn - Nobody (club mix)</li>
+  <li>Violet Sands/Justin Faust - What Do You Feel (Jean Tonique Remix)</li>
+  <li>Hot Chip - Flutes</li>
+  <li>Hot Chip feat. Jarvis Cocker - Straight to the Morning (Myd remix)</li>
+  <li>Dennis Ferrer/Janelle Kroll - Mind Ur Step (feat. Janelle Kr</li>
+  <li>The Chemical Brothers - Sometimes I Feel So Deserted</li>
+  <li>Me & My Toothbrush - Get Down, JB!</li>
+  <li>Daft Punk - Around the World</li>
+  <li>Purple Disco Machine - In My Arms</li>
+  <li>Pandy Isaf - STANDBYME</li>
+  <li>One‐T - Music Is the One-T ODC</li>
+  <li>Revival/ Mary Pearce/ Lovely L - Take Me To The River</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-06-15-House-Mix.mp3" length="89390184" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-06-15-House-Mix.mp3</guid>
+      <pubDate>15 June 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:05</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-06-09 - House Beat Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 09 June 2025</p><h4>Playlist:</h4><ul>
+  <li>Junior Jack - E Samba (Junior Jack original club mix)</li>
+  <li>Africanism feat. SalomÃ© de Bahia - Tourment d’amour</li>
+  <li>Bongo Maffin - Mari Ye Phepha (Dennis Ferrer'</li>
+  <li>Enur - Calabria 2007</li>
+  <li>Basement Jaxx - Red Alert</li>
+  <li>Chlo� Caillet - Doudou (Edit)</li>
+  <li>Quentin Harris & Cordell McCla - Traveling (Big Room mix)</li>
+  <li>Ricky L. feat. M:ck - Born Again (Balearic Soul Party remix)</li>
+  <li>Kentphonik - Hiya Kaya (DJ Rork Rework)</li>
+  <li>Afrojack - Radioman</li>
+  <li>Junior Jack - Thrill Me</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-06-09-House-Beat-Mix.mp3" length="92815778" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-06-09-House-Beat-Mix.mp3</guid>
+      <pubDate>09 June 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:04:27</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-05-31 - House Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 31 May 2025</p><h4>Playlist:</h4><ul>
+  <li>D.C. LaRue - Cathedrals (JN Extended Disco</li>
+  <li>Young Pulse - Don't You Know, Baby</li>
+  <li>Adam Nova - Shake Your Booty</li>
+  <li>Doug Willis - Risky Biznizz (Joey Negro Bionic House Mix)</li>
+  <li>Elements Of Life/ Jasper Stree - Stand On The Word</li>
+  <li>Jamiroquai - Cloud 9 (Purple Disco Machine</li>
+  <li>Spiller - Groovejet (If This Ain’t Love) (Spiller’s extended vocal mix)</li>
+  <li>Charles Dockins - Flowers With Kisses (Shelter V</li>
+  <li>DJ Dealer Ft. Lisa Millett - You're All I Need (Main Mix)</li>
+  <li>Revival House Project, Mary Pearce, Lovely Laura, GeO Gospel Choir - Take Me To The River</li>
+  <li>Michel Fugain - Une Belle Histoire (MrCÃ Remix)</li>
+  <li>Edith Piaf - La Foule (YANISS x CHELERO Remix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-31-House-Disco-Mix.mp3" length="88625319" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-05-31-House-Disco-Mix.mp3</guid>
+      <pubDate>31 May 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:33</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-05-25 - Birthday Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 25 May 2025</p><h4>Playlist:</h4><ul>
+  <li>Majestique - Must Get There (Dubka remix)</li>
+  <li>Poolside - Feel Alright (Yuksek remix)</li>
+  <li>Jerk Boy/The Baroness - Satellite (feat. The Baroness)</li>
+  <li>The Fantastics!/Sulene Fleming - Take A Shot (Richard Earnshaw'</li>
+  <li>Softmal, Nytron - My Girl</li>
+  <li>Grand Tourism - Snakeplayer</li>
+  <li>Fatboy Slim - Praise You (Purple Disco Machine extended remix)</li>
+  <li>Dua Lipa - Hallucinate</li>
+  <li>Amber Mark - won't cry</li>
+  <li>Idris Elba & Inner City feat. - No More Looking Back (David Pe</li>
+  <li>Dennis Ferrer/Janelle Kroll - Mind Ur Step (feat. Janelle Kr</li>
+  <li>Rodney Hunter - Dance (Extended Mix)</li>
+  <li>France Gall - Besoin damour (Upsilone Remix)</li>
+  <li>Kungs - Lipstick</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-25-Birthday-mix.mp3" length="86982112" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-05-25-Birthday-mix.mp3</guid>
+      <pubDate>25 May 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:00:24</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-05-18 - House Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 18 May 2025</p><h4>Playlist:</h4><ul>
+  <li>Purple Disco Machine feat. Kool Keith - Memphis Jam</li>
+  <li>Andy Buchan - Caught in the Middle</li>
+  <li>Goldie Alexander - Show You My Love (DFP re edit)</li>
+  <li>The Joubert Singers - Stand on the Word (Larry Levan mix)</li>
+  <li>Ken@Work - Funky Situation</li>
+  <li>Love de luxe - Don\'t give me love</li>
+  <li>Cerrone - Hooked on You (Dim's Old School of disco mix)</li>
+  <li>Dirty Disco Stars - Can't Take It</li>
+  <li>Cavi - F The Disco</li>
+  <li>Young and Company - I Like It (What You're Doing to Me)</li>
+  <li>Revival/ Mary Pearce/ Lovely L - Take Me To The River</li>
+  <li>Superfunk - Chinatown (Original Mix)</li>
+  <li>Torre Aka Claude Monnet - Corps A Corps (Cm Erodisco Dub</li>
+  <li>Maurizio Sacchi/ Fabe Dj - All Night Long</li>
+  <li>Jamiroquai - Cloud 9 (Purple Disco Machine</li>
+  <li>Spiller - Groovejet (If This Ain’t Love) (Spiller’s extended vocal mix)</li>
+  <li>The Supermen Lovers - Starlight</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-18-House-Disco-Mix.mp3" length="91480649" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-05-18-House-Disco-Mix.mp3</guid>
+      <pubDate>18 May 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:05:43</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-05-09 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 09 May 2025</p><h4>Playlist:</h4><ul>
+  <li>BDK - Pure Sass</li>
+  <li>Stacy Kidd, Matthew Yates, Ice Mike L. - Music For You (MF)</li>
+  <li>Jean Tonique - menari</li>
+  <li>Dua Lipa - Hallucinate</li>
+  <li>Martin Solveig/ ALMA - All Stars</li>
+  <li>Folamour - These Are Just Places To Me Now</li>
+  <li>France Gall - Besoin damour (Upsilone Remix)</li>
+  <li>Anoraak, Julia Jean-Baptiste - Magnifique</li>
+  <li>Flight Facilities, Drama - Dancing On My Own</li>
+  <li>Travis Emmons/Brett Rubin/William Trice - Grapevine</li>
+  <li>Bellaire - My Love</li>
+  <li>Bakermat/Elise LeGrow - Temptation</li>
+  <li>LindstrÃ¸m - I Feel Space</li>
+  <li>Polo & Pan - The Mirror</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-09-House-Mix.mp3" length="86740114" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-05-09-House-Mix.mp3</guid>
+      <pubDate>09 May 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:00:14</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-05-03 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 03 May 2025</p><h4>Playlist:</h4><ul>
+  <li>Kathy Brown/Jet Boot Jack - Thief in the Night (Birdee Rem</li>
+  <li>Horse Meat Disco & Kathy Sledge - Falling Deep in Love (Joey Negro disco blend)</li>
+  <li>Chic - I Want Your Love (Stonebridge</li>
+  <li>Inland Knights - Slummin It</li>
+  <li>Audio Jacker - Can't You See</li>
+  <li>Idris Elba & Inner City feat. - No More Looking Back (David Pe</li>
+  <li>Sebastien Leger - Victory (Lifelike Flashing Vic</li>
+  <li>Modjo - Chillin'</li>
+  <li>Mark Funk/Danny Cruz - Superlovin (Original Mix)</li>
+  <li>Da Lukas/ Suki Soul - Searching for the One</li>
+  <li>Julio Cruz - Dancing Love Affair (Original</li>
+  <li>Jerk Boy/The Baroness - Satellite (feat. The Baroness)</li>
+  <li>Birdee/The Dukes - The Stars Are Out Tonight</li>
+  <li>Les Loups/Cybil - Colourblind (feat. Cybil)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-05-03-House-Mix.mp3" length="87511875" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-05-03-House-Mix.mp3</guid>
+      <pubDate>03 May 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:00:46</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-04-27 - House Dance Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Dance mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 27 April 2025</p><h4>Playlist:</h4><ul>
+  <li>Superlover/The Melody Men - Work My Body</li>
+  <li>Bob Sinclar - My Only Love</li>
+  <li>Michelle Weeks - The Light (Jamie Lewis main mix)</li>
+  <li>Danny Clark & Jay Benham Ft. D - Conqueror (Original Mix)</li>
+  <li>Dirty Disco Stars - Forget About It (Original Mix)</li>
+  <li>Andy Buchan - Caught in the Middle</li>
+  <li>Softmal, Nytron - My Girl</li>
+  <li>The Shapeshifters feat. Kimber - Life Is a Dancefloor (club mix</li>
+  <li>Di Paulo/Softmal/Nytron - Lolita 2K19 (Original Mix)</li>
+  <li>Degiheugi & La Fine �quipe - Favelas (La Fine Equipe remix)</li>
+  <li>Autoerotique feat. Lady Leshurr - Bling</li>
+  <li>Mighty Mouse/Monarchy - In Front Of Our Friends feat.</li>
+  <li>Revival House Project, Mary Pearce, Lovely Laura, GeO Gospel Choir - Take Me To The River</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-27-House-Dance-Mix.mp3" length="88923115" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-04-27-House-Dance-Mix.mp3</guid>
+      <pubDate>27 April 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:45</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-04-19 - House Deep Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Deep mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 19 April 2025</p><h4>Playlist:</h4><ul>
+  <li>Nasser - Listeners</li>
+  <li>Violet Sands/Justin Faust - What Do You Feel (Jean Tonique Remix)</li>
+  <li>Osunlade feat. Divine Essence - My Reflection</li>
+  <li>WatermÃ¤t - Bullit</li>
+  <li>Alan Braxe & Fred Falke - Intro</li>
+  <li>Jamiroquai - Cloud 9 (Purple Disco Machine</li>
+  <li>Cerrone - Africanism</li>
+  <li>DJ Gregory - Damelo</li>
+  <li>Afrojack - Radioman</li>
+  <li>The Blessed Madonna, DJ E-Clyp - Godspeed (feat. DJ E-Clyps)</li>
+  <li>Dalton John - Karma</li>
+  <li>Caravan Palace - Beatophone</li>
+  <li>France Gall - Besoin damour (Upsilone Remix)</li>
+  <li>Edith Piaf - La Foule (YANISS x CHELERO Remix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-19-House-Deep-Mix.mp3" length="89853492" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-04-19-House-Deep-Mix.mp3</guid>
+      <pubDate>19 April 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:24</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-04-12 - Fresh House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>Fresh House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 12 April 2025</p><h4>Playlist:</h4><ul>
+  <li>Polo & Pan - The Mirror</li>
+  <li>Junior Jack - Thrill Me</li>
+  <li>Chilly Gonzales - You Can Dance</li>
+  <li>France Gall - Besoin damour (Upsilone Remix)</li>
+  <li>Luke Alessi - After Five</li>
+  <li>Celeda - The Underground</li>
+  <li>Kungs - Lipstick</li>
+  <li>Superfunk - Chinatown (Original Mix)</li>
+  <li>Revival House Project, Mary Pearce, Lovely Laura, GeO Gospel Choir - Take Me To The River</li>
+  <li>Basement Jaxx - Red Alert</li>
+  <li>BDK - Pure Sass</li>
+  <li>DJ Kaos, Free Association, Dj Kaos, Free Association - Love Buzz</li>
+  <li>LindstrÃ¸m - I Feel Space</li>
+  <li>PAWSA, Adventures Of Stevie V - Dirty Cash (Money Talks)</li>
+  <li>Polo & Pan, Beth Ditto - Petite Etoile</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-12-Fresh-House-Mix.mp3" length="89921828" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-04-12-Fresh-House-Mix.mp3</guid>
+      <pubDate>12 April 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:27</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-04-06 - French House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>French House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 06 April 2025</p><h4>Playlist:</h4><ul>
+  <li>Corine - C'est Si Beau</li>
+  <li>Terrence Parker - Love's Got Me High (Marc Romboy's Systematic Soul mix)</li>
+  <li>Jerk Boy/The Baroness - Satellite (feat. The Baroness)</li>
+  <li>Pandy Isaf - STANDBYME</li>
+  <li>Moscoman feat. Tom Sanders - What Do We Care</li>
+  <li>Amber Mark - won't cry</li>
+  <li>Never Dull - Cool Love</li>
+  <li>Dalton John - Karma</li>
+  <li>Stephane Pompougnac - Dans la danse</li>
+  <li>Flush - Bateau Blanc (Extended Mix)</li>
+  <li>Sous Le Manteau feat. Zambla - Chacun son truc</li>
+  <li>Corine - Pluie fine (Polo & Pan remix)</li>
+  <li>Pippi Ciez/Djamou Sangare - Lua (Pippi Ciez Retake)</li>
+  <li>Slove/ Maud Geffray/ Dombrance - Ce soir je m'en vais (Dombranc</li>
+  <li>Crazy P - Eruption</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-04-06-French-House-Mix.mp3" length="90150661" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-04-06-French-House-Mix.mp3</guid>
+      <pubDate>06 April 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:36</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-03-30 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 30 March 2025</p><h4>Playlist:</h4><ul>
+  <li>Plaza - (Got My) Dancing Shoes</li>
+  <li>Fake Blood - All in the Blink</li>
+  <li>Ida Corr vs. Fedde Le Grand - Let Me Think About It (radio e</li>
+  <li>Lacey - Cave In (radio edit)</li>
+  <li>Who Da Funk featuring Jessica - Shiny Disco Balls (main mix)</li>
+  <li>Bugsy - Sick And Tired (Dirty Channels</li>
+  <li>Maurizio Sacchi/ Fabe Dj - All Night Long</li>
+  <li>Norberto Acrisio - Sunshine Hotel</li>
+  <li>DJ Ferno - Watching You</li>
+  <li>Chlo� Caillet - Doudou (Edit)</li>
+  <li>Quentin Harris & Cordell McCla - Traveling (Big Room mix)</li>
+  <li>Starsailor - Four to the Floor (Thin White Duke mix)</li>
+  <li>The Supermen Lovers ft. George - Call My Name</li>
+  <li>Cassius feat. Cat Power & Pharrell Williams - Go Up</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-30-House-Mix.mp3" length="87492440" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-03-30-House-Mix.mp3</guid>
+      <pubDate>30 March 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:00:46</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-03-23 - House Latino Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Latino mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 23 March 2025</p><h4>Playlist:</h4><ul>
+  <li>Bob Sinclar - Amora, amor</li>
+  <li>Lego - El Ritmo de Verdad</li>
+  <li>Silicone Soul - Right On, Right On</li>
+  <li>Africanism feat. SalomÃ© de Bahia - Tourment d’amour</li>
+  <li>Junior Jack - E Samba (Junior Jack original club mix)</li>
+  <li>DJ Gregory - Block Party</li>
+  <li>Kentphonik - Hiya Kaya (DJ Rork Rework)</li>
+  <li>Soha - Les Enfants Du Bled</li>
+  <li>Bob Sinclar - Bisou sucrÃ©</li>
+  <li>Oreja - Vazilando</li>
+  <li>Moonlight vs. Azoto - San Salvador (Vocal Club Mix)</li>
+  <li>Afro Medusa - Pasilda (Knee Deep club mix)</li>
+  <li>Africanism Pres Martin Solveig - Heartbeat (Dub)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-23-House-Latino-Mix.mp3" length="90577606" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-03-23-House-Latino-Mix.mp3</guid>
+      <pubDate>23 March 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:54</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-03-15 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 15 March 2025</p><h4>Playlist:</h4><ul>
+  <li>Stephane Pompougnac - Dans la danse</li>
+  <li>Revival/Kathy Brown/GeO Gospel - Your Love Keeps Lifting Me Hig</li>
+  <li>Revival, Phebe Edwards - Ain't No Mountain</li>
+  <li>Fisher - Take It Off</li>
+  <li>Azealia Banks - 212</li>
+  <li>Africanism presents Soha - Les enfants du bled</li>
+  <li>Julien Jabre - Vicious Circle</li>
+  <li>Afrojack - Radioman</li>
+  <li>Funkin Matt feat. Mavis Acquah - No More Lies</li>
+  <li>TV Rock vs. Dukes of Windsor - The Others (Laidback Luke remix)</li>
+  <li>Joey Negro - Love Hangover (DJ Spen club mix)</li>
+  <li>Octave One - Blackwater (Strings vocal mix)</li>
+  <li>Joey Chicago - For Your Lovin (Original Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-15-House-mix.mp3" length="88207778" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-03-15-House-mix.mp3</guid>
+      <pubDate>15 March 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:15</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-03-09 - House Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Disco mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 09 March 2025</p><h4>Playlist:</h4><ul>
+  <li>Patti LaBelle feat. Kristine W - Land of the Living</li>
+  <li>Birdee/The Dukes - The Stars Are Out Tonight</li>
+  <li>Dirty Disco Stars - Disco Ghost</li>
+  <li>The Shapeshifters feat. Kimber - Life Is a Dancefloor (club mix</li>
+  <li>Ken@Work - Funky Situation</li>
+  <li>Cerrone - Hooked on You (Dim's Old School of disco mix)</li>
+  <li>The Originals - Down to Love Town (Dim's full length Disco Citay remix)</li>
+  <li>Carrie Lucas - Dance With You</li>
+  <li>Armand van Helden feat. Duane - U Don't Know Me</li>
+  <li>Timmy Vegas & Barbara Tucker - Dutty Funk(Soularis Mix)</li>
+  <li>DJ Dealer Ft. Lisa Millett - You're All I Need (Main Mix)</li>
+  <li>Rasmus Faber - Always (Remix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-03-09-house-disco-mix.mp3" length="88277995" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-03-09-house-disco-mix.mp3</guid>
+      <pubDate>09 March 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:18</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-02-23 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 23 February 2025</p><h4>Playlist:</h4><ul>
+  <li>Myd - Domino</li>
+  <li>Milk & Sugar - Let the Sun Shine (Purple Disco Machine Remix)</li>
+  <li>Fake Blood - All in the Blink</li>
+  <li>Blende - Fake Love (Original Mix)</li>
+  <li>DJ Ferno - Watching You</li>
+  <li>Norberto Acrisio - Sunshine Hotel</li>
+  <li>Cavi - F The Disco</li>
+  <li>Rodney Hunter - Dance (Extended Mix)</li>
+  <li>Christian Vila - From The Mind</li>
+  <li>Bugsy - Sick And Tired (Dirty Channels</li>
+  <li>Idris Elba & Inner City feat. - No More Looking Back (David Pe</li>
+  <li>Kathy Brown - Never Again (Copyright Classic</li>
+  <li>Soulista/Karmina Dai - Syomphomaniac</li>
+  <li>Alan Braxe & Fred Falke - Intro</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-02-23-house-mix.mp3" length="88837851" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-02-23-house-mix.mp3</guid>
+      <pubDate>23 Feb 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:42</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-02-15 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 15 February 2025</p><h4>Playlist:</h4><ul>
+  <li>Dynasty - It's Still a Thrill</li>
+  <li>Emmaculate, Zernell - Holy Ghost Power</li>
+  <li>Revival, Phebe Edwards - Ain't No Mountain</li>
+  <li>Soulista/Karmina Dai - Syomphomaniac</li>
+  <li>The Shapeshifters/ Kimberly Davis - Life Is A Dancefloor (feat. Kimberly Davis)</li>
+  <li>Cassius, Cat Power, Pharrell Williams - Go Up (feat. Cat Power & Pharrell Williams)</li>
+  <li>Idris Elba/Inner City/Steffanie Christi'an - No More Looking Back (feat. Steffanie Christi'an) (David Penn Extended Remix)</li>
+  <li>Dennis Ferrer/Janelle Kroll - Mind Ur Step (feat. Janelle Kroll)</li>
+  <li>Revival House Project, Peyton - A Higher Place</li>
+  <li>Fatboy Slim - Praise You (Purple Disco Machine Extended Remix)</li>
+  <li>Demon - You Are My High</li>
+  <li> - Afro Medusa - Pasilda</li>
+  <li>Junior Jack - E Samba (JJ.Orginal  Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-02-15-house-mix.mp3" length="59118070" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-02-15-house-mix.mp3</guid>
+      <pubDate>15 Feb 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:27</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-01-19 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 19 January 2025</p><h4>Playlist:</h4><ul>
+  <li>Corine - Pluie fine (Polo & Pan Remix)</li>
+  <li>Hot Chip - Flutes</li>
+  <li>The Chemical Brothers - Sometimes I Feel So Deserted</li>
+  <li>David Penn - Nobody (Club Mix)</li>
+  <li>Dennis Ferrer/Janelle Kroll - Mind Ur Step (feat. Janelle Kroll)</li>
+  <li> - Afrojack - Radioman</li>
+  <li>Cassius, Cat Power, Pharrell Williams - Go Up (feat. Cat Power & Pharrell Williams)</li>
+  <li>Krikor - The Place</li>
+  <li>Artist - Thomas Bangalter & DJ Falcon - Together</li>
+  <li> - moloko- sing it back</li>
+  <li>DJ Spiller - Groove Jet</li>
+  <li>Di Paulo/Softmal/Nytron - Lolita 2K19 (Original Mix)</li>
+  <li>Steven Stone feat. David B. Whitley - 1-Music Sounds So Good With You (Original Mix) 2</li>
+  <li>Home & Garden - someday [feat lisa shaw]</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-01-19-house-mix.mp3" length="29342615" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-01-19-house-mix.mp3</guid>
+      <pubDate>19 Jan 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>0:20:03</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2025-01-01 - House Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Disco mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 01 January 2025</p><h4>Playlist:</h4><ul>
+  <li> - The original -  01 -Down to lowe town </li>
+  <li>Rodney Hunter - Dance (Extended Mix)</li>
+  <li>Dirty Disco Stars - Can't Take It</li>
+  <li>The Shapeshifters/ Kimberly Davis - Life Is A Dancefloor (feat. Kimberly Davis)</li>
+  <li>Fatboy Slim - Praise You (Purple Disco Machine Extended Remix)</li>
+  <li> - Africanism - Love is the Answera</li>
+  <li>Dimitri From Tokyo - Don't Hold Back</li>
+  <li>Kamei - Funky Music</li>
+  <li>Fake Blood - All In The Blink (Full Length Version)</li>
+  <li>Calvin Harris - Acceptable in the 80's</li>
+  <li>Torre Aka Claude Monnet - Corps A Corps (Cm Erodisco Dub</li>
+  <li> - Boris Werner - Let_s Boogie (Original Mix) Hous</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-01-01-house-disco-mix.mp3" length="92167523" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-01-01-house-disco-mix.mp3</guid>
+      <pubDate>01 Jan 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:04:00</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-12-31 - House Dance Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Dance mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 31 December 2024</p><h4>Playlist:</h4><ul>
+  <li> - Chaz Jankel ft. Natalia Scott - I Come Alive</li>
+  <li>Margaret Grace - Hope You Feel Better (Remix) (Feat. Teddy Douglas)</li>
+  <li>Gemini - Thinking About You (BMC Original Mix)</li>
+  <li>Caiiro/Awen - Your Voice (Adam Port Remix)</li>
+  <li>WatermÃ¤t - Bullit (Radio Edit)</li>
+  <li>Alan Braxe & Fred Falke pres Running - Intro</li>
+  <li>DJ Spiller - Groove Jet</li>
+  <li> - moloko- sing it back</li>
+  <li>Richard Earnshaw - People R People (Main Mix)</li>
+  <li> - Ich rocke</li>
+  <li>Charles Dockins - Flowers With Kisses (Shelter Vocal Mix)</li>
+  <li>Panevino Feat. Charles Dockins - The Best of Me (Original Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-31-House-dance-mix.mp3" length="84279379" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-12-31-House-dance-mix.mp3</guid>
+      <pubDate>31 Dec 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>0:58:32</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-12-29 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 29 December 2024</p><h4>Playlist:</h4><ul>
+  <li>Terrence Parker - Love's Got Me High (Marc Romboy's Systematic Soul Mix)</li>
+  <li>Osunlade - My Reflection</li>
+  <li>!!! - Dancing Is The Best Revenge</li>
+  <li>Izo FitzRoy - Hope You Can Wait (Hot Toddy Dub)</li>
+  <li>Revival House Project, Peyton - A Higher Place</li>
+  <li>Purple Disco Machine, Benjamin Ingrosso, Nile Rodgers, Shenseea - Honey Boy (feat. Nile Rodgers & Shenseea)</li>
+  <li>Pandy Isaf - STANDBYME</li>
+  <li>Poolside/ Yuksek - Feel Alright – Yuksek Remix</li>
+  <li>Junior Jack - See You Dancin'</li>
+  <li>Fred Everything, N'Dea Davenport - Don't Nobody</li>
+  <li>The Supermen Lovers/Georges Sound - Call My Name</li>
+  <li>Moscoman/ Tom Sanders - What Do We Care</li>
+  <li>Home & Garden/Lisa Shaw - Someday Feat. Lisa Shaw</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-29-house-mix.mp3" length="91245296" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-12-29-house-mix.mp3</guid>
+      <pubDate>29 Dec 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>1:03:22</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-12-21 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 21 December 2024</p><h4>Playlist:</h4><ul>
+  <li>Raven Maize - The Real Life</li>
+  <li>Julien Jabre - Same And Better (Radio Edit)</li>
+  <li>Soul Elementz Feat Sabrina Johnston - My Way Out (Samuele Sartini 90' Classic Mix)</li>
+  <li>Rasmus Faber Feat Linda Sundblad - Everything Is Alright (Rasmus Faber Remix)</li>
+  <li>Groove Armada - Song 4 Mutya (Out Of Control) (TV Rock Remix)</li>
+  <li> - Juliet - Avalon (Jacques Lu cont Mix)</li>
+  <li>Roed Svensk Ft. Simon Green - Never Be the Same (Kneedeep Remix)</li>
+  <li>Chris Lake - Only One(2)</li>
+  <li>Alanis Morissette - Uninvited (Freemasons Club Mix)</li>
+  <li>Soha - Les Enfants Du Bled</li>
+  <li>Africanism Pres Martin Solveig - Heartbeat (Dub)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-21-house-mix.mp3" length="93468421" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-12-21-house-mix.mp3</guid>
+      <pubDate>21 Dec 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>1:04:55</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-12-08 - House Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 08 December 2024</p><h4>Playlist:</h4><ul>
+  <li>Dirty Disco Stars - Disco Ghost</li>
+  <li>Cassius, Cat Power, Pharrell Williams - Go Up (feat. Cat Power & Pharrell Williams)</li>
+  <li>Kathy Brown - Never Again (Copyright Classic Mix)</li>
+  <li>Birdee/Alexandra Prince - Jupiter + Mars (Extended Mix)</li>
+  <li>Dirty Disco Stars - Can't Take It</li>
+  <li>Jamiroquai - Cloud 9 (Purple Disco Machine Remix)</li>
+  <li>Rodney Hunter - Dance (Extended Mix)</li>
+  <li>Andy Buchan - Caught in the Middle (Original Mix)</li>
+  <li>The Fantastics! - Take A Shot (Richard Earnshaw's Little Big TV Mix)</li>
+  <li>Cerrone Feat. Jocelyn Brown - Hooked On You (Dim's Old School of Disco Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-12-08-House-Disco.mp3" length="71368202" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-12-08-House-Disco.mp3</guid>
+      <pubDate>08 Dec 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>0:49:34</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-11-09 - Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>Disco mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 09 November 2024</p><h4>Playlist:</h4><ul>
+  <li>Wahoo feat. Paul Randolph - Don't Take It Personal</li>
+  <li>Robin Beck - Sweet Talk (Dim's Re-edit)</li>
+  <li>Sparque - Let's Go Dancin'</li>
+  <li>Master Dance And Boogie - Roll The Joint (Joey Negro Re-Edit)</li>
+  <li>Diana Ross - My Old Piano</li>
+  <li> - 107 - Various_ mixed by Dimitri from Paris - Ta</li>
+  <li>Punkin' Machine - I Need You Tonight</li>
+  <li> - Superfine Feeling (Original Mix)</li>
+  <li> - Colleen Grant - Latin Parang</li>
+  <li> - Vernon Burch - Get Up</li>
+  <li>D.C. LaRue - Cathedrals (Jamie 3:26 Extended Disco Dub Version)</li>
+  <li>Carrie Lucas - Dance With You</li>
+  <li> - Last Dance (12 Version)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-11-09-disco-mix.mp3" length="21539108" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-11-09-disco-mix.mp3</guid>
+      <pubDate>09 Nov 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>0:14:57</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-10-27 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 27 October 2024</p><h4>Playlist:</h4><ul>
+  <li>Di Paulo/Softmal/Nytron - Lolita 2K19 (Original Mix)</li>
+  <li>The Fantastics! - Take A Shot (Richard Earnshaw's Little Big TV Mix)</li>
+  <li>Miami Horror/Kimbra - I Look to You</li>
+  <li>Black Box - I Don't Know Anybody Else (Motown Disco Anthem)</li>
+  <li>Terrence Parker - Love's Got Me High (Marc Romboy's Systematic Soul Mix)</li>
+  <li>Me & My Toothbrush - Get Down, JB! (Original Mix)</li>
+  <li>Pandy Isaf - STANDBYME</li>
+  <li>Flevans/Laura Vane - Who's Got Me (Art Of Tones Remix)</li>
+  <li>Milk & Sugar - Let the Sun Shine (Purple Disco Machine Remix)</li>
+  <li>Justice - New Lands</li>
+  <li>Kaskade, Deadmau5 - I Remember (Strobelight Edit)</li>
+  <li>Cassius - Feeling for You</li>
+  <li>Camille Jones, Fedde Le Grand - The Creeps (Radio Edit)</li>
+  <li>The Chemical Brothers - Sometimes I Feel So Deserted</li>
+  <li>Fake Blood - I Think I Like It</li>
+  <li>Midland - Final Credits (Radio Edit)</li>
+  <li>Shakedown - At Night (Purple Disco Machine Remix)</li>
+  <li>Martin Solveig/ Ina Wroldsen - Places</li>
+  <li>Dennis Ferrer/Janelle Kroll - Mind Ur Step (feat. Janelle Kroll)</li>
+  <li>Cassius, Cat Power, Pharrell Williams - Go Up (feat. Cat Power & Pharrell Williams)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-10-27-house-mix.mp3" length="85977756" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-10-27-house-mix.mp3</guid>
+      <pubDate>27 Oct 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>0:59:42</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-09-29 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House mix of 29 September 2024</p><h4>Playlist:</h4><ul>
+  <li> - Save Our Soul</li>
+  <li>Chris Lake - Only One</li>
+  <li> - Thick Dick - Insatiable</li>
+  <li> - Feel The Vibe (Original Mix)</li>
+  <li> - junior jack - thrill me (jack</li>
+  <li> - 101 - Martin Solveig - Jealousy_1563660283501</li>
+  <li>John Ciafone - Everyday (DJ Gregory Mix)</li>
+  <li>Priors - What You Need (Hey Champ Remix)</li>
+  <li>DJ Spiller - Groove Jet</li>
+  <li>Kathy Brown - Never Again (Copyright Classic Mix)</li>
+  <li>Cassius, Cat Power, Pharrell Williams - Go Up (feat. Cat Power & Pharrell Williams)</li>
+  <li>Krikor - The Place</li>
+  <li>Celeda - The Underground</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-09-29-house-mix.mp3" length="94011350" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-09-29-house-mix.mp3</guid>
+      <pubDate>29 Sept 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>1:05:17</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - 2024-09-14 - Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>Disco mix</itunes:subtitle>
+      <description>House mix of 14 September 2024</description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2024-09-14-disco-mix.mp3" length="89421531" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2024-09-14-disco-mix.mp3</guid>
+      <pubDate>14 Sept 2024 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:06</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - Total Mix Disco</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>Total mix disco</itunes:subtitle>
+      <description>Old reccord of total mix disco</description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/total_mix_disco.mp3" length="89421531" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/total_mix_disco.mp3</guid>
+      <pubDate>01 March 2013 21:10:00 +0100</pubDate>
+      <itunes:duration>1:10:05</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>JefBinomed - Total Mix 2</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description>Old reccord of total Mix 2</description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/total%20mix2.mp3" length="59118070" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/total%20mix2.mp3</guid>
+      <pubDate>01 Feb 2012 21:10:00 +0100</pubDate>
+      <itunes:duration>1:13:21</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, Funk, Groove, Club, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
 </rss>

@@ -1,0 +1,46 @@
+<recordEvents length="3614.2720764166679">
+  <track song="Magnifique" artist="Anoraak, Julia Jean-Baptiste" album="Magnifique" bpm="120" tonality="a  min">
+    <interval start="1912.8699204583336" end="2188.2303345833338"/>
+  </track>
+  <track song="Pure Sass" artist="BDK" album="Pure Sass" bpm="125" tonality="d  min">
+    <interval start="0.85967158333335192" end="377.15575391666675"/>
+  </track>
+  <track song="Temptation" artist="Bakermat/Elise LeGrow" album="Temptation" bpm="120" tonality="C# Maj">
+    <interval start="2925.1645217916675" end="3156.2345476666674"/>
+  </track>
+  <track song="My Love" artist="Bellaire" album="My Love" bpm="126" tonality="d# min">
+    <interval start="2684.8450501250009" end="2712.9188514166672"/>
+    <interval start="2715.2301763750006" end="2957.0354359583339"/>
+  </track>
+  <track song="Hallucinate" artist="Dua Lipa" album="Hallucinate (Tensnake Remix)" bpm="122" tonality="A# Maj">
+    <interval start="824.89000050000027" end="848.37384066666687"/>
+    <interval start="851.71115020833349" end="1172.493805916667"/>
+  </track>
+  <track song="Dancing On My Own" artist="Flight Facilities, Drama" album="Dancing On My Own" bpm="121" tonality="e  min">
+    <interval start="2141.9135545000004" end="2422.1475190000006"/>
+  </track>
+  <track song="These Are Just Places To Me Now" artist="Folamour" album="Defected Ibiza 2019 (DJ Mix)" bpm="123" tonality="c  min">
+    <interval start="1453.8718463750004" end="1742.2282427083337"/>
+  </track>
+  <track song="Besoin damour (Upsilone Remix)" artist="France Gall" tonality="c  min" bpm="124">
+    <interval start="1661.4825376250005" end="1982.4294645833338"/>
+  </track>
+  <track song="menari" artist="Jean Tonique" album="scrambled eggs" bpm="124" tonality="A# Maj">
+    <interval start="622.56302237500017" end="898.29454295833352"/>
+  </track>
+  <track song="I Feel Space" artist="LindstrÃ¸m" album="I Feel Space" bpm="122" tonality="f  min">
+    <interval start="3098.5090761666675" end="3475.4971929166677"/>
+  </track>
+  <track song="All Stars" artist="Martin Solveig/ ALMA" album="All Stars (Remixes)" bpm="124" tonality="a# min">
+    <interval start="1099.248361541667" end="1494.9626446666671"/>
+  </track>
+  <track song="The Mirror" artist="Polo &amp; Pan" album="22:22" bpm="122" tonality="g  min">
+    <interval start="3428.690081208334" end="3613.8018822916674"/>
+  </track>
+  <track song="Music For You (MF)" artist="Stacy Kidd, Matthew Yates, Ice Mike L." album="Music For You" bpm="126.225" tonality="g  min">
+    <interval start="338.66932983333345" end="680.18323866666697"/>
+  </track>
+  <track song="Grapevine" artist="Travis Emmons/Brett Rubin/William Trice" album="Grapevine" bpm="121" tonality="d# min">
+    <interval start="2365.8350445000005" end="2728.3922286666675"/>
+  </track>
+</recordEvents>

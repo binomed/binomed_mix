@@ -1,0 +1,36 @@
+<recordEvents length="3894.5211173333346">
+  <track song="Heartbeat (Dub)" artist="Africanism Pres Martin Solveig" album="Heartbeat Vinyl" bpm="128.675" tonality="a  min">
+    <interval start="3333.2832033333339" end="3894.0364534166674"/>
+  </track>
+  <track song="Uninvited (Freemasons Club Mix)" artist="Alanis Morissette" album="Remixes" bpm="127" tonality="D  Maj">
+    <interval start="2517.6666052916671" end="2522.0255961250004"/>
+    <interval start="2526.5063012500004" end="3069.5089154583338"/>
+  </track>
+  <track song="Only One(2)" artist="Chris Lake" album="Global Underground 2009" bpm="127" tonality="f# min">
+    <interval start="2190.397014666667" end="2598.3791745000003"/>
+  </track>
+  <track song="Song 4 Mutya (Out Of Control) (TV Rock Remix)" artist="Groove Armada" album="Dj Djazzer" bpm="127" tonality="g  min">
+    <interval start="1199.0692122083335" end="1599.669151041667"/>
+  </track>
+  <track song="Same And Better (Radio Edit)" artist="Julien Jabre" album="The Sneakers Freaks Club Vol. 4" bpm="127" tonality="A# Maj">
+    <interval start="269.53999875000005" end="595.61629370833339"/>
+  </track>
+  <track song="Juliet - Avalon (Jacques Lu cont Mix)" artist="" tonality="A# Maj" bpm="127">
+    <interval start="1496.8050678333336" end="1921.6989757083338"/>
+  </track>
+  <track song="Everything Is Alright (Rasmus Faber Remix)" artist="Rasmus Faber Feat Linda Sundblad" album="Everything Is Alright" bpm="127" tonality="g  min">
+    <interval start="863.11553070833338" end="1272.9429719166669"/>
+  </track>
+  <track song="The Real Life" artist="Raven Maize" tonality="g  min" bpm="129">
+    <interval start="0.68006550000001198" end="365.51446470833338"/>
+  </track>
+  <track song="Never Be the Same (Kneedeep Remix)" artist="Roed Svensk Ft. Simon Green" album="Never Be the Same WEB" bpm="127" tonality="g  min">
+    <interval start="1830.9157232500002" end="2263.2271804166671"/>
+  </track>
+  <track song="Les Enfants Du Bled" artist="Soha" album="Defected Presents DJ Gregory I" bpm="127" tonality="c# min">
+    <interval start="2984.5965587500004" end="3424.1238243333341"/>
+  </track>
+  <track song="My Way Out (Samuele Sartini 90' Classic Mix)" artist="Soul Elementz Feat Sabrina Johnston" album="My Way Out 2010 (Remix Part 2)" bpm="127" tonality="c  min">
+    <interval start="538.43543341666668" end="935.62181866666674"/>
+  </track>
+</recordEvents>

@@ -1,0 +1,49 @@
+<recordEvents length="3756.5252710000004">
+  <track song="won't cry" artist="Amber Mark" album="won?t cry" bpm="120" tonality="A# Maj">
+    <interval start="1038.6024101250002" end="1268.1632275833335"/>
+  </track>
+  <track song="C'est Si Beau" artist="Corine" album="R" bpm="116" tonality="c  min">
+    <interval start="1.5231895000000009" end="241.61113520833339"/>
+  </track>
+  <track song="Pluie fine (Polo &amp; Pan remix)" artist="Corine" album="Fille de ta r�gion remix�e" bpm="118" tonality="g# min">
+    <interval start="2497.3542570416676" end="2729.0583500833336"/>
+  </track>
+  <track song="Eruption" artist="Crazy P" album="When We On" bpm="110.401" tonality="a# min">
+    <interval start="3381.3830970416675" end="3755.6772597916679"/>
+  </track>
+  <track song="Karma" artist="Dalton John" album="KARMA" bpm="120" tonality="f  min">
+    <interval start="1568.2861570833336" end="1788.6498251666671"/>
+  </track>
+  <track song="Bateau Blanc (Extended Mix)" artist="Flush" album="Bateau Blanc" bpm="122" tonality="b  min">
+    <interval start="1922.3050380000006" end="2306.1855044166668"/>
+  </track>
+  <track song="Satellite (feat. The Baroness)" artist="Jerk Boy/The Baroness" album="Satellite (feat. The Baroness)" bpm="119" tonality="a  min">
+    <interval start="415.73995233333346" end="422.69834416666674"/>
+    <interval start="510.39558733333342" end="576.47050983333349"/>
+    <interval start="577.59643750000009" end="743.87712562500019"/>
+  </track>
+  <track song="What Do We Care" artist="Moscoman feat. Tom Sanders" album="Time Slips Away" bpm="124" tonality="e  min">
+    <interval start="854.97523200000023" end="1072.575059166667"/>
+  </track>
+  <track song="Cool Love" artist="Never Dull" album="Discollection II" bpm="120" tonality="a# min">
+    <interval start="1205.5094492083335" end="1621.928836791667"/>
+  </track>
+  <track song="STANDBYME" artist="Pandy Isaf" album="STANDBYME" bpm="121" tonality="e  min">
+    <interval start="704.90019854166678" end="893.1497756250003"/>
+  </track>
+  <track song="Lua (Pippi Ciez Retake)" artist="Pippi Ciez/Djamou Sangare" album="Multiple of Three" bpm="117" tonality="d  min">
+    <interval start="2635.2120230416676" end="3125.1124310416672"/>
+  </track>
+  <track song="Ce soir je m'en vais (Dombranc" artist="Slove/ Maud Geffray/ Dombrance" album="Ce soir je m'en vais (Dombranc" bpm="110" tonality="A  Maj">
+    <interval start="2984.6220843750007" end="3434.7469288750008"/>
+  </track>
+  <track song="Chacun son truc" artist="Sous Le Manteau feat. Zambla" album="Zambla" bpm="120" tonality="c# min">
+    <interval start="2237.8170536666676" end="2520.9096587500007"/>
+  </track>
+  <track song="Dans la danse" artist="Stephane Pompougnac" album="Tu cherches quoi" bpm="120" tonality="f# min">
+    <interval start="1755.1805433750003" end="1959.3897755833339"/>
+  </track>
+  <track song="Love's Got Me High (Marc Romboy's Systematic Soul mix)" artist="Terrence Parker" album="Systematic 77" bpm="118" tonality="e  min">
+    <interval start="207.22163133333339" end="560.09537704166678"/>
+  </track>
+</recordEvents>

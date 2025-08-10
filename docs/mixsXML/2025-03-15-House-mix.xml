@@ -1,0 +1,41 @@
+<recordEvents length="3675.0135054583343">
+  <track song="Les enfants du bled" artist="Africanism presents Soha" album="Les enfants du bled" bpm="127" tonality="c# min">
+    <interval start="908.79345058333342" end="1312.0075627083336"/>
+  </track>
+  <track song="Radioman" artist="Afrojack" album="Serious Beats 60" bpm="126" tonality="c  min">
+    <interval start="1601.0304250000006" end="2018.0600245000007"/>
+  </track>
+  <track song="212" artist="Azealia Banks" album="1991" bpm="126" tonality="c# min">
+    <interval start="759.66928016666702" end="972.6492178750002"/>
+  </track>
+  <track song="Take It Off" artist="Fisher" album="Take It Off" bpm="127" tonality="d# min">
+    <interval start="550.86650354166682" end="800.47387970833347"/>
+  </track>
+  <track song="No More Lies" artist="Funkin Matt feat. Mavis Acquah" album="Nope Is Dope, Volume 7" bpm="128" tonality="f  min">
+    <interval start="1955.8016846666671" end="2331.1665262083343"/>
+  </track>
+  <track song="For Your Lovin (Original Mix)" artist="Joey Chicago" album="For Your Lovin" bpm="125" tonality="d  min">
+    <interval start="3310.8635858333346" end="3675.0116100000014"/>
+  </track>
+  <track song="Love Hangover (DJ Spen club mix)" artist="Joey Negro" album="The Many Faces of Joey Negro Vol.2" bpm="126" tonality="d# min">
+    <interval start="2566.2368992500005" end="2965.7339140000013"/>
+  </track>
+  <track song="Vicious Circle" artist="Julien Jabre" album="La Suite, Volume 7 - Compiled by Alexandros Christopoul" bpm="127" tonality="E  Maj">
+    <interval start="1228.7859530833337" end="1673.1210035000006"/>
+  </track>
+  <track song="Blackwater (Strings vocal mix)" artist="Octave One" album="Eden: Original Motion Picture Soundtrack" bpm="128.228" tonality="f  min">
+    <interval start="2908.7558029166676" end="3368.3107544166678"/>
+  </track>
+  <track song="Ain't No Mountain" artist="Revival, Phebe Edwards" album="Ain't No Mountain" bpm="126" tonality="b  min">
+    <interval start="299.19364370833341" end="621.40875704166706"/>
+  </track>
+  <track song="Your Love Keeps Lifting Me Hig" artist="Revival/Kathy Brown/GeO Gospel" album="Your Love Keeps Lifting Me Hig" bpm="120" tonality="b  min">
+    <interval start="162.27919945833355" end="354.58825962500009"/>
+  </track>
+  <track song="Dans la danse" artist="Stephane Pompougnac" album="Tu cherches quoi" bpm="120" tonality="f# min">
+    <interval start="1.2749999996231054e-05" end="195.25903308333341"/>
+  </track>
+  <track song="The Others (Laidback Luke remix)" artist="TV Rock vs. Dukes of Windsor" album="The Others" bpm="125" tonality="d# min">
+    <interval start="2263.4896590833341" end="2637.2573255416673"/>
+  </track>
+</recordEvents>

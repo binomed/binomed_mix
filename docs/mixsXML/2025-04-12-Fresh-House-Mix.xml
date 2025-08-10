@@ -1,0 +1,49 @@
+<recordEvents length="3746.9732864583343">
+  <track song="Pure Sass" artist="BDK" album="Pure Sass" bpm="125" tonality="d  min">
+    <interval start="2361.9986079166674" end="2734.5999492916671"/>
+  </track>
+  <track song="Red Alert" artist="Basement Jaxx" album="Red Alert" bpm="126.856" tonality="f  min">
+    <interval start="2217.5464981250007" end="2422.954460833334"/>
+  </track>
+  <track song="The Underground" artist="Celeda" album="Best Of Latino 3 (Compilation Tracks)" bpm="128" tonality="a# min">
+    <interval start="1175.3793090833337" end="1498.9892011250004"/>
+  </track>
+  <track song="You Can Dance" artist="Chilly Gonzales" album="Ivory Tower The Remixes" bpm="125" tonality="a  min">
+    <interval start="350.76031437500001" end="351.91893783333342"/>
+    <interval start="357.88684629166676" end="873.8242510416668"/>
+  </track>
+  <track song="Love Buzz" artist="DJ Kaos, Free Association, Dj Kaos, Free Association" album="DJ Kaos Pres. Free Association - Love Buzz" bpm="125" tonality="c  min">
+    <interval start="2659.4812442083339" end="3039.369384333334"/>
+  </track>
+  <track song="Besoin damour (Upsilone Remix)" artist="France Gall" tonality="c  min" bpm="124">
+    <interval start="802.24663979166678" end="1085.8624205833337"/>
+  </track>
+  <track song="Thrill Me" artist="Junior Jack" album="Trust It" bpm="125" tonality="g  min">
+    <interval start="106.86322745833334" end="448.0249320833334"/>
+  </track>
+  <track song="Lipstick" artist="Kungs" album="Lipstick" bpm="126" tonality="a  min">
+    <interval start="1448.7050063333338" end="1726.1353654583338"/>
+  </track>
+  <track song="I Feel Space" artist="LindstrÃ¸m" album="I Feel Space" bpm="122" tonality="f  min">
+    <interval start="2996.9147665416672" end="3355.351801875001"/>
+  </track>
+  <track song="After Five" artist="Luke Alessi" album="After Five" bpm="126" tonality="g  min">
+    <interval start="1044.088829916667" end="1273.5268432083337"/>
+  </track>
+  <track song="Dirty Cash (Money Talks)" artist="PAWSA, Adventures Of Stevie V" album="Dirty Cash (Money Talks)" bpm="132" tonality="c  min">
+    <interval start="3288.9712820000009" end="3296.1377320000006"/>
+    <interval start="3313.9905792916675" end="3534.6047422083343"/>
+  </track>
+  <track song="Petite Etoile" artist="Polo &amp; Pan, Beth Ditto" album="22:22" bpm="100" tonality="d# min">
+    <interval start="3510.0065478750007" end="3746.8117819583344"/>
+  </track>
+  <track song="The Mirror" artist="Polo &amp; Pan" album="22:22" bpm="122" tonality="g  min">
+    <interval start="0.42519637499998453" end="167.43910925000003"/>
+  </track>
+  <track song="Take Me To The River" artist="Revival House Project, Mary Pearce, Lovely Laura, GeO Gospel Choir" album="Dance To The Music" bpm="125" tonality="e  min">
+    <interval start="1965.0994331250004" end="2226.3493526250004"/>
+  </track>
+  <track song="Chinatown (Original Mix)" artist="Superfunk" album="Chinatown" bpm="125" tonality="e  min">
+    <interval start="1668.9958115000004" end="2018.4116287083339"/>
+  </track>
+</recordEvents>

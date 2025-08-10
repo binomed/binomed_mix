@@ -1,0 +1,43 @@
+<recordEvents length="3694.7561243750006">
+  <track song="Afro Medusa - Pasilda" artist="" tonality="g  min" bpm="127.835">
+    <interval start="3005.4738769166675" end="3362.3385505000006"/>
+  </track>
+  <track song="Go Up (feat. Cat Power &amp; Pharrell Williams)" artist="Cassius, Cat Power, Pharrell Williams" album="Ibifornia" bpm="125" tonality="g  min">
+    <interval start="1520.0457968333335" end="1851.2704542500005"/>
+  </track>
+  <track song="You Are My High" artist="Demon" album="You Are My High - EP" bpm="120.876" tonality="g  min">
+    <interval start="2828.2055727083339" end="3082.2470707916673"/>
+  </track>
+  <track song="Mind Ur Step (feat. Janelle Kroll)" artist="Dennis Ferrer/Janelle Kroll" album="Defected In The House Radio Show: Episode 006 (hosted by Sonny Fodera)" bpm="123" tonality="f  min">
+    <interval start="2079.9458761250007" end="2081.3468650000004"/>
+    <interval start="2083.2427012916673" end="2402.377243041667"/>
+  </track>
+  <track song="It's Still a Thrill" artist="Dynasty" album="Your Piece of the Rock" bpm="123.286" tonality="g  min">
+    <interval start="0.74703083333338327" end="322.90140241666677"/>
+  </track>
+  <track song="Holy Ghost Power" artist="Emmaculate, Zernell" album="Holy Ghost Power (Remix)" bpm="123" tonality="d  min">
+    <interval start="276.33513091666669" end="674.54299241666695"/>
+  </track>
+  <track song="Praise You (Purple Disco Machine Extended Remix)" artist="Fatboy Slim" album="Glitterbox - Discotheque" bpm="121" tonality="g# min">
+    <interval start="2513.3373482083339" end="2863.3138327916672"/>
+  </track>
+  <track song="No More Looking Back (feat. Steffanie Christi'an) (David Penn Extended Remix)" artist="Idris Elba/Inner City/Steffanie Christi'an" album="No More Looking Back (feat. Steffanie Christi'an) (David Penn Remix)" bpm="123" tonality="a# min">
+    <interval start="1795.914784916667" end="2131.1872567916671"/>
+  </track>
+  <track song="E Samba (JJ.Orginal  Mix)" artist="Junior Jack" album="E_Samba Vinyl" bpm="125" tonality="c  min">
+    <interval start="3237.0848645833339" end="3296.8785366250008"/>
+    <interval start="3299.2518977916675" end="3694.7553136666675"/>
+  </track>
+  <track song="A Higher Place" artist="Revival House Project, Peyton" album="A Higher Place" bpm="122" tonality="f  min">
+    <interval start="2301.779819041667" end="2553.271940458334"/>
+  </track>
+  <track song="Ain't No Mountain" artist="Revival, Phebe Edwards" album="Ain't No Mountain" bpm="126" tonality="b  min">
+    <interval start="564.31670920833358" end="949.41541237500019"/>
+  </track>
+  <track song="Syomphomaniac" artist="Soulista/Karmina Dai" album="Syomphomaniac" bpm="124" tonality="d# min">
+    <interval start="856.06001141666684" end="1234.0258744583336"/>
+  </track>
+  <track song="Life Is A Dancefloor (feat. Kimberly Davis)" artist="The Shapeshifters/ Kimberly Davis" album="Life Is A Dancefloor (feat. Kimberly Davis) (Club Mix)" bpm="121" tonality="d  min">
+    <interval start="1187.6133287083337" end="1593.4201230000003"/>
+  </track>
+</recordEvents>

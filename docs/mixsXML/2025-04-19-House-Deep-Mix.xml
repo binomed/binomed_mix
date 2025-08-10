@@ -1,0 +1,45 @@
+<recordEvents length="3745.6340855833341">
+  <track song="Radioman" artist="Afrojack" album="Serious Beats 60" bpm="126" tonality="c  min">
+    <interval start="2176.6068323333338" end="2189.7508187500002"/>
+    <interval start="2256.1617607500002" end="2678.592351166667"/>
+  </track>
+  <track song="Intro" artist="Alan Braxe &amp; Fred Falke" album="Running" bpm="124" tonality="f  min">
+    <interval start="911.06776591666687" end="1234.500167666667"/>
+  </track>
+  <track song="Beatophone" artist="Caravan Palace" album="Panic" bpm="126" tonality="f  min">
+    <interval start="3064.6438188750008" end="3312.2728709583339"/>
+  </track>
+  <track song="Africanism" artist="Cerrone" album="The Best Of" bpm="123.459" tonality="g  min">
+    <interval start="1487.0622579583337" end="1973.9434872500001"/>
+  </track>
+  <track song="Damelo" artist="DJ Gregory" album="DJ Gregory in the House" bpm="126" tonality="a# min">
+    <interval start="1914.6600314166672" end="2300.8445129166671"/>
+  </track>
+  <track song="Karma" artist="Dalton John" album="KARMA" bpm="120" tonality="f  min">
+    <interval start="2861.4555287500007" end="3082.9060984166672"/>
+  </track>
+  <track song="La Foule (YANISS x CHELERO Remix)" artist="Edith Piaf" tonality="f  min" bpm="133">
+    <interval start="3531.2607334166673" end="3745.6333925833342"/>
+  </track>
+  <track song="Besoin damour (Upsilone Remix)" artist="France Gall" tonality="c  min" bpm="124">
+    <interval start="3262.5972869583338" end="3562.2911804583341"/>
+  </track>
+  <track song="Cloud 9 (Purple Disco Machine" artist="Jamiroquai" album="Cloud 9 (Purple Disco Machine" bpm="122.504" tonality="a  min">
+    <interval start="1197.3550995416667" end="1633.8123521250004"/>
+  </track>
+  <track song="Listeners" artist="Nasser" album="The Outcome" bpm="111" tonality="c  min">
+    <interval start="0.88947604166662586" end="266.13660916666674"/>
+  </track>
+  <track song="My Reflection" artist="Osunlade feat. Divine Essence" album="Elements Beyond" bpm="118.549" tonality="f  min">
+    <interval start="421.3772496250001" end="766.08733833333349"/>
+  </track>
+  <track song="Godspeed (feat. DJ E-Clyps)" artist="The Blessed Madonna, DJ E-Clyp" album="Godspeed (feat. DJ E-Clyps)" bpm="120" tonality="c  min">
+    <interval start="2607.1246400000005" end="2894.0158191666674"/>
+  </track>
+  <track song="What Do You Feel (Jean Tonique Remix)" artist="Violet Sands/Justin Faust" album="What Do You Feel" bpm="115" tonality="f  min">
+    <interval start="236.16101020833338" end="453.68757770833338"/>
+  </track>
+  <track song="Bullit" artist="WatermÃ¤t" album="Radio 538: Hitzone 70" bpm="122" tonality="F  Maj">
+    <interval start="728.49530175000018" end="942.79936850000024"/>
+  </track>
+</recordEvents>
