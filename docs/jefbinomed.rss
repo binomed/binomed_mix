@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JefBinomed mixes</title>
     <link>https://jef.binomed.fr/binomed_mix/</link>
@@ -16,7 +18,7 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>JefBinomed - 2025-08-09 - House Mix</title>
+      <title>JefBinomed - 2025-08-31 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House mix</itunes:subtitle>
       <description><![CDATA[<p>House mix of 31 August 2025</p><h4>Playlist:</h4><ul>
