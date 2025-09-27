@@ -1,0 +1,42 @@
+<recordEvents length="3601.9024127916673">
+  <track song="Saint-Tropez" artist="Blackchild (ITA)" album="Sensual Disguise EP" bpm="129" tonality="e  min">
+    <interval start="1704.3276775000004" end="2047.0341824583338"/>
+  </track>
+  <track song="Get High With You" artist="Butch, Life On Planets" album="Get High With You" bpm="124" tonality="a  min">
+    <interval start="2700.0134190833337" end="2918.5126956666672"/>
+  </track>
+  <track song="I'll Be There (feat. Nile Rodgers)" artist="Chic/Nile Rodgers" album="I'll Be There (feat. Nile Rodgers)" bpm="125" tonality="a  min">
+    <interval start="3190.6782470416674" end="3601.4749267500006"/>
+  </track>
+  <track song="Houston (We Have A Problem)" artist="DJB510" album="Houston (We Have A Problem)" bpm="124" tonality="d  min">
+    <interval start="2886.3718927500004" end="3298.0544449166673"/>
+  </track>
+  <track song="Cereal Groover" artist="Darius Syrossian, Olive F, Fountain Sound" album="Cereal Groover" bpm="127" tonality="f  min">
+    <interval start="1534.4854062500003" end="1727.1535371666669"/>
+  </track>
+  <track song="Never Saw Never" artist="Gerd Janson and Jacques Renault" album="Late Summer Compilation Vol.10 (Part I)" bpm="120" tonality="g  min">
+    <interval start="2300.2408826250003" end="2605.6367437500003"/>
+    <interval start="2608.3695435416671" end="2608.6579605000006"/>
+  </track>
+  <track song="Get Back" artist="Gledd" album="Get Back EP" bpm="123" tonality="c  min">
+    <interval start="286.7207411666667" end="602.4218595000001"/>
+  </track>
+  <track song="Falling Deep in Love (Joey Negro Falling Into dub Again extended)" artist="Horse Meat Disco &amp; Kathy Sledge" album="Glitterbox Jams" bpm="120" tonality="f  min">
+    <interval start="571.33345791666682" end="906.42321183333354"/>
+  </track>
+  <track song="Edge of Desire" artist="Jonas Blue, Malive" album="Edge of Desire" bpm="123" tonality="a  min">
+    <interval start="2583.1042421250004" end="2735.202893333334"/>
+  </track>
+  <track song="Vacances (Yuksek Remix)" artist="L'Impératrice" album="Vacances (Yuksek Remix)" bpm="117" tonality="d# min">
+    <interval start="1988.2762534583335" end="2339.2624664166669"/>
+  </track>
+  <track song="Tasty (Extended Mix)" artist="Me &amp; My Toothbrush" album="Tasty" bpm="122" tonality="c  min">
+    <interval start="0.70502062499997464" end="336.65412120833344"/>
+  </track>
+  <track song="Beam Me Up (Jacques Renault Remix)" artist="Midnight Magic" album="Beam Me Up" bpm="117" tonality="f  min">
+    <interval start="850.43075800000008" end="1218.2486648750005"/>
+  </track>
+  <track song="Let Go" artist="Tiptoes" album="Let Go EP" bpm="123" tonality="f  min">
+    <interval start="1172.7889244166668" end="1565.8287154583336"/>
+  </track>
+</recordEvents>
