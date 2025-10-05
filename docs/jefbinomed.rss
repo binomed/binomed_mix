@@ -18,6 +18,34 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2025-10-05 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p><p>House mix of 10 October 2025</p></p><h4>Playlist:</h4><ul>
+  <li>Saraga - God Is Good</li>
+  <li>Dan Shake - Daisy's Dance</li>
+  <li>Stretch & Vern, Adelphi Music Factory - I'm Alive</li>
+  <li>Harry Romero, Jose Nunez, Alex Alicea, Shawnee Taylor - I Wanna Thank You</li>
+  <li>Fleur De Mur, Georges - One Last Kiss</li>
+  <li>Sylk 130 - Last Night a DJ Saved My Life (LP version)</li>
+  <li>Steve Silk Hurley, Vernessa Mitchell, Ricky Dillard, New G., Steve Silk Hurley, Vernessa Mitchell, Ricky Dillard, New G. - Higher</li>
+  <li>Nicole - Rock The House</li>
+  <li>Madison Avenue - Don't Call Me Baby (Original 12" Mix)</li>
+  <li>Flight Facilities, Drama - Dancing On My Own</li>
+  <li>Tuccillo/Patty Pravo - Bambola</li>
+  <li>Edd, Club Azur - want you so bad</li>
+  <li>Sounds of Blackness - The Pressure</li>
+  <li>Keller - That Kind Of Girl</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-10-05-House-Mix.mp3" length="89743159" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-10-05-House-Mix.mp3</guid>
+      <pubDate>05 October 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:02:19</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2025-09-27 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House mix</itunes:subtitle>
