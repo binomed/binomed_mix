@@ -18,10 +18,38 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2025-10-11 - House Disco Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Disco mix</itunes:subtitle>
+      <description><![CDATA[<p><p><p>House mix of 11 October 2025</p></p></p><h4>Playlist:</h4><ul>
+  <li>Maurizio Sacchi/ Fabe Dj - All Night Long</li>
+  <li>DJB510 - Houston (We Have A Problem)</li>
+  <li>YASS, Michelle Weeks - Hallelujah</li>
+  <li>Rodney Hunter - Dance (Extended Mix)</li>
+  <li>Warren Clarke, Kathy Brown - Over You</li>
+  <li>The Blessed Madonna/ Daniel Wilson/ KoN - Count On My Love</li>
+  <li>Fleur De Mur, Georges - One Last Kiss</li>
+  <li>John Julius Knight - Find A Friend</li>
+  <li>Luke Alessi - After Five</li>
+  <li>Saraga - God Is Good</li>
+  <li>House Gospel Choir/ Morgan - Angels</li>
+  <li>House of Prayers - Disco Stepper - Original Mix</li>
+  <li>One-T - Music Is The One-T ODC (2022 Remaster)</li>
+  <li>Revival/Kathy Brown/GeO Gospel - Your Love Keeps Lifting Me Hig</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-10-11-House-Disco-Mix.mp3" length="87420977" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-10-11-House-Disco-Mix.mp3</guid>
+      <pubDate>11 October 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:00:43</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2025-10-05 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House mix</itunes:subtitle>
-      <description><![CDATA[<p><p>House mix of 10 October 2025</p></p><h4>Playlist:</h4><ul>
+      <description><![CDATA[<p><p>House mix of 05 October 2025</p></p><h4>Playlist:</h4><ul>
   <li>Saraga - God Is Good</li>
   <li>Dan Shake - Daisy's Dance</li>
   <li>Stretch & Vern, Adelphi Music Factory - I'm Alive</li>
