@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JefBinomed mixes</title>
     <link>https://jef.binomed.fr/binomed_mix/</link>
@@ -15,6 +17,34 @@
     <itunes:image href="https://jef.binomed.fr/binomed_mix/img/logo-3000.png"/>
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>JefBinomed - 2025-11-23 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 23 November 2025</p><h4>Playlist:</h4><ul>
+  <li>Hot Chip - Flutes</li>
+  <li>Cassius feat. Cat Power & Pharrell Williams - Go Up</li>
+  <li>Amber Mark - won't cry</li>
+  <li>Gerd Janson and Jacques Renault - Never Saw Never</li>
+  <li>The Shapeshifters feat. Kimber - Life Is a Dancefloor (club mix</li>
+  <li>Gemini - Thinking About You (BMC Origin</li>
+  <li>Degiheugi & La Fine équipe - Favelas (La Fine Equipe remix)</li>
+  <li>Dirty Disco Stars - Can't Take It</li>
+  <li>Whirlpool Productions - From: Disco To: Disco</li>
+  <li>Tuccillo/Patty Pravo - Bambola</li>
+  <li>Polo & Pan - The Mirror</li>
+  <li>Dua Lipa - Hallucinate</li>
+  <li>Bakermat/Elise LeGrow - Temptation</li>
+  <li>Martin Solveig feat. Ina Wrold - Places</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-11-23-House-Mix.mp3" length="88404644" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-11-23-House-Mix.mp3</guid>
+      <pubDate>23 November 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>1:01:24</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>JefBinomed - 2025-11-09 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
