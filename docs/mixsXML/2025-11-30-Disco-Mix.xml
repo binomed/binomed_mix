@@ -1,0 +1,28 @@
+<recordEvents length="2035.7000429166671">
+  <track song="I'm Talking To You" artist="Angelo Ferreri" album="Papa Ibiza 2018" bpm="122" tonality="b  min">
+    <interval start="1449.8872105833336" end="1745.3446465000004"/>
+  </track>
+  <track song="Just a Groove" artist="Glen Adams Affair" album="Just a Groove / We've Got to Make It" bpm="115.183" tonality="F  Maj">
+    <interval start="217.47467820833333" end="589.97159183333338"/>
+  </track>
+  <track song="Disco Stepper - Original Mix" artist="House of Prayers" album="Pornostar Funky House 2022" bpm="123" tonality="b  min">
+    <interval start="1721.6877346666672" end="2035.6994990416672"/>
+  </track>
+  <track song="Must Get There (Dubka remix)" artist="Majestique" album="Switch 22" bpm="118" tonality="e  min">
+    <interval start="815.50230350000015" end="1140.3408148333335"/>
+  </track>
+  <track song="Memphis Jam" artist="Purple Disco Machine feat. Kool Keith" album="Soulmatic" bpm="115" tonality="d  min">
+    <interval start="0.96176949999994577" end="260.25112158333343"/>
+  </track>
+  <track song="In My Arms" artist="Purple Disco Machine" album="In My Arms" bpm="120" tonality="e  min">
+    <interval start="1083.3361898750002" end="1088.0901453750002"/>
+    <interval start="1099.5862425000003" end="1308.878265041667"/>
+  </track>
+  <track song="Your Love Keeps Lifting Me Hig" artist="Revival/Kathy Brown/GeO Gospel" album="Your Love Keeps Lifting Me Hig" bpm="120" tonality="b  min">
+    <interval start="1280.4870202500003" end="1461.9186282083335"/>
+  </track>
+  <track song="Don't You Know, Baby" artist="Young Pulse" album="Paris Edits Vol. 4" bpm="111" tonality="F  Maj">
+    <interval start="543.33609420833341" end="572.21110183333349"/>
+    <interval start="573.61666520833342" end="844.70581654166676"/>
+  </track>
+</recordEvents>
