@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JefBinomed mixes</title>
     <link>https://jef.binomed.fr/binomed_mix/</link>
@@ -15,6 +17,35 @@
     <itunes:image href="https://jef.binomed.fr/binomed_mix/img/logo-3000.png"/>
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>JefBinomed - 2025-12-17 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 17 December 2025</p><h4>Playlist:</h4><ul>
+  <li>Bronx Cheer feat. Fil Straughan - Burnin’</li>
+  <li>Rodney Hunter - Dance (Extended Mix)</li>
+  <li>Cavi - F The Disco</li>
+  <li>Nicole - Rock The House</li>
+  <li>France Gall - Besoin damour (Upsilone Remix)</li>
+  <li>The Shapeshifters - Lola’s Theme</li>
+  <li>Krikor - The Place</li>
+  <li>Peyton - A Higher Place (Gospel Degree vocal mix)</li>
+  <li>Bugsy - Sick And Tired (Dirty Channels</li>
+  <li>Ridney/Inaya Day/Richard Earnshaw - Gotta Have (Extended Mix)</li>
+  <li>Charles Dockins - Flowers With Kisses (Shelter V</li>
+  <li>Saturday Church, The Voices of Saturday Church - Sunday</li>
+  <li>The Blessed Madonna/ Daniel Wilson/ KoN - Count On My Love</li>
+  <li>Moloko - Sing It Back</li>
+  <li>Modjo - Chillin’</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-12-17-House-Mix.mp3" length="87780840" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-12-17-House-Mix.mp3</guid>
+      <pubDate>17 December 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>01:00:58</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>JefBinomed - 2025-12-07 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
