@@ -18,6 +18,33 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2025-12-21 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 21 December 2025</p><h4>Playlist:</h4><ul>
+  <li>Dirty Disco Stars - Forget About It (Original Mix)</li>
+  <li>Blank & Jones with Cathy Battistessa - Happiness</li>
+  <li>Osunlade feat. Divine Essence - My Reflection</li>
+  <li>Mark Ronson feat. YEBBA - Don?t Leave Me Lonely</li>
+  <li>Hot Chip - Flutes</li>
+  <li>Michelle Amador - Because Of You (Yoruba Soul Remix)</li>
+  <li>Corine - C'est Si Beau</li>
+  <li>Midnight Magic - Beam Me Up (Jacques Renault Remix)</li>
+  <li>L'Impératrice - Vacances (Yuksek Remix)</li>
+  <li>Crazy P - Eruption</li>
+  <li>Young Pulse - Don't You Know, Baby</li>
+  <li>Andy Buchan - Caught in the Middle</li>
+  <li>Black Box - I Don't Know Anybody Else (Mot</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-12-21-House-Mix.mp3" length="88311857" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-12-21-House-Mix.mp3</guid>
+      <pubDate>21 December 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>01:01:20</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2025-12-17 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House mix</itunes:subtitle>
