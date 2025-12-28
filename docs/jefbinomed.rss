@@ -18,6 +18,36 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2025-12-28 - Fresh House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>Fresh House mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 28 December 2025</p><h4>Playlist:</h4><ul>
+  <li>Kid Fonque, Sio - Rekindled</li>
+  <li>Francis Mercier/ Faul & Wad/ African Children's Choir - Sauti</li>
+  <li>Cristian Marchi, Reverend Haus - Fast Cars & Superstars</li>
+  <li>Nick Holder - Dance, Dance, Dance  (Original Mix)</li>
+  <li>BIG:MAN - Baby By Me  (Extended Mix)</li>
+  <li>Vaudafunk - Plage Privée</li>
+  <li>Diego Walle - We're Not In Love, Just In Sync  (Original Mix)</li>
+  <li>Dole & Kom - Together Onetime (Original Mix)</li>
+  <li>Deer Jade - Voyage Infini  (Extended Mix)</li>
+  <li>Tom Fills - Is It Loud Enough</li>
+  <li>Jaxx Inc. - In the House (Extended Mix)</li>
+  <li>Fatimah Provillon & Luca Martini - Something Special (Extended Mix)</li>
+  <li>Davide Dev - Crazy Love (Extended Version)</li>
+  <li>Lexlay - Double Shot (Original Mix)</li>
+  <li>Block & Crown - Somebody Tell Me</li>
+  <li>Nari & Nabuk & Paolo nhe - Right Thing (Original Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2025-12-28-Fresh-House-Mix.mp3" length="88117506" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2025-12-28-Fresh-House-Mix.mp3</guid>
+      <pubDate>28 December 2025 21:10:00 +0100</pubDate>
+      <itunes:duration>01:01:12</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2025-12-21 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House mix</itunes:subtitle>
