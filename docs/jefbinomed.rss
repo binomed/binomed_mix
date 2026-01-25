@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JefBinomed mixes</title>
     <link>https://jef.binomed.fr/binomed_mix/</link>
@@ -18,10 +16,55 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-01-25 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 25 January 2026</p><h4>Playlist:</h4><ul>
+  <li>HUGEL, Totó La Momposina - La Verdolaga</li>
+  <li>Ralf GUM feat. Akira Dee - Everything U R (Ralf GUM & Crisp original mix)</li>
+  <li>Silicone Soul - Right on, Right On</li>
+  <li>Degiheugi & La Fine �quipe - Favelas (La Fine Equipe remix)</li>
+  <li>HUGEL, SOLTO (FR) - Jamaican (Bam Bam)</li>
+  <li>Kid Fonque, Sio - Rekindled</li>
+  <li>Gemini - Thinking About You (BMC Origin</li>
+  <li>September - Cry for You (extended mix)</li>
+  <li>House of Prayers - Disco Stepper - Original Mix</li>
+  <li>A.K.A - Less Is More</li>
+  <li>Romy - She's On My Mind</li>
+  <li>Stephane Pompougnac - Dans la danse</li>
+  <li>Dennis Ferrer/Janelle Kroll - Mind Ur Step (feat. Janelle Kr</li>
+  <li>Kentphonik - Hiya Kaya (DJ Rork Rework)</li>
+  <li>Moscoman feat. Tom Sanders - What Do We Care</li>
+  <li>The Supermen Lovers ft. George - Call My Name</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-01-25-House-Mix.mp3" length="88514986" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-01-25-House-Mix.mp3</guid>
+      <pubDate>25 January 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:01:27</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-01-18 - House Fesh Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House mix</itunes:subtitle>
-      <description>House Mix of 18 January 2026</description>
+      <description><![CDATA[<p>House Mix of 18 January 2026</p><h4>Playlist:</h4><ul>
+  <li>Mosimann - Feeling Good</li>
+  <li>Dole & Kom - Together Onetime (Original Mix)</li>
+  <li>Revival House Project, Mousse T., Kathy Brown - I'm Gonna Make It (Club Mix)</li>
+  <li>BIG:MAN - Baby By Me  (Extended Mix)</li>
+  <li>Disco Ball'z - Brooklyn Heart</li>
+  <li>Nick Holder - Dance, Dance, Dance  (Original Mix)</li>
+  <li>Revival House Project, Phebe Edwards, Michael Gray, GeO Gospel Choir - Think (Michael Gray Extended Remix)</li>
+  <li>Sammy Deuce - Excuses On The Dancefloor</li>
+  <li>Morttimer Snerd III, Steve Miggedy Maestro - Pulled It (Miggedy's Full Dizko Slap)</li>
+  <li>Nari & Nabuk & Paolo nhe - Right Thing (Original Mix)</li>
+  <li>Block & Crown - Somebody Tell Me</li>
+  <li>Micbeatz - Mary Jane Girls All Night Long</li>
+  <li>Antonio Giacca - Down Like the River (Radio Mix)</li>
+  <li>Soneec, Soultizer - In Your Eyes (Extended Mix)</li>
+</ul>]]></description>
       <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
       <enclosure url="https://storage.googleapis.com/binomed-mix/2026-01-18-House-Fesh-Mix.mp3" length="88600876" type="audio/mpeg"/>
       <guid>https://storage.googleapis.com/binomed-mix/2026-01-18-House-Fesh-Mix.mp3</guid>
