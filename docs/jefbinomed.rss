@@ -16,6 +16,36 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-02-01 - House MIx</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House MIx</itunes:subtitle>
+      <description><![CDATA[<p>House MIx of 1 February 2026</p><h4>Playlist:</h4><ul>
+  <li>Calvin Harris - Acceptable in the 80s</li>
+  <li>Anoraak - Nightdrive With You (Grum remix)</li>
+  <li>Lisa Millett - It’s Alright (Jamie Lewis Go Funky dub)</li>
+  <li>Kaskade - I Remember</li>
+  <li>DJ Dealer Ft. Lisa Millett - You're All I Need (Staffan Tho</li>
+  <li>D‐Train - You're the One for Me (a cappella)</li>
+  <li>Kate Stein, Lord Fascinator, Aeroplane, Fascinator - Asteroid</li>
+  <li>Cristian Marchi, Reverend Haus - Fast Cars & Superstars</li>
+  <li>Chris Lake - Only One</li>
+  <li>Caiiro/Awen - Your Voice (Adam Port Remix)</li>
+  <li>September - Cry for You</li>
+  <li>Nari & Nabuk & Paolo nhe - Right Thing (Original Mix)</li>
+  <li>Revival House Project, Mousse T., Kathy Brown - I'm Gonna Make It (Club Mix)</li>
+  <li>nimino - Better</li>
+  <li>Limbo Experience, Rollercone - Illusion</li>
+  <li>Jonas Blue, Malive - Edge of Desire</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-02-01-House-MIx.mp3" length="87370195" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-02-01-House-MIx.mp3</guid>
+      <pubDate>1 February 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:00:39</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-01-25 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Mix</itunes:subtitle>
