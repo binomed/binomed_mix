@@ -16,6 +16,37 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-02-08 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 8 February 2026</p><h4>Playlist:</h4><ul>
+  <li>Martin Solveig & GTA - Intoxicated (radio edit)</li>
+  <li>Di Paulo/Softmal/Nytron - Lolita 2K19 (Original Mix)</li>
+  <li>Kid Fonque, Sio - Rekindled</li>
+  <li>Anoraak, Julia Jean-Baptiste - Magnifique</li>
+  <li>Harry Romero, Jose Nunez, Alex Alicea, Shawnee Taylor - I Wanna Thank You</li>
+  <li>Purple Disco Machine - Beat Fantasy</li>
+  <li>Revival House Project, Mary Pearce, GeO Gospel Choir, Lovely Laura, Sophie Lloyd - Take Me To The River (Sophie Lloyd Extended Remix)</li>
+  <li>Revival House Project, Mousse T., Kathy Brown - I'm Gonna Make It (Club Mix)</li>
+  <li>YASS, Michelle Weeks - Hallelujah</li>
+  <li>The Vision feat. Andreya Triana - Heaven (Mousse T.’s Disco Shizzle remix)</li>
+  <li>The Reflex - Weekend</li>
+  <li>Sylk 130 - Last Night a DJ Saved My Life (LP version)</li>
+  <li>Swales/RuthAnne - Higher (Call My Name)</li>
+  <li>HUGEL, SOLTO (FR) - Jamaican (Bam Bam)</li>
+  <li>Celeda - The Underground</li>
+  <li>LindstrÃÂ¸m - I Feel Space</li>
+  <li>Horse Meat Disco & Kathy Sledge - Falling Deep in Love (Joey Negro Falling Into dub Again extended)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-02-08-House-Mix.mp3" length="88318127" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-02-08-House-Mix.mp3</guid>
+      <pubDate>8 February 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:01:19</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-02-01 - House MIx</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House MIx</itunes:subtitle>
