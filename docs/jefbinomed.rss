@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JefBinomed mixes</title>
     <link>https://jef.binomed.fr/binomed_mix/</link>
@@ -33,16 +35,15 @@
   <li>The Reflex - Weekend</li>
   <li>Sylk 130 - Last Night a DJ Saved My Life (LP version)</li>
   <li>Swales/RuthAnne - Higher (Call My Name)</li>
-  <li>HUGEL, SOLTO (FR) - Jamaican (Bam Bam)</li>
   <li>Celeda - The Underground</li>
   <li>LindstrÃÂ¸m - I Feel Space</li>
   <li>Horse Meat Disco & Kathy Sledge - Falling Deep in Love (Joey Negro Falling Into dub Again extended)</li>
 </ul>]]></description>
       <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
-      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-02-08-House-Mix.mp3" length="88318127" type="audio/mpeg"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-02-08-House-Mix.mp3" length="112441728" type="audio/mpeg"/>
       <guid>https://storage.googleapis.com/binomed-mix/2026-02-08-House-Mix.mp3</guid>
       <pubDate>8 February 2026 21:10:00 +0100</pubDate>
-      <itunes:duration>01:01:19</itunes:duration>
+      <itunes:duration>00:59:15</itunes:duration>
       <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
