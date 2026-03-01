@@ -16,6 +16,34 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-03-01 - Old House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>Old House Mix</itunes:subtitle>
+      <description><![CDATA[<p>Old House Mix of 1 March 2026</p><h4>Playlist:</h4><ul>
+  <li>Slide - In Your Arms</li>
+  <li>Junior Jack - Stupidisco (extended original version)</li>
+  <li>Madison Avenue - Don't Call Me Baby (Original Mix - Edit)</li>
+  <li>ÃÂtienne de CrÃÂ©cy - Am I Wrong (extended)</li>
+  <li>Bobby Blanco & Miki Moto / Todd Terry - 3 AM / Something Going On (a cappella)</li>
+  <li>Lacey - Cave In (radio edit)</li>
+  <li>Marvin Gaye - Sunny (Baumon Remix / Extended</li>
+  <li>Kathy Brown - Never Again (Copyright Classic</li>
+  <li>Panevino Feat. Charles Dockins - The Best of Me (Original Mix)</li>
+  <li>Soul Elementz Feat Sabrina Joh - My Way Out (Samuele Sartini 90</li>
+  <li>Peyton - A Higher Place (Gospel Degree vocal mix)</li>
+  <li>M People - Moving on Up</li>
+  <li>MuSol V Knee Deep feat Marvin - Let's get it on</li>
+  <li>The Shapeshifters - Lola’s Theme</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-03-01-Old-House-Mix.mp3" length="88909330" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-03-01-Old-House-Mix.mp3</guid>
+      <pubDate>1 March 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:01:42</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-02-22 - House Fresh Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Fresh Mix</itunes:subtitle>
