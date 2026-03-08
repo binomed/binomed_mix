@@ -16,6 +16,35 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-03-08 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 8 March 2026</p><h4>Playlist:</h4><ul>
+  <li>Louie Austen - Amore (I Love You)</li>
+  <li>Havana Funk - Ya Salio (John Kano's Dirty Ha</li>
+  <li>Ann Nesby - Lovin? Is Really My Game</li>
+  <li>DISCO DOM, Dombresky, Emmet Read - Heartbreaker (feat. Emmet Read)</li>
+  <li>Martin Solveig feat. Kele - Ready 2 Go</li>
+  <li>LF SYSTEM - All I’ve Got</li>
+  <li>LMFAO feat. Lauren Bennett & GoonRock - Party Rock Anthem</li>
+  <li>Celeda - The Underground</li>
+  <li>Johnny Corporate - Sunday Shoutin’</li>
+  <li>Fisher - Take It Off</li>
+  <li>Luke Alessi - After Five</li>
+  <li>Saraga - God Is Good</li>
+  <li>Babert - Make You Crazy</li>
+  <li>Jay-J feat. Charlene Moore - With Him (Ron Carroll’s BMC Black Gospel Feel)</li>
+  <li>Saturday Church, The Voices of Saturday Church - Sunday</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-03-08-House-Mix.mp3" length="89496145" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-03-08-House-Mix.mp3</guid>
+      <pubDate>8 March 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:02:08</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-03-01 - Old House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>Old House Mix</itunes:subtitle>
