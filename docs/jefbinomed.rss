@@ -16,6 +16,36 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-03-15 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 15 March 2026</p><h4>Playlist:</h4><ul>
+  <li>Steve Silk Hurley, Vernessa Mitchell, Ricky Dillard, New G., Steve Silk Hurley, Vernessa Mitchell, Ricky Dillard, New G. - Higher</li>
+  <li>Revival House Project, Phebe Edwards, Michael Gray, GeO Gospel Choir - Think (Michael Gray Extended Remix)</li>
+  <li>Platinum Doll, P.Y. Anderson - Believe In A Brighter Day</li>
+  <li>Disco Ivory - Block Crown Hardcopy (Hardcopy Clubmix) </li>
+  <li>Revival House Project, Mousse T., Kathy Brown - I'm Gonna Make It (Club Mix)</li>
+  <li>Nick Holder - Dance, Dance, Dance  (Original Mix)</li>
+  <li>YASS, Michelle Weeks - Hallelujah</li>
+  <li>Never Dull - BIG DISCO ENERGY</li>
+  <li>Tuccillo/Patty Pravo - Bambola</li>
+  <li>Dames Brown, Amp Fiddler - This Time</li>
+  <li>Noir Glacé - Crazy - AFRO HOUSE</li>
+  <li>Jill Scott - Coming To You (House N HD Terry Hunter & Mike Dunn Soulfrica Mix)</li>
+  <li>Gerd Janson and Jacques Renault - Never Saw Never</li>
+  <li>Roog - If Everything Went My Way (Extended Mix)</li>
+  <li>Mosimann - Feeling Good</li>
+  <li>Cristian Marchi, Reverend Haus - Fast Cars & Superstars</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-03-15-House-Mix.mp3" length="87788991" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-03-15-House-Mix.mp3</guid>
+      <pubDate>15 March 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:00:57</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-03-08 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Mix</itunes:subtitle>
