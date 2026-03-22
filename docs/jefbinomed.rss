@@ -16,6 +16,37 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-03-22 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 22 March 2026</p><h4>Playlist:</h4><ul>
+  <li>The Bucketheads - The Bomb! (These Sounds Fall Into My Mind) [Radio Edit]</li>
+  <li>Maurizio Sacchi/ Fabe Dj - All Night Long</li>
+  <li>Swales/RuthAnne - Higher (Call My Name)</li>
+  <li>Jamiroquai - Cloud 9 (Purple Disco Machine</li>
+  <li>Jonas Blue, Malive - Edge of Desire</li>
+  <li>Softmal, Nytron - My Girl</li>
+  <li>Kid Fonque, Sio - Rekindled</li>
+  <li>Spiller - Groovejet (If This Ain’t Love) (Spiller’s extended vocal mix)</li>
+  <li>Julio Cruz - Dancing Love Affair (Original</li>
+  <li>Chilly Gonzales - You Can Dance</li>
+  <li>Butch, Life On Planets - Get High With You</li>
+  <li>Dimitri From Tokyo - Don't Hold Back</li>
+  <li>Revival House Project, Mary Pearce, GeO Gospel Choir, Lovely Laura, Sophie Lloyd - Take Me To The River (Sophie Lloyd Extended Remix)</li>
+  <li>Danny Clark & Jay Benham Ft. D - Conqueror (Original Mix)</li>
+  <li>Degiheugi & La Fine �quipe - Favelas (La Fine Equipe remix)</li>
+  <li>HUGEL, Totó La Momposina - La Verdolaga</li>
+  <li>Baccus - Just Be Good to Me (extended mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-03-22-House-Mix.mp3" length="87881777" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-03-22-House-Mix.mp3</guid>
+      <pubDate>22 March 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:01:01</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-03-15 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Mix</itunes:subtitle>
