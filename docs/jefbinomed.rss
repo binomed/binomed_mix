@@ -16,6 +16,36 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-04-12 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 12 April 2026</p><h4>Playlist:</h4><ul>
+  <li>Me & My Toothbrush - Sister (Original Club Mix)</li>
+  <li>Harry Romero, Jose Nunez, Alex Alicea, Shawnee Taylor - I Wanna Thank You</li>
+  <li>Julio Cruz - Dancing Love Affair (Original</li>
+  <li>Stacy Kidd/ Peven Everett - Body Jerkin'</li>
+  <li>Swales/RuthAnne - Higher (Call My Name)</li>
+  <li>Soneec, Soultizer - In Your Eyes (Extended Mix)</li>
+  <li>Baccus - Just Be Good to Me (extended mix)</li>
+  <li>Bondax feat. Andreya Triana - Energy (Jkriv remix)</li>
+  <li>Boris Dlugosch feat. RÃÂ³isÃÂ­n Murphy - Never Enough (Sir Piers & Ed Funkclub remix)</li>
+  <li>Moloko - Sing It Back</li>
+  <li>GhostMasters - Freedom (Extended Mix)</li>
+  <li>House Gospel Choir/ Morgan - Angels</li>
+  <li>Revival House Project, Phebe Edwards, Michael Gray, GeO Gospel Choir - Think (Michael Gray Extended Remix)</li>
+  <li>Block & Crown - Disco Ivory (Hardcopy Clubmix)</li>
+  <li>Martin Solveig/ ALMA - All Stars</li>
+  <li>Sammy Deuce - Excuses On The Dancefloor</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-04-12-House-Mix.mp3" length="88109356" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-04-12-House-Mix.mp3</guid>
+      <pubDate>12 April 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:01:10</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-03-28 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Mix</itunes:subtitle>
