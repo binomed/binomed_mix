@@ -153,32 +153,66 @@
             </div>
         </main>
 
-        <!-- Player Footer (Empty for now, implemented in Phase 2) -->
-        <footer id="global-player" class="fixed bottom-0 left-0 w-full z-[60]"></footer>
+        <!-- Player Footer (Phase 2) -->
+        <footer id="global-player" class="fixed bottom-0 left-0 w-full z-[60] bg-surface-container-low/95 backdrop-blur-xl border-t border-outline-variant shadow-[0px_-10px_30px_rgba(0,0,0,0.05)] px-margin-mobile md:px-margin-desktop py-4">
+            <div class="max-w-[1200px] mx-auto flex flex-col gap-3">
+                <!-- Progress Bar -->
+                <div class="flex flex-col items-center gap-1 w-full">
+                    <div class="flex justify-between w-full text-[10px] text-secondary font-bold mb-1">
+                        <span id="player-timer">0:00</span>
+                        <span id="player-duration">0:00</span>
+                    </div>
+                    <div id="player-progress-container" class="w-full h-1 bg-outline-variant rounded-full relative overflow-hidden cursor-pointer group">
+                        <div id="player-progress-bar" class="absolute left-0 top-0 h-full w-[0%] bg-primary rounded-full"></div>
+                    </div>
+                </div>
 
-        <!-- Mock elements for transition (Phase 1) to avoid JS errors in player.js -->
+                <div class="flex items-center justify-between">
+                    <!-- Now Playing Meta -->
+                    <div class="flex items-center gap-sm flex-1 min-w-0">
+                        <div class="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-primary-fixed shadow-md">
+                            <img id="player-album-art" alt="Now Playing" class="w-full h-full object-cover" src="./img/binomed_sun_flower.png"/>
+                        </div>
+                        <div class="flex flex-col min-w-0">
+                            <span id="player-track-title" class="font-label-bold text-label-bold text-on-surface truncate">Chargement...</span>
+                            <span class="font-label-sm text-label-sm text-secondary uppercase tracking-tighter">Mix Series</span>
+                        </div>
+                    </div>
+
+                    <!-- Player Controls -->
+                    <div class="flex items-center gap-6 md:gap-8 flex-none px-4">
+                        <button id="player-prev" class="text-on-surface-variant hover:text-primary transition-colors" aria-label="Précédent">
+                            <span class="material-symbols-outlined text-2xl">skip_previous</span>
+                        </button>
+                        <button id="player-play-pause" class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center active:scale-95 transition-all shadow-md" aria-label="Lecture / Pause">
+                            <span id="player-play-icon" class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+                        </button>
+                        <button id="player-next" class="text-on-surface-variant hover:text-primary transition-colors" aria-label="Suivant">
+                            <span class="material-symbols-outlined text-2xl">skip_next</span>
+                        </button>
+                    </div>
+
+                    <!-- Volume & Extras -->
+                    <div class="hidden md:flex items-center justify-end gap-6 flex-1">
+                        <div class="flex items-center gap-2 border-l border-outline-variant pl-6">
+                            <span id="player-volume-icon" class="material-symbols-outlined text-on-surface-variant text-xl">volume_up</span>
+                            <div id="player-volume-container" class="w-20 h-1 bg-outline-variant rounded-full overflow-hidden cursor-pointer">
+                                <div id="player-volume-bar" class="h-full w-[70%] bg-primary rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Mock elements for transition (Phase 1) - Cleanup for implemented parts -->
         <div id="mock-elements" style="display: none;">
-            <div id="track"></div>
-            <div id="timer"></div>
-            <div id="duration"></div>
-            <div id="playBtn"></div>
-            <div id="pauseBtn"></div>
-            <div id="prevBtn"></div>
-            <div id="nextBtn"></div>
-            <div id="playlistBtn"></div>
-            <div id="volumeBtn"></div>
-            <div id="progress"></div>
-            <div id="bar"></div>
             <div id="loading"></div>
+            <div id="playlistBtn"></div>
             <div id="playlist">
                 <div id="list"></div>
             </div>
-            <div id="volume">
-                <div id="barEmpty"></div>
-                <div id="barFull"></div>
-                <div id="sliderBtn"></div>
-            </div>
-            <img id="image" src="" />
+            <!-- IDs remaining to be migrated in Phase 3/4 -->
             <div id="waveform"></div>
         </div>
 

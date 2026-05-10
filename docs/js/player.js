@@ -10,30 +10,40 @@
 
 // Cache references to DOM elements.
 var elms = [
-    'track',
-    'timer',
-    'duration',
-    'playBtn',
-    'pauseBtn',
-    'prevBtn',
-    'nextBtn',
-    'playlistBtn',
-    'volumeBtn',
-    'progress',
-    'bar',
-    'wave',
+    'player-track-title',
+    'player-timer',
+    'player-duration',
+    'player-play-pause',
+    'player-play-icon',
+    'player-prev',
+    'player-next',
+    'player-progress-bar',
+    'player-progress-container',
+    'player-album-art',
+    'player-volume-bar',
+    'player-volume-container',
+    // Mocks and remaining elements
     'loading',
     'playlist',
     'list',
-    'volume',
-    'barEmpty',
-    'barFull',
-    'sliderBtn',
-    'image',
+    'waveform',
 ];
 elms.forEach(function (elm) {
-    window[elm] = document.getElementById(elm);
+    window[elm.replace(/-/g, '_')] = document.getElementById(elm);
 });
+
+// Alias for compatibility with the rest of the script (to avoid massive refactoring)
+var track = player_track_title;
+var timer = player_timer;
+var duration = player_duration;
+var playBtn = player_play_pause;
+var pauseBtn = player_play_pause; // Same button in new design
+var prevBtn = player_prev;
+var nextBtn = player_next;
+var progress = player_progress_bar;
+var image = player_album_art;
+var barFull = player_volume_bar;
+var barEmpty = player_volume_container;
 
 /**
  * Player class containing the state of our playlist and where we are in it.
@@ -46,7 +56,7 @@ var Player = function (playlist) {
     this.howl = null;
 
     // Display the title of the first track.
-    track.innerHTML = '1. ' + playlist[0].title;
+    track.innerHTML = playlist[0].title;
     if (playlist[0].image != null) {
         image.src = playlist[0].image;
     } else {
@@ -61,7 +71,7 @@ var Player = function (playlist) {
         div.onclick = function () {
             player.skipTo(playlist.indexOf(song));
         };
-        list.appendChild(div);
+        if (list) list.appendChild(div);
     });
 };
 Player.prototype = {
@@ -93,16 +103,12 @@ Player.prototype = {
                     // Start updating the progress of the track.
                     requestAnimationFrame(self.step.bind(self));
 
-                    // Start the wave animation if we have already loaded
-                    waveform.style.display = 'block';
-                    bar.style.display = 'none';
-                    pauseBtn.style.display = 'block';
+                    // Update UI
+                    player_play_icon.innerHTML = 'pause_circle';
+                    if (loading) loading.style.display = 'none';
                 },
                 onload: function () {
-                    // Start the wave animation.
-                    waveform.style.display = 'block';
-                    bar.style.display = 'none';
-                    loading.style.display = 'none';
+                    if (loading) loading.style.display = 'none';
                     if (data.image != null) {
                         image.src = data.image;
                     } else {
@@ -110,20 +116,13 @@ Player.prototype = {
                     }
                 },
                 onend: function () {
-                    // Stop the wave animation.
-                    waveform.style.display = 'none';
-                    bar.style.display = 'block';
                     self.skip('next');
                 },
                 onpause: function () {
-                    // Stop the wave animation.
-                    waveform.style.display = 'none';
-                    bar.style.display = 'block';
+                    player_play_icon.innerHTML = 'play_circle';
                 },
                 onstop: function () {
-                    // Stop the wave animation.
-                    waveform.style.display = 'none';
-                    bar.style.display = 'block';
+                    player_play_icon.innerHTML = 'play_circle';
                 },
                 onseek: function () {
                     // Start updating the progress of the track.
@@ -132,23 +131,18 @@ Player.prototype = {
             });
         }
 
-        // display the waveform
-        wave.start();
-
         // Begin playing the sound.
         sound.play();
 
         // Update the track display.
-        track.innerHTML = index + 1 + '. ' + data.title;
+        track.innerHTML = data.title;
 
-        // Show the pause button.
+        // Show the pause icon.
         if (sound.state() === 'loaded') {
-            playBtn.style.display = 'none';
-            pauseBtn.style.display = 'block';
+            player_play_icon.innerHTML = 'pause_circle';
         } else {
-            loading.style.display = 'block';
-            playBtn.style.display = 'none';
-            pauseBtn.style.display = 'none';
+            if (loading) loading.style.display = 'block';
+            player_play_icon.innerHTML = 'play_circle';
         }
 
         // Keep track of the index we are currently playing.
@@ -164,12 +158,11 @@ Player.prototype = {
         // Get the Howl we want to manipulate.
         var sound = self.howl;
 
-        // Puase the sound.
-        sound.pause();
+        // Pause the sound.
+        if (sound) sound.pause();
 
-        // Show the play button.
-        playBtn.style.display = 'block';
-        pauseBtn.style.display = 'none';
+        // Show the play icon.
+        player_play_icon.innerHTML = 'play_circle';
     },
 
     /**
@@ -228,10 +221,13 @@ Player.prototype = {
         Howler.volume(val);
 
         // Update the display on the slider.
-        var barWidth = (val * 90) / 100;
-        barFull.style.width = barWidth * 100 + '%';
-        sliderBtn.style.left =
-            window.innerWidth * barWidth + window.innerWidth * 0.05 - 25 + 'px';
+        barFull.style.width = (val * 100) + '%';
+        
+        // Update volume icon based on level
+        var icon = 'volume_up';
+        if (val === 0) icon = 'volume_off';
+        else if (val < 0.5) icon = 'volume_down';
+        document.getElementById('player-volume-icon').innerHTML = icon;
     },
 
     /**
@@ -245,7 +241,7 @@ Player.prototype = {
         var sound = self.howl;
 
         // Convert the percent into a seek position.
-        if (sound.playing()) {
+        if (sound && sound.playing()) {
             sound.seek(sound.duration() * per);
         }
     },
@@ -274,6 +270,7 @@ Player.prototype = {
      * Toggle the playlist display on/off.
      */
     togglePlaylist: function () {
+        if (!playlist) return;
         var self = this;
         var display = playlist.style.display === 'block' ? 'none' : 'block';
 
@@ -290,16 +287,7 @@ Player.prototype = {
      * Toggle the volume display on/off.
      */
     toggleVolume: function () {
-        var self = this;
-        var display = volume.style.display === 'block' ? 'none' : 'block';
-
-        setTimeout(
-            function () {
-                volume.style.display = display;
-            },
-            display === 'block' ? 0 : 500
-        );
-        volume.className = display === 'block' ? 'fadein' : 'fadeout';
+        // Not used anymore in the new design as volume is always visible or handled differently
     },
 
     /**
@@ -320,10 +308,11 @@ var player = new Player(binomedPlayList);
 
 // Bind our player controls.
 playBtn.addEventListener('click', function () {
-    player.play();
-});
-pauseBtn.addEventListener('click', function () {
-    player.pause();
+    if (player.howl && player.howl.playing()) {
+        player.pause();
+    } else {
+        player.play();
+    }
 });
 prevBtn.addEventListener('click', function () {
     player.skip('prev');
@@ -331,55 +320,37 @@ prevBtn.addEventListener('click', function () {
 nextBtn.addEventListener('click', function () {
     player.skip('next');
 });
-waveform.addEventListener('click', function (event) {
-    player.seek(event.clientX / window.innerWidth);
-});
-playlistBtn.addEventListener('click', function () {
-    player.togglePlaylist();
-});
-playlist.addEventListener('click', function () {
-    player.togglePlaylist();
-});
-volumeBtn.addEventListener('click', function () {
-    player.toggleVolume();
-});
-volume.addEventListener('click', function () {
-    player.toggleVolume();
+
+// New progress bar handling
+player_progress_container.addEventListener('click', function (event) {
+    var rect = player_progress_container.getBoundingClientRect();
+    var x = event.clientX - rect.left;
+    var per = x / rect.width;
+    player.seek(per);
 });
 
-// Setup the event listeners to enable dragging of volume slider.
-barEmpty.addEventListener('click', function (event) {
-    var per = event.layerX / parseFloat(barEmpty.scrollWidth);
+// New volume handling
+player_volume_container.addEventListener('click', function (event) {
+    var rect = player_volume_container.getBoundingClientRect();
+    var x = event.clientX - rect.left;
+    var per = Math.min(1, Math.max(0, x / rect.width));
     player.volume(per);
 });
-sliderBtn.addEventListener('mousedown', function () {
-    window.sliderDown = true;
-});
-sliderBtn.addEventListener('touchstart', function () {
-    window.sliderDown = true;
-});
-volume.addEventListener('mouseup', function () {
-    window.sliderDown = false;
-});
-volume.addEventListener('touchend', function () {
-    window.sliderDown = false;
-});
 
-var move = function (event) {
+// Setup the event listeners to enable dragging of volume slider (Simplified for Phase 2)
+var moveVolume = function (event) {
     if (window.sliderDown) {
-        var x = event.clientX || event.touches[0].clientX;
-        var startX = window.innerWidth * 0.05;
-        var layerX = x - startX;
-        var per = Math.min(
-            1,
-            Math.max(0, layerX / parseFloat(barEmpty.scrollWidth))
-        );
+        var x = event.clientX || (event.touches ? event.touches[0].clientX : 0);
+        var rect = player_volume_container.getBoundingClientRect();
+        var layerX = x - rect.left;
+        var per = Math.min(1, Math.max(0, layerX / rect.width));
         player.volume(per);
     }
 };
 
-volume.addEventListener('mousemove', move);
-volume.addEventListener('touchmove', move);
+player_volume_container.addEventListener('mousedown', function () { window.sliderDown = true; });
+window.addEventListener('mouseup', function () { window.sliderDown = false; });
+window.addEventListener('mousemove', moveVolume);
 
 /* Setup the "waveform" animation.
 var wave = new SiriWave({
