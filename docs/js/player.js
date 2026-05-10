@@ -381,7 +381,7 @@ var move = function (event) {
 volume.addEventListener('mousemove', move);
 volume.addEventListener('touchmove', move);
 
-// Setup the "waveform" animation.
+/* Setup the "waveform" animation.
 var wave = new SiriWave({
     container: waveform,
     style: 'ios9',
@@ -390,30 +390,25 @@ var wave = new SiriWave({
     amplitude: 3,
     frequency: 2,
 });
-wave.stop();
+wave.stop(); */
+
+// Mock wave object to avoid errors in Player.prototype.play
+var wave = {
+    start: function() {},
+    stop: function() {}
+};
 
 // Update the height of the wave animation.
-// These are basically some hacks to get SiriWave.js to do what we want.
 var resize = function () {
-    var height = window.innerHeight * 0.3;
-    var width = window.innerWidth;
-    wave.height = height;
-    wave.height_2 = height / 2;
-    wave.MAX = wave.height_2 - 4;
-    wave.width = width;
-    wave.width_2 = width / 2;
-    wave.width_4 = width / 4;
-    wave.canvas.height = height;
-    wave.canvas.width = width;
-    waveform.style.margin = -(height / 2) + 'px auto';
-
     // Update the position of the slider.
-    var sound = player.playlist[player.index].howl;
-    if (sound) {
-        var vol = sound.volume();
-        var barWidth = vol * 0.9;
-        sliderBtn.style.left =
-            window.innerWidth * barWidth + window.innerWidth * 0.05 - 25 + 'px';
+    if (player && player.playlist && player.playlist[player.index]) {
+        var sound = player.playlist[player.index].howl;
+        if (sound) {
+            var vol = sound.volume();
+            var barWidth = vol * 0.9;
+            sliderBtn.style.left =
+                window.innerWidth * barWidth + window.innerWidth * 0.05 - 25 + 'px';
+        }
     }
 };
 window.addEventListener('resize', resize);

@@ -1,73 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="light" lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="user-scalable=no" />
-        <title>DJ JefBinomed Mixes</title>
-        <link rel="stylesheet" href="./css/styles.css" />
-        <link
-            rel="apple-touch-icon"
-            sizes="192x192"
-            href="./img/icons/icon-192x192.png" />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="48x48"
-            href="./img/icons/icon-48x48.png" />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="./img/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DJ JefBinomed Mixes - Sonic Minimalist</title>
+        
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+        
+        <!-- PWA Icons & Manifest -->
+        <link rel="apple-touch-icon" sizes="192x192" href="./img/icons/icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="./img/icons/icon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon.ico" />
         <link rel="manifest" href="./img/site.webmanifest" />
+
+        <script id="tailwind-config">
+            tailwind.config = {
+                darkMode: "class",
+                theme: {
+                    extend: {
+                        "colors": {
+                            "tertiary-fixed-dim": "#81cfff",
+                            "on-tertiary-container": "#004967",
+                            "on-primary-container": "#613c00",
+                            "secondary-fixed-dim": "#c8c6c5",
+                            "on-secondary": "#ffffff",
+                            "primary": "#845400",
+                            "surface-container-low": "#f3f3f3",
+                            "secondary": "#5f5e5e",
+                            "on-primary-fixed": "#2a1800",
+                            "on-primary": "#ffffff",
+                            "surface-container-lowest": "#ffffff",
+                            "on-secondary-fixed-variant": "#474746",
+                            "surface-container": "#eeeeee",
+                            "on-error-container": "#93000a",
+                            "on-tertiary": "#ffffff",
+                            "tertiary-fixed": "#c6e7ff",
+                            "surface-container-highest": "#e2e2e2",
+                            "inverse-surface": "#2f3131",
+                            "inverse-on-surface": "#f1f1f1",
+                            "primary-fixed": "#ffddb7",
+                            "surface-variant": "#e2e2e2",
+                            "on-surface-variant": "#524434",
+                            "surface-tint": "#845400",
+                            "on-primary-fixed-variant": "#643f00",
+                            "tertiary-container": "#2cbdff",
+                            "surface-dim": "#dadada",
+                            "secondary-container": "#e2dfde",
+                            "outline-variant": "#d8c3ae",
+                            "on-surface": "#1a1c1c",
+                            "on-error": "#ffffff",
+                            "error-container": "#ffdad6",
+                            "background": "#f9f9f9",
+                            "inverse-primary": "#ffb95b",
+                            "tertiary": "#00658d",
+                            "secondary-fixed": "#e5e2e1",
+                            "primary-fixed-dim": "#ffb95b",
+                            "on-secondary-fixed": "#1c1b1b",
+                            "error": "#ba1a1a",
+                            "primary-container": "#f2a01d",
+                            "surface-container-high": "#e8e8e8",
+                            "on-secondary-container": "#636262",
+                            "on-tertiary-fixed-variant": "#004c6b",
+                            "outline": "#857462",
+                            "surface-bright": "#f9f9f9",
+                            "surface": "#f9f9f9",
+                            "on-tertiary-fixed": "#001e2d",
+                            "on-background": "#1a1c1c"
+                        },
+                        "borderRadius": {
+                            "DEFAULT": "0.5rem",
+                            "lg": "0.5rem",
+                            "xl": "0.75rem",
+                            "full": "9999px"
+                        },
+                        "spacing": {
+                            "gutter": "16px",
+                            "base": "4px",
+                            "xl": "64px",
+                            "sm": "16px",
+                            "xs": "8px",
+                            "margin-mobile": "16px",
+                            "margin-desktop": "32px",
+                            "lg": "40px",
+                            "md": "24px"
+                        },
+                        "fontFamily": {
+                            "label-sm": ["Plus Jakarta Sans"],
+                            "headline-lg-mobile": ["Plus Jakarta Sans"],
+                            "body-lg": ["Plus Jakarta Sans"],
+                            "headline-md": ["Plus Jakarta Sans"],
+                            "body-sm": ["Plus Jakarta Sans"],
+                            "label-bold": ["Plus Jakarta Sans"],
+                            "headline-lg": ["Plus Jakarta Sans"]
+                        },
+                        "fontSize": {
+                            "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                            "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                            "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                            "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                            "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                            "label-bold": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                            "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                        }
+                    },
+                },
+            }
+        </script>
+        <style>
+            .material-symbols-outlined {
+                font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+                vertical-align: middle;
+            }
+            ::-webkit-scrollbar {
+                width: 6px;
+            }
+            ::-webkit-scrollbar-track {
+                background: #f9f9f9;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: #dadada;
+                border-radius: 10px;
+            }
+        </style>
     </head>
+    <body class="bg-background text-on-surface font-body-lg overflow-hidden h-screen flex flex-col">
+        <!-- Main Content Wrapper -->
+        <main id="app-content" class="flex-1 flex flex-col overflow-y-auto pb-32">
+            <!-- Header -->
+            <header class="sticky top-0 z-40 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10 shadow-sm flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 w-full">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-primary-container rounded-lg flex items-center justify-center">
+                        <span class="text-on-primary-container font-black text-xl">JB</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-headline-md text-primary-container leading-none">JEF BINOMED</span>
+                        <span class="text-[10px] text-on-surface-variant uppercase tracking-widest mt-1">Premium House Mixes</span>
+                    </div>
+                </div>
+            </header>
 
-    <body>
-        <!-- Link to the podcast -->
-        <!--<div id="podcast">
-        Also available on <a href="https://podcasts.apple.com/fr/podcast/dj-dadoo-net-mixes/id505824965">iTunes</a>
-    </div>-->
-
-        <!-- Top Info -->
-        <div id="title">
-            <span id="track"></span>
-            <div id="timer">0:00</div>
-            <div id="duration">0:00</div>
-            <div><img id="image" src="./img/binomed_sun_flower.png" /></div>
-        </div>
-
-        <!-- Controls -->
-        <div class="controlsOuter">
-            <div class="controlsInner">
-                <div id="loading"></div>
-                <div class="btn" id="playBtn"></div>
-                <div class="btn" id="pauseBtn"></div>
-                <div class="btn" id="prevBtn"></div>
-                <div class="btn" id="nextBtn"></div>
+            <!-- Page Container (Dynamic Content) -->
+            <div id="page-container" class="px-margin-mobile md:px-margin-desktop py-lg max-w-[1200px] mx-auto w-full">
+                <!-- Temporary Loading State -->
+                <div id="loading-view" class="flex items-center justify-center h-64">
+                    <div class="animate-pulse text-primary font-bold">Chargement des mixs...</div>
+                </div>
             </div>
-            <div class="btn" id="playlistBtn"></div>
-            <div class="btn" id="volumeBtn"></div>
-        </div>
+        </main>
 
-        <!-- Progress -->
-        <div id="waveform"></div>
-        <div id="bar"></div>
-        <div id="progress"></div>
+        <!-- Player Footer (Empty for now, implemented in Phase 2) -->
+        <footer id="global-player" class="fixed bottom-0 left-0 w-full z-[60]"></footer>
 
-        <!-- Playlist -->
-        <div id="playlist">
-            <div id="list"></div>
-        </div>
-
-        <!-- Volume -->
-        <div id="volume" class="fadeout">
-            <div id="barFull" class="bar"></div>
-            <div id="barEmpty" class="bar"></div>
-            <div id="sliderBtn"></div>
+        <!-- Mock elements for transition (Phase 1) to avoid JS errors in player.js -->
+        <div id="mock-elements" style="display: none;">
+            <div id="track"></div>
+            <div id="timer"></div>
+            <div id="duration"></div>
+            <div id="playBtn"></div>
+            <div id="pauseBtn"></div>
+            <div id="prevBtn"></div>
+            <div id="nextBtn"></div>
+            <div id="playlistBtn"></div>
+            <div id="volumeBtn"></div>
+            <div id="progress"></div>
+            <div id="bar"></div>
+            <div id="loading"></div>
+            <div id="playlist">
+                <div id="list"></div>
+            </div>
+            <div id="volume">
+                <div id="barEmpty"></div>
+                <div id="barFull"></div>
+                <div id="sliderBtn"></div>
+            </div>
+            <img id="image" src="" />
+            <div id="waveform"></div>
         </div>
 
         <!-- Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+        <!-- Siriwave placeholder, will be removed in Phase 4 -->
         <script src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
         <script src="./playlist.js"></script>
         <script src="./js/player.js"></script>
