@@ -256,6 +256,9 @@ Player.prototype = {
         timer.innerHTML = self.formatTime(Math.round(seek));
         var per = (seek / sound.duration()) || 0;
         progress.style.width = (per * 100) + '%';
+        
+        // Update ARIA for progress
+        player_progress_container.setAttribute('aria-valuenow', Math.round(per * 100));
 
         // Update detail components if active
         window.dispatchEvent(new CustomEvent('player-timeupdate', { 
@@ -276,24 +279,14 @@ Player.prototype = {
      * Toggle the playlist display on/off.
      */
     togglePlaylist: function () {
-        if (!playlist) return;
-        var self = this;
-        var display = playlist.style.display === 'block' ? 'none' : 'block';
-
-        setTimeout(
-            function () {
-                playlist.style.display = display;
-            },
-            display === 'block' ? 0 : 500
-        );
-        playlist.className = display === 'block' ? 'fadein' : 'fadeout';
+        // Not used anymore in Phase 5
     },
 
     /**
      * Toggle the volume display on/off.
      */
     toggleVolume: function () {
-        // Not used anymore in the new design as volume is always visible or handled differently
+        // Not used anymore in Phase 5
     },
 
     /**
@@ -341,9 +334,10 @@ player_volume_container.addEventListener('click', function (event) {
     var x = event.clientX - rect.left;
     var per = Math.min(1, Math.max(0, x / rect.width));
     player.volume(per);
+    player_volume_container.setAttribute('aria-valuenow', Math.round(per * 100));
 });
 
-// Setup the event listeners to enable dragging of volume slider (Simplified for Phase 2)
+// Setup the event listeners to enable dragging of volume slider
 var moveVolume = function (event) {
     if (window.sliderDown) {
         var x = event.clientX || (event.touches ? event.touches[0].clientX : 0);
@@ -351,6 +345,7 @@ var moveVolume = function (event) {
         var layerX = x - rect.left;
         var per = Math.min(1, Math.max(0, layerX / rect.width));
         player.volume(per);
+        player_volume_container.setAttribute('aria-valuenow', Math.round(per * 100));
     }
 };
 
@@ -358,35 +353,3 @@ player_volume_container.addEventListener('mousedown', function () { window.slide
 window.addEventListener('mouseup', function () { window.sliderDown = false; });
 window.addEventListener('mousemove', moveVolume);
 
-/* Setup the "waveform" animation.
-var wave = new SiriWave({
-    container: waveform,
-    style: 'ios9',
-    ratio: 1,
-    speed: 0.03,
-    amplitude: 3,
-    frequency: 2,
-});
-wave.stop(); */
-
-// Mock wave object to avoid errors in Player.prototype.play
-var wave = {
-    start: function() {},
-    stop: function() {}
-};
-
-// Update the height of the wave animation.
-var resize = function () {
-    // Update the position of the slider.
-    if (player && player.playlist && player.playlist[player.index]) {
-        var sound = player.playlist[player.index].howl;
-        if (sound) {
-            var vol = sound.volume();
-            var barWidth = vol * 0.9;
-            sliderBtn.style.left =
-                window.innerWidth * barWidth + window.innerWidth * 0.05 - 25 + 'px';
-        }
-    }
-};
-window.addEventListener('resize', resize);
-resize();

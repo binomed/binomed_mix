@@ -54,18 +54,18 @@ const App = {
         let html = `
             <section class="mb-lg relative rounded-3xl overflow-hidden aspect-[16/9] md:aspect-[21/9] group shadow-xl cursor-pointer" onclick="App.renderDetail(0)">
                 <img src="${featured.image}" alt="${featured.title}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 p-8 md:p-12 w-full flex flex-col md:flex-row md:items-end md:justify-between gap-6">
                     <div class="flex-1 min-w-0">
                         <div class="flex items-center gap-3 mb-4">
                             <span class="px-3 py-1 bg-primary-container text-on-primary-container text-[10px] font-extrabold uppercase tracking-widest rounded-full">Dernière Sortie</span>
                             <span class="text-white/80 font-label-bold text-label-bold uppercase">${this.formatDateFromTitle(featured.title)}</span>
                         </div>
-                        <h1 class="font-headline-lg text-headline-lg text-white leading-tight mb-2 truncate">${this.cleanTitle(featured.title)}</h1>
+                        <h1 class="font-headline-lg text-headline-lg text-white leading-tight mb-2 truncate" style="text-shadow: 0 2px 10px rgba(0,0,0,0.5)">${this.cleanTitle(featured.title)}</h1>
                         <p class="text-white/80 font-body-lg text-body-lg max-w-xl">Cliquez pour voir les détails et la tracklist.</p>
                     </div>
                     <div class="flex flex-col items-center gap-2">
-                        <button class="flex items-center justify-center gap-3 bg-primary-container text-on-primary-container px-10 py-5 rounded-full font-bold text-lg active-glow transition-all hover:scale-105 active:scale-95 group" onclick="event.stopPropagation(); player.play(0)">
+                        <button class="flex items-center justify-center gap-3 bg-primary-container text-on-primary-container px-10 py-5 rounded-full font-bold text-lg active-glow transition-all hover:scale-105 active:scale-95 group" onclick="event.stopPropagation(); player.play(0)" aria-label="Écouter le dernier mix">
                             <span class="material-symbols-outlined scale-150" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
                             <span>ÉCOUTER</span>
                         </button>
@@ -79,11 +79,11 @@ const App = {
                     <h2 class="font-headline-lg text-headline-lg text-on-surface">Anciens Mixs</h2>
                     <span class="text-secondary font-label-bold text-label-bold">${pastMixes.length} MIXS DISPONIBLES</span>
                 </div>
-                <div class="flex flex-col border border-outline-variant/30 rounded-xl overflow-hidden bg-surface-container-lowest">
+                <div class="flex flex-col border border-outline-variant/30 rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm">
                     ${pastMixes.map((mix, index) => `
-                        <div class="flex items-center gap-md p-4 hover:bg-surface-container transition-colors border-b border-outline-variant/10 group cursor-pointer" onclick="App.renderDetail(${index + 1})">
+                        <div class="flex items-center gap-md p-4 hover:bg-surface-container transition-colors border-b border-outline-variant/10 group cursor-pointer" onclick="App.renderDetail(${index + 1})" role="link" aria-label="Détail du mix ${this.cleanTitle(mix.title)}">
                             <div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-primary-fixed">
-                                <img src="${mix.image}" alt="${mix.title}" class="w-full h-full object-cover">
+                                <img src="${mix.image}" alt="" class="w-full h-full object-cover">
                             </div>
                             <div class="flex-1 min-w-0">
                                 <h3 class="font-bold text-on-surface truncate group-hover:text-primary transition-colors">${this.cleanTitle(mix.title)}</h3>
@@ -91,7 +91,7 @@ const App = {
                             </div>
                             <div class="flex items-center gap-4">
                                 ${this.durations[mix.file] ? `<span class="text-xs font-bold text-on-surface-variant bg-surface-container-high px-2 py-1 rounded">${this.durations[mix.file]}</span>` : ''}
-                                <button onclick="event.stopPropagation(); player.play(${index + 1})" class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity">play_circle</button>
+                                <button onclick="event.stopPropagation(); player.play(${index + 1})" class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity" aria-label="Jouer ce mix">play_circle</button>
                             </div>
                         </div>
                     `).join('')}
@@ -100,6 +100,7 @@ const App = {
         `;
 
         this.pageContainer.innerHTML = html;
+        this.pageContainer.focus();
         window.scrollTo(0, 0);
     },
 
@@ -111,7 +112,7 @@ const App = {
         
         let html = `
             <div class="flex flex-col gap-lg animate-in fade-in slide-in-from-bottom-4 duration-500 pb-12">
-                <button onclick="App.renderHome()" class="flex items-center gap-2 text-primary font-bold hover:underline self-start">
+                <button onclick="App.renderHome()" class="flex items-center gap-2 text-primary font-bold hover:underline self-start focus:outline-none focus:ring-2 focus:ring-primary rounded-lg px-2 py-1">
                     <span class="material-symbols-outlined">arrow_back</span>
                     RETOUR À L'ACCUEIL
                 </button>
@@ -119,7 +120,7 @@ const App = {
                 <div class="grid grid-cols-1 md:grid-cols-12 gap-lg lg:gap-xl">
                     <section class="md:col-span-5 flex flex-col gap-md">
                         <div class="aspect-square w-full rounded-2xl overflow-hidden border border-outline-variant bg-surface-container-low shadow-lg">
-                            <img src="${mix.image}" alt="${mix.title}" class="w-full h-full object-cover">
+                            <img src="${mix.image}" alt="Pochette du mix" class="w-full h-full object-cover">
                         </div>
                         <div class="flex flex-col gap-xs mt-2">
                             <div class="flex items-center gap-2">
@@ -130,17 +131,17 @@ const App = {
                             <p class="text-secondary font-body-lg">${duration} • Curated by JefBinomed</p>
                         </div>
 
-                        <div class="bg-surface-container-low border border-outline-variant rounded-xl p-6 mt-2 relative overflow-hidden group">
-                            <div id="detail-waveform" class="flex items-end justify-between h-24 gap-[3px] cursor-pointer">
+                        <div class="bg-surface-container-low border border-outline-variant rounded-xl p-6 mt-2 relative overflow-hidden group shadow-sm">
+                            <div id="detail-waveform" class="flex items-end justify-between h-24 gap-[3px] cursor-pointer" role="slider" aria-label="Navigation dans le mix" aria-valuemin="0" aria-valuemax="100">
                                 ${this.generateWaveformHtml()}
                             </div>
                             <div class="flex justify-between mt-4">
-                                <span id="detail-timer" class="text-label-sm font-bold text-primary">0:00</span>
+                                <span id="detail-timer" class="text-label-sm font-bold text-primary" aria-live="polite">0:00</span>
                                 <span class="text-label-sm font-bold text-secondary">${duration}</span>
                             </div>
                         </div>
 
-                        <button onclick="player.play(${index})" class="flex items-center justify-center gap-3 bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform active:scale-95 shadow-md">
+                        <button onclick="player.play(${index})" class="flex items-center justify-center gap-3 bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform active:scale-95 shadow-md focus:outline-none focus:ring-2 focus:ring-primary">
                             <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">play_circle</span>
                             LANCER LE MIX
                         </button>
@@ -165,6 +166,7 @@ const App = {
         `;
 
         this.pageContainer.innerHTML = html;
+        this.pageContainer.focus();
         window.scrollTo(0, 0);
         this.initDetailWaveform();
         this.loadDetailedTracklist(mix);
