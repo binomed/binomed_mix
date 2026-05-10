@@ -229,13 +229,15 @@ Player.prototype = {
      */
     seek: function (per) {
         var self = this;
-
-        // Get the Howl we want to manipulate.
         var sound = self.howl;
 
-        // Convert the percent into a seek position.
-        if (sound && sound.playing()) {
+        if (sound) {
+            window.isSeeking = true;
             sound.seek(sound.duration() * per);
+            // Re-trigger step just in case
+            requestAnimationFrame(self.step.bind(self));
+            // Reset seeking state shortly after
+            setTimeout(function() { window.isSeeking = false; }, 200);
         }
     },
 
@@ -247,14 +249,25 @@ Player.prototype = {
 
         // Get the Howl we want to manipulate.
         var sound = self.howl;
+        if (!sound) return;
 
         // Determine our current seek position.
         var seek = sound.seek() || 0;
         timer.innerHTML = self.formatTime(Math.round(seek));
-        progress.style.width = ((seek / sound.duration()) * 100 || 0) + '%';
+        var per = (seek / sound.duration()) || 0;
+        progress.style.width = (per * 100) + '%';
 
-        // If the sound is still playing, continue stepping.
-        if (sound.playing()) {
+        // Update detail components if active
+        window.dispatchEvent(new CustomEvent('player-timeupdate', { 
+            detail: { 
+                seek: seek, 
+                duration: sound.duration(), 
+                per: per 
+            } 
+        }));
+
+        // If the sound is still playing or in a transitional state (loading/seeking), continue stepping.
+        if (sound.playing() || sound.state() === 'loading' || window.isSeeking) {
             requestAnimationFrame(self.step.bind(self));
         }
     },
