@@ -1,0 +1,38 @@
+<recordEvents length="3607.2410883750008">
+  <track song="Come Back Home" artist="Al Kent" album="Secret Sounds" bpm="127.225" tonality="d  min">
+    <interval start="2512.0154977916673" end="2525.0326431666672"/>
+    <interval start="2562.8633991666675" end="2934.373855875001"/>
+  </track>
+  <track song="I'll Be There (feat. Nile Rodgers)" artist="Chic/Nile Rodgers" album="I'll Be There (feat. Nile Rodgers)" bpm="125" tonality="a  min">
+    <interval start="943.33392070833338" end="1264.5709640416669"/>
+  </track>
+  <track song="Do You Want the Real Thing" artist="D.C. Larue" album="NYC Nights" bpm="118" tonality="a  min">
+    <interval start="0.36070554166667534" end="299.06030679166656"/>
+  </track>
+  <track song="Girl You Need a Change of Mind (John Morales M+M mix)" artist="Eddie Kendricks" album="The M+M Mixes, Volume IV: The Ultimate Collection" bpm="116" tonality="d  min">
+    <interval start="2112.6702591250005" end="2639.6746232500009"/>
+  </track>
+  <track song="The Mystery with Me" artist="Joe Bisso" album="The Mystery with Me" bpm="116.66" tonality="e  min">
+    <interval start="1507.5110232083337" end="1854.9929909583336"/>
+  </track>
+  <track song="One On One" artist="L.T.D." album="Devotion" bpm="123.24" tonality="e  min">
+    <interval start="675.52158725000004" end="685.28842370833331"/>
+    <interval start="687.06604408333328" end="962.33251745833354"/>
+  </track>
+  <track song="Gigolo" artist="Mary Wells" album="In And Out Of Love (Bonus Track Version)" bpm="115.283" tonality="e  min">
+    <interval start="270.14118470833341" end="697.27225108333346"/>
+  </track>
+  <track song="We Will Learn  (Extended Mix)" artist="Michelle Weeks &amp; 10&amp;Change" album="We Will Learn" bpm="125" tonality="a  min">
+    <interval start="1220.8809651250001" end="1527.640300291667"/>
+  </track>
+  <track song="Ghost Town (extended mix)" artist="Purple Disco Machine feat. Retrosonix" album="Ghost Town" bpm="130" tonality="b  min">
+    <interval start="1819.5295222083339" end="2147.416573708334"/>
+  </track>
+  <track song="Super Lover" artist="Rena Scott" album="Come On Inside" bpm="125.706" tonality="a  min">
+    <interval start="2902.6390602500005" end="2903.6591617916674"/>
+    <interval start="2905.4230546666677" end="3244.6909601666675"/>
+  </track>
+  <track song="Love Is Finally Comin My Way (Version Available SalSoul 12&quot;)" artist="True Example" album="12&quot; Master Series Vol. 1" bpm="124" tonality="f# min">
+    <interval start="3210.1701833333345" end="3607.2403737500008"/>
+  </track>
+</recordEvents>
