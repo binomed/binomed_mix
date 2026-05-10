@@ -86,34 +86,31 @@ Player.prototype = {
         index = typeof index === 'number' ? index : self.index;
         var data = self.playlist[index];
 
+        // If we want to play a DIFFERENT track than the current one
+        if (this.index !== index && this.howl) {
+            this.howl.stop();
+            this.howl.unload();
+            this.howl = null;
+        }
+
         // If we already loaded this track, use the current one.
         // Otherwise, setup and load a new Howl.
         if (this.howl) {
             sound = this.howl;
         } else {
+            this.index = index; // Update current index before loading
             sound = this.howl = new Howl({
                 src: data.file,
-                html5: true, // Force to HTML5 so that the audio can stream in (best for large files).
+                html5: true,
                 onplay: function () {
-                    // Display the duration.
-                    duration.innerHTML = self.formatTime(
-                        Math.round(sound.duration())
-                    );
-
-                    // Start updating the progress of the track.
+                    duration.innerHTML = self.formatTime(Math.round(sound.duration()));
                     requestAnimationFrame(self.step.bind(self));
-
-                    // Update UI
                     player_play_icon.innerHTML = 'pause_circle';
                     if (loading) loading.style.display = 'none';
                 },
                 onload: function () {
                     if (loading) loading.style.display = 'none';
-                    if (data.image != null) {
-                        image.src = data.image;
-                    } else {
-                        image.src = 'djdadoo-new.jpg';
-                    }
+                    image.src = data.image || 'djdadoo-new.jpg';
                 },
                 onend: function () {
                     self.skip('next');
@@ -125,7 +122,6 @@ Player.prototype = {
                     player_play_icon.innerHTML = 'play_circle';
                 },
                 onseek: function () {
-                    // Start updating the progress of the track.
                     requestAnimationFrame(self.step.bind(self));
                 },
             });
@@ -144,9 +140,6 @@ Player.prototype = {
             if (loading) loading.style.display = 'block';
             player_play_icon.innerHTML = 'play_circle';
         }
-
-        // Keep track of the index we are currently playing.
-        self.index = index;
     },
 
     /**
