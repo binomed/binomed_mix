@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BEAT AMBIENT - Premium House Music</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed-dim": "#81cfff",
+                        "on-tertiary-container": "#004967",
+                        "on-primary-container": "#613c00",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "on-secondary": "#ffffff",
+                        "primary": "#845400",
+                        "surface-container-low": "#f3f3f3",
+                        "secondary": "#5f5e5e",
+                        "on-primary-fixed": "#2a1800",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#474746",
+                        "surface-container": "#eeeeee",
+                        "on-error-container": "#93000a",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#c6e7ff",
+                        "surface-container-highest": "#e2e2e2",
+                        "inverse-surface": "#2f3131",
+                        "inverse-on-surface": "#f1f1f1",
+                        "primary-fixed": "#ffddb7",
+                        "surface-variant": "#e2e2e2",
+                        "on-surface-variant": "#524434",
+                        "surface-tint": "#845400",
+                        "on-primary-fixed-variant": "#643f00",
+                        "tertiary-container": "#2cbdff",
+                        "surface-dim": "#dadada",
+                        "secondary-container": "#e2dfde",
+                        "outline-variant": "#d8c3ae",
+                        "on-surface": "#1a1c1c",
+                        "on-error": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "background": "#f9f9f9",
+                        "inverse-primary": "#ffb95b",
+                        "tertiary": "#00658d",
+                        "secondary-fixed": "#e5e2e1",
+                        "primary-fixed-dim": "#ffb95b",
+                        "on-secondary-fixed": "#1c1b1b",
+                        "error": "#ba1a1a",
+                        "primary-container": "#f2a01d",
+                        "surface-container-high": "#e8e8e8",
+                        "on-secondary-container": "#636262",
+                        "on-tertiary-fixed-variant": "#004c6b",
+                        "outline": "#857462",
+                        "surface-bright": "#f9f9f9",
+                        "surface": "#f9f9f9",
+                        "on-tertiary-fixed": "#001e2d",
+                        "on-background": "#1a1c1c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "16px",
+                        "base": "4px",
+                        "xl": "64px",
+                        "sm": "16px",
+                        "xs": "8px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "32px",
+                        "lg": "40px",
+                        "md": "24px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Plus Jakarta Sans"],
+                        "headline-lg-mobile": ["Plus Jakarta Sans"],
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "body-sm": ["Plus Jakarta Sans"],
+                        "label-bold": ["Plus Jakarta Sans"],
+                        "headline-lg": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                        "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "label-bold": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .active-glow {
+            box-shadow: 0px 0px 20px rgba(242, 160, 29, 0.3);
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f9f9f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #dadada;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-lg overflow-hidden h-screen flex flex-col">
+<!-- Main Content Wrapper -->
+<main class="flex-1 flex flex-col overflow-y-auto pb-32">
+<!-- Top App Bar -->
+<header class="sticky top-0 z-40 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10 shadow-sm flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 w-full">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary-container rounded-lg flex items-center justify-center">
+<span class="text-on-primary-container font-black text-xl">BA</span>
+</div>
+<div class="flex flex-col">
+<span class="font-bold text-headline-md text-primary-container leading-none">BEAT AMBIENT</span>
+<span class="text-[10px] text-on-surface-variant uppercase tracking-widest mt-1">Premium Listener</span>
+</div>
+</div>
+<!-- Right side icons removed per request -->
+<div class="flex items-center gap-4">
+<!-- Search and settings icons removed -->
+</div>
+</header>
+<!-- Content Canvas -->
+<div class="px-margin-mobile md:px-margin-desktop py-lg max-w-[1200px] mx-auto w-full">
+<!-- Featured Section: Latest Mix -->
+<section class="mb-lg relative rounded-3xl overflow-hidden aspect-[16/9] md:aspect-[21/9] group shadow-xl">
+<img alt="Featured Mix" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSNWMDLZI5u7GSeoxiJ_wLSKJ5foC86Aw6ZC7iiool1tZAs1ReOFpnRf1tEcZWNZQWx7MCYxS9G7IcV2njxYpCPF8qLmCE5TGpJrumRf4WOSuCPGPwiaH6Rt41VgJlXQFZ-rjePQZkVV63uiKzSW87HjKyDuEW-Ac-RhX_82Zub58ounBHBgGCoqbN_NERoOWcKJHIYcwhjm0badoRX-GjvtXXuOwDCIzuOSuQXogCM9J1RCgo-1AWymikuBW3W4AX4yVBTfpySjhs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 md:p-12 w-full flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 bg-primary-container text-on-primary-container text-[10px] font-extrabold uppercase tracking-widest rounded-full">New Release</span>
+<span class="text-white/80 font-label-bold text-label-bold">OCT 24, 2023</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-white leading-tight mb-2">Midnight Horizon: Session 48</h1>
+<p class="text-white/80 font-body-lg text-body-lg max-w-xl">An immersive two-hour journey through melodic house and deep techno textures. Curated for late-night focus and rhythmic flow.</p>
+</div>
+<button class="flex items-center justify-center gap-3 bg-primary-container text-on-primary-container px-10 py-5 rounded-full font-bold text-lg active-glow transition-all hover:scale-105 active:scale-95 group">
+<span class="material-symbols-outlined scale-150" data-icon="play_arrow" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+<span>PLAY NOW</span>
+</button>
+</div>
+</section>
+<!-- List Section: Past Mixes (Direct List instead of cards) -->
+<section>
+<div class="flex items-center justify-between mb-sm">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Past Mixes</h2>
+<button class="text-primary font-label-bold text-label-bold flex items-center gap-1 hover:underline">
+                    View All <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+<div class="flex flex-col border border-outline-variant/30 rounded-xl overflow-hidden bg-surface-container-lowest">
+<!-- List Item 1 -->
+<div class="flex items-center gap-md p-4 hover:bg-surface-container transition-colors border-b border-outline-variant/10 group cursor-pointer">
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Mix thumbnail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCT3gYZeNapr5jLlJZ89yLgWljVcO32uM3Fru2R21mHuAjHDzOwIMm5CqA3bKnyl2x3qh994dKDuouzDS9Rm-eo5c2AZk0v8WmEi2t4M3d6flp7uN0YH59RUCpX9Fjtv6pGV8sGpEA_K2H7kVjbw_Mok7xKwi4pguOwmowgqRgOvMP7Nm7M2n5T8flFEDKQyqGbajZg9GLuxoErFN7-mVgectRKHAjbWmO1Wbbq98MeDk2_C_f7_IFwfsDtDZKqBzpNbMcHyQx0EnAV"/>
+</div>
+<div class="flex-1 min-w-0">
+<h3 class="font-bold text-on-surface truncate group-hover:text-primary transition-colors">Urban Pulse: Echoes of Berlin</h3>
+<p class="text-sm text-on-surface-variant truncate">Sept 29, 2023 • Exploring gritty basslines</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="text-xs font-bold text-on-surface-variant bg-surface-container-high px-2 py-1 rounded">1:42:10</span>
+<span class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity" data-icon="play_circle">play_circle</span>
+</div>
+</div>
+<!-- List Item 2 -->
+<div class="flex items-center gap-md p-4 hover:bg-surface-container transition-colors border-b border-outline-variant/10 group cursor-pointer">
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Mix thumbnail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBv6eWk3OHMdoVxC2Xgk0JH8E8Lk601rBdGZ7Uvgj-VMosGe56f2PAE00cvLP1YWHho-h0dXTTsG-hvbxu7mLFID-i6iBWVnwNMUuy9LP3Ea-ECYvbzx3Jszu5URTUoV5PHn2Wkx9tazE-Sb98gNYiq_6FY2OKo8kqGrb9zDlLpIPUgYz9O-HtKgwIZsue3Ls1TCgaRtw-6c0iYJc8S5ccM_KzLOnr434zoS2UqJwP4IDeBKLe5ILg79ayaydDTB2NLaWQorP4uNXpp"/>
+</div>
+<div class="flex-1 min-w-0">
+<h3 class="font-bold text-on-surface truncate group-hover:text-primary transition-colors">Golden Hour: Sunset Melodics</h3>
+<p class="text-sm text-on-surface-variant truncate">Sept 15, 2023 • Warm, uplifting progressive house</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="text-xs font-bold text-on-surface-variant bg-surface-container-high px-2 py-1 rounded">2:05:30</span>
+<span class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity" data-icon="play_circle">play_circle</span>
+</div>
+</div>
+<!-- List Item 3 -->
+<div class="flex items-center gap-md p-4 hover:bg-surface-container transition-colors group cursor-pointer">
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="Mix thumbnail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYtX6lk5qB3g2b3BhflhYiQmPsaP0gIjdojkA_7-qKn4qllSOvjRCUgVkvUS8LmP90BaKgzUVwri9fPS42fCeDr_T522191S3FM6Moqnd1sHnzLX5hOtchB4SeWiIuM10fujzmNHhupKHcoSo2mwpyatIfvCWy_AdgjtXJ4lCIo0cdjQD6mAYnp2cz72KU_55dRKcj3aDy-LZntDES1D-Yj1In4TBBYq_SRKNTKYUDJvUVDztTxol8FFl-uK4q8bPPP1pjhtLtahxA"/>
+</div>
+<div class="flex-1 min-w-0">
+<h3 class="font-bold text-on-surface truncate group-hover:text-primary transition-colors">Deep Synthesis: Modular Flow</h3>
+<p class="text-sm text-on-surface-variant truncate">Aug 30, 2023 • Technical deep-dive into modular synthesizers</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="text-xs font-bold text-on-surface-variant bg-surface-container-high px-2 py-1 rounded">1:30:00</span>
+<span class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity" data-icon="play_circle">play_circle</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Player Component (Fixed Bottom) - Light Theme from SCREEN_9 -->
+<footer class="fixed bottom-0 left-0 w-full z-[60] bg-surface-container-low/95 backdrop-blur-xl border-t border-outline-variant shadow-[0px_-10px_30px_rgba(0,0,0,0.05)] px-margin-mobile md:px-margin-desktop py-4">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-3">
+<!-- Progress Bar -->
+<div class="flex flex-col items-center gap-1 w-full">
+<div class="flex justify-between w-full text-[10px] text-secondary font-bold mb-1">
+<span>12:45</span>
+<span>58:24</span>
+</div>
+<div class="w-full h-1 bg-outline-variant rounded-full relative overflow-hidden cursor-pointer group">
+<div class="absolute left-0 top-0 h-full w-[35%] bg-primary rounded-full"></div>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<!-- Now Playing Meta -->
+<div class="flex items-center gap-sm flex-1">
+<div class="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-primary shadow-md">
+<img alt="Now Playing" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6wb-ixKrNL_kmuSZJ_6JiOo_mpxHd_uNU6KIgiSwj9U4pdc_IbNkV_fjo_VQC2SgzbsTGmBmn6PWTE1EdbVu5UaxLK19ECr_4dCXobvUEpdVawZJ44uXH9dwcRqwqozuVCBXT0Hq1RJ_2JP2LWfhFTj3sBfsCtroJBVcCAZ9mge_JWAHX-N_-Wm8f6aMb7OrkEpks8kC1qbnhbmXtGc2rUIBwMj3FVorAo5GWSfUc-Cg1jWoIncBSFkPfCQirE9qDdknJi5jFeos7"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-bold text-label-bold text-on-surface truncate">Midnight Horizon: Session 48</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-tighter">Live Mix Series</span>
+</div>
+</div>
+<!-- Player Controls -->
+<div class="flex items-center gap-6 md:gap-8 flex-none px-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-2xl" data-icon="skip_previous">skip_previous</span>
+</button>
+<button class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center active:scale-95 transition-all shadow-md">
+<span class="material-symbols-outlined text-3xl" data-icon="play_circle" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-2xl" data-icon="skip_next">skip_next</span>
+</button>
+</div>
+<!-- Volume/Extras -->
+<div class="hidden md:flex items-center justify-end gap-6 flex-1">
+<button class="flex flex-col items-center text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="queue_music">queue_music</span>
+<span class="text-[10px] font-bold uppercase">Mixes</span>
+</button>
+<button class="flex flex-col items-center text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="local_library">local_library</span>
+<span class="text-[10px] font-bold uppercase">Library</span>
+</button>
+<div class="flex items-center gap-2 border-l border-outline-variant pl-6">
+<span class="material-symbols-outlined text-on-surface-variant text-xl" data-icon="volume_up">volume_up</span>
+<div class="w-20 h-1 bg-outline-variant rounded-full overflow-hidden">
+<div class="h-full w-[70%] bg-primary rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

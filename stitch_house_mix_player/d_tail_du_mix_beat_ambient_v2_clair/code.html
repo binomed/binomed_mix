@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-error": "#ffffff",
+                    "secondary": "#5f5e5e",
+                    "inverse-surface": "#2f3131",
+                    "on-background": "#1a1c1c",
+                    "primary-fixed-dim": "#ffb95b",
+                    "on-secondary-container": "#636262",
+                    "surface-container": "#eeeeee",
+                    "outline": "#857462",
+                    "primary-fixed": "#ffddb7",
+                    "background": "#f9f9f9",
+                    "primary": "#845400",
+                    "surface-tint": "#845400",
+                    "secondary-fixed-dim": "#c8c6c5",
+                    "on-primary-fixed": "#2a1800",
+                    "surface-container-low": "#f3f3f3",
+                    "surface-container-high": "#e8e8e8",
+                    "on-primary": "#ffffff",
+                    "surface-dim": "#dadada",
+                    "on-tertiary-fixed-variant": "#004c6b",
+                    "on-surface": "#1a1c1c",
+                    "surface": "#f9f9f9",
+                    "outline-variant": "#d8c3ae",
+                    "on-primary-container": "#613c00",
+                    "on-secondary": "#ffffff",
+                    "inverse-on-surface": "#f1f1f1",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-secondary-fixed": "#1c1b1b",
+                    "tertiary": "#00658d",
+                    "inverse-primary": "#ffb95b",
+                    "primary-container": "#f2a01d",
+                    "surface-variant": "#e2e2e2",
+                    "on-tertiary": "#ffffff",
+                    "on-surface-variant": "#524434",
+                    "tertiary-fixed-dim": "#81cfff",
+                    "secondary-container": "#e2dfde",
+                    "tertiary-container": "#2cbdff",
+                    "surface-bright": "#f9f9f9",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary-fixed-variant": "#474746",
+                    "on-tertiary-container": "#004967",
+                    "on-tertiary-fixed": "#001e2d",
+                    "secondary-fixed": "#e5e2e1",
+                    "tertiary-fixed": "#c6e7ff",
+                    "on-error-container": "#93000a",
+                    "on-primary-fixed-variant": "#643f00"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "lg": "40px",
+                    "xl": "64px",
+                    "margin-desktop": "32px",
+                    "margin-mobile": "16px",
+                    "md": "24px",
+                    "base": "4px",
+                    "gutter": "16px",
+                    "sm": "16px",
+                    "xs": "8px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Plus Jakarta Sans"],
+                    "headline-lg-mobile": ["Plus Jakarta Sans"],
+                    "body-lg": ["Plus Jakarta Sans"],
+                    "body-sm": ["Plus Jakarta Sans"],
+                    "label-sm": ["Plus Jakarta Sans"],
+                    "label-bold": ["Plus Jakarta Sans"],
+                    "headline-md": ["Plus Jakarta Sans"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "label-bold": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                    "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .waveform-bar {
+            width: 3px;
+            border-radius: 4px;
+            background-color: #e5e5e5;
+            transition: height 0.2s ease;
+        }
+        .waveform-bar.active {
+            background-color: #f2a01d;
+        }
+        .waveform-bar.played {
+            background-color: #845400;
+        }
+        body {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body class="font-body-lg text-on-background selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation -->
+<header class="bg-surface border-b border-outline-variant flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 w-full sticky top-0 z-50">
+<a class="flex items-center gap-xs font-headline-md text-headline-md text-primary font-bold tracking-tight hover:opacity-80 transition-opacity" href="/">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">home</span>
+  HouseMixes
+</a>
+<nav class="hidden md:flex items-center gap-xl">
+<a class="text-primary border-b-2 border-primary pb-1 font-body-lg text-body-lg" href="#">Mixes</a>
+<a class="text-secondary hover:text-primary transition-colors font-body-lg text-body-lg" href="#">Library</a>
+</nav>
+</header>
+<main class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop py-lg mb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-lg lg:gap-xl">
+<!-- Left Side: Cover & Waveform -->
+<section class="md:col-span-5 flex flex-col gap-md">
+<div class="aspect-square w-full rounded-xl overflow-hidden border border-outline-variant bg-surface-container-low">
+<img alt="Midnight Tides Cover" class="w-full h-full object-cover" data-alt="A premium, artistic cover for a deep house music mix titled Midnight Tides. The image displays ethereal, dark blue ocean waves illuminated by a soft, warm amber glow from an unseen moonlight source. The lighting is high-contrast yet soft, creating a moody and sophisticated atmosphere. The visual style is minimalist and clean, aligning with a modern corporate entertainment aesthetic with a focus on depth and rhythm." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYDCGQ_qeKgzblOBNIsEhrjdwehGGZuMYdj6rhf5b5HLMYbP8-hu-ICicy-ZnaB-z0o2lJ1ePQRHCpk0-LMO-6ITm_GWzrGmprBfY-psSee5_WKJ60-QzjL82sGPA4Qt-_BdzVqPDpAdqWcH2jEpynMoU9BuVJhO-yf85CwD2kf53wOwmnEgbC2LS1KWSjYI-QyrWwOKyqM6WUuEW0L7s8PQJ-2Yaebk6bSxOoo4uxSSRvZyRVt8ytaH3BGrjtsrnu7i06CIVO5Q8H"/>
+</div>
+<div class="flex flex-col gap-xs mt-base">
+<h1 class="font-headline-lg text-headline-lg text-on-surface">Midnight Tides: Deep House Vol. IV</h1>
+<p class="text-secondary font-body-lg">68 minutes • Curated by Alex River</p>
+</div>
+<!-- Interactive Waveform Section -->
+<div class="bg-surface-container-low border border-outline-variant rounded-lg p-md mt-sm">
+<div class="flex items-end justify-between h-24 gap-[2px]">
+<!-- Manual Waveform Simulation -->
+<div class="waveform-bar played h-8"></div><div class="waveform-bar played h-12"></div><div class="waveform-bar played h-10"></div><div class="waveform-bar played h-16"></div><div class="waveform-bar played h-14"></div><div class="waveform-bar played h-20"></div><div class="waveform-bar active h-24"></div><div class="waveform-bar h-18"></div><div class="waveform-bar h-12"></div><div class="waveform-bar h-16"></div><div class="waveform-bar h-14"></div><div class="waveform-bar h-10"></div><div class="waveform-bar h-8"></div><div class="waveform-bar h-16"></div><div class="waveform-bar h-20"></div><div class="waveform-bar h-18"></div><div class="waveform-bar h-14"></div><div class="waveform-bar h-12"></div><div class="waveform-bar h-10"></div><div class="waveform-bar h-16"></div><div class="waveform-bar h-22"></div><div class="waveform-bar h-18"></div><div class="waveform-bar h-12"></div><div class="waveform-bar h-8"></div><div class="waveform-bar h-14"></div><div class="waveform-bar h-20"></div><div class="waveform-bar h-16"></div><div class="waveform-bar h-12"></div><div class="waveform-bar h-10"></div><div class="waveform-bar h-16"></div><div class="waveform-bar h-14"></div><div class="waveform-bar h-12"></div><div class="waveform-bar h-8"></div><div class="waveform-bar h-10"></div><div class="waveform-bar h-14"></div><div class="waveform-bar h-18"></div><div class="waveform-bar h-12"></div><div class="waveform-bar h-8"></div><div class="waveform-bar h-10"></div><div class="waveform-bar h-16"></div><div class="waveform-bar h-14"></div><div class="waveform-bar h-20"></div><div class="waveform-bar h-16"></div><div class="waveform-bar h-12"></div>
+</div>
+<div class="flex justify-between mt-xs">
+<span class="text-label-sm font-label-sm text-primary">12:45</span>
+<span class="text-label-sm font-label-sm text-secondary">68:12</span>
+</div>
+</div>
+</section>
+<!-- Right Side: Tracklist -->
+<section class="md:col-span-7">
+<div class="flex flex-col bg-surface border border-outline-variant rounded-xl overflow-hidden">
+<div class="px-md py-sm border-b border-outline-variant bg-surface-container-low flex justify-between items-center">
+<h3 class="font-headline-md text-headline-md text-on-surface">Tracklist</h3>
+<span class="text-label-bold font-label-bold text-secondary uppercase tracking-widest">12 Tracks</span>
+</div>
+<ul class="flex flex-col">
+<li class="flex items-center gap-md px-md py-md border-b border-outline-variant hover:bg-surface-container-low transition-colors group">
+<span class="text-label-bold font-label-bold text-secondary w-8">01</span>
+<span class="text-label-sm font-label-sm text-secondary w-16">00:00</span>
+<div class="flex-grow">
+<p class="text-body-lg font-body-lg text-on-surface">Subterranean Echoes</p>
+<p class="text-body-sm font-body-sm text-secondary">Looming Clouds</p>
+</div>
+</li>
+<li class="flex items-center gap-md px-md py-md border-b border-outline-variant hover:bg-surface-container-low transition-colors group">
+<span class="text-label-bold font-label-bold text-secondary w-8">02</span>
+<span class="text-label-sm font-label-sm text-secondary w-16">05:22</span>
+<div class="flex-grow">
+<p class="text-body-lg font-body-lg text-on-surface">Velvet Horizon</p>
+<p class="text-body-sm font-body-sm text-secondary">Deep State</p>
+</div>
+</li>
+<li class="flex items-center gap-md px-md py-md border-b border-outline-variant bg-primary-container/10 transition-colors group">
+<span class="text-primary w-8"><span class="material-symbols-outlined text-[18px]" data-icon="equalizer" style="font-variation-settings: 'FILL' 1;">equalizer</span></span>
+<span class="text-label-sm font-label-sm text-primary w-16 font-bold">12:45</span>
+<div class="flex-grow">
+<p class="text-body-lg font-body-lg text-on-primary-container font-bold">Oceanic Drift (Original Mix)</p>
+<p class="text-body-sm font-body-sm text-on-primary-container/80">Lunar Tides</p>
+</div>
+</li>
+<li class="flex items-center gap-md px-md py-md border-b border-outline-variant hover:bg-surface-container-low transition-colors group">
+<span class="text-label-bold font-label-bold text-secondary w-8">04</span>
+<span class="text-label-sm font-label-sm text-secondary w-16">18:10</span>
+<div class="flex-grow">
+<p class="text-body-lg font-body-lg text-on-surface">Pulse of the Deep</p>
+<p class="text-body-sm font-body-sm text-secondary">Aqueous Minds</p>
+</div>
+</li>
+<li class="flex items-center gap-md px-md py-md border-b border-outline-variant hover:bg-surface-container-low transition-colors group">
+<span class="text-label-bold font-label-bold text-secondary w-8">05</span>
+<span class="text-label-sm font-label-sm text-secondary w-16">24:35</span>
+<div class="flex-grow">
+<p class="text-body-lg font-body-lg text-on-surface">Midnight Rhythms</p>
+<p class="text-body-sm font-body-sm text-secondary">Static Flows</p>
+</div>
+</li>
+<li class="flex items-center gap-md px-md py-md border-b border-outline-variant hover:bg-surface-container-low transition-colors group">
+<span class="text-label-bold font-label-bold text-secondary w-8">06</span>
+<span class="text-label-sm font-label-sm text-secondary w-16">31:12</span>
+<div class="flex-grow">
+<p class="text-body-lg font-body-lg text-on-surface">Saltwater Soul</p>
+<p class="text-body-sm font-body-sm text-secondary">Marea</p>
+</div>
+</li>
+<li class="flex items-center gap-md px-md py-md border-b border-outline-variant hover:bg-surface-container-low transition-colors group">
+<span class="text-label-bold font-label-bold text-secondary w-8">07</span>
+<span class="text-label-sm font-label-sm text-secondary w-16">38:50</span>
+<div class="flex-grow">
+<p class="text-body-lg font-body-lg text-on-surface">Fluorescence</p>
+<p class="text-body-sm font-body-sm text-secondary">Bio-Lum</p>
+</div>
+</li>
+</ul>
+</div>
+</section>
+</div>
+</main>
+<!-- Persistent Bottom Player -->
+<footer class="fixed bottom-0 w-full z-50 bg-surface-container-low border-t border-outline-variant flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20">
+<!-- Current Track Info -->
+<div class="flex items-center gap-md w-1/3">
+<div class="w-12 h-12 rounded bg-surface-container-highest overflow-hidden border border-outline-variant hidden sm:block">
+<img class="w-full h-full object-cover" data-alt="Close-up of the deep ocean music album art featuring dark blue and amber textures. Minimalist and artistic representation of deep house music vibes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgrNws9n_gFwFvOK5MjmdG6l-ee21bG_uKeYw1koh5eoYoMRe2mGyb7d2UmBy59caeriRmeg1UOg8rGozqf9JGztKit4EGdhuX1dbIuekFI0D2xe7uSa7YwKgCLE7y7lOMaTjYfqfb4V5q700_p1ZF6eqI6jdqYdl7tNToKv022VByNx25hMFA8hLhI7c6af0zku_VkEUsOSrcqz9sy7P-TKtvWjYcWQGzgvAYVnwKg_-qbrUfJsEj1TfMrtU7ueAFRYwuQg3E499Q"/>
+</div>
+<div class="flex flex-col">
+<span class="text-body-lg font-bold text-on-surface leading-tight truncate">Oceanic Drift (Original Mix)</span>
+<span class="text-label-sm font-label-sm text-secondary">Lunar Tides</span>
+</div>
+</div>
+<!-- Controls -->
+<div class="flex flex-col items-center gap-xs w-1/3">
+<div class="flex items-center gap-lg">
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="skip_previous">skip_previous</span>
+</button>
+<button class="bg-primary text-on-primary w-10 h-10 rounded-full flex items-center justify-center hover:bg-on-primary-fixed-variant transition-colors active:scale-95">
+<span class="material-symbols-outlined" data-icon="pause" style="font-variation-settings: 'FILL' 1;">pause</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="skip_next">skip_next</span>
+</button>
+</div>
+<!-- Simple Progress Track -->
+<div class="w-full max-w-md bg-surface-container-highest h-1 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[18%]"></div>
+</div>
+</div>
+<!-- Volume & Secondary Controls -->
+<div class="flex items-center justify-end gap-md w-1/3">
+<span class="material-symbols-outlined text-secondary hidden md:block" data-icon="volume_up">volume_up</span>
+<div class="w-24 bg-surface-container-highest h-1 rounded-full hidden md:block overflow-hidden">
+<div class="bg-secondary h-full w-3/4"></div>
+</div>
+<button class="p-2 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center transition-transform active:scale-95">
+<span class="material-symbols-outlined" data-icon="play_circle" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+</button>
+</div>
+</footer>
+</body></html>
