@@ -16,6 +16,39 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-06-29 - House Beat Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Beat Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Beat Mix of 29 June 2026</p><h4>Playlist:</h4><ul>
+  <li>Marvin Gaye - Sunny (Baumon Remix / Extended</li>
+  <li>Block & Crown - Will I Know</li>
+  <li>Tyken feat. Awa - Every Word (vocal club mix)</li>
+  <li>Celeda - The Underground</li>
+  <li>Who Da Funk?, Terra Deva - Sting Me Red (Clever) (ATFCs V</li>
+  <li>Elisangela - Mustafa (MJ Cole Remix)</li>
+  <li>John Julius Knight - Find A Friend</li>
+  <li>Hot Chip - Flutes</li>
+  <li>Shakedown - At Night (Purple Disco Machine remix)</li>
+  <li>Martin Solveig feat. Ina Wrold - Places</li>
+  <li>Polo & Pan - The Mirror</li>
+  <li>WatermÃÂÃÂ¤t - Bullit</li>
+  <li>Francis Mercier/ Faul & Wad/ African Children's Choir - Sauti</li>
+  <li>Kid Fonque, Sio - Rekindled</li>
+  <li>Degiheugi & La Fine �quipe - Favelas (La Fine Equipe remix)</li>
+  <li>Chlo� Caillet - Doudou (Edit)</li>
+  <li>Tuccillo/Patty Pravo - Bambola</li>
+  <li>Purple Disco Machine - Beat Fantasy</li>
+  <li>HUGEL, Totó La Momposina - La Verdolaga</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-06-29-House-Beat-Mix.mp3" length="87811560" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-06-29-House-Beat-Mix.mp3</guid>
+      <pubDate>29 June 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:00:58</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-05-30 - House Disco Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Disco Mix</itunes:subtitle>
