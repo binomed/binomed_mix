@@ -201,7 +201,7 @@ const App = {
             this.currentDetailedTracks.sort((a, b) => a.start - b.start);
 
             if (this.currentDetailedTracks.length === 0) {
-                container.innerHTML = this.tracklists[mix.file] || "Aucune tracklist disponible.";
+                container.innerHTML = this.tracklists[mix.file] || this.noTrackListHtml();
                 return;
             }
 
@@ -223,8 +223,18 @@ const App = {
             container.innerHTML = html;
 
         } catch (e) {
-            container.innerHTML = this.tracklists[mix.file] || "Aucune tracklist disponible.";
+            container.innerHTML = this.tracklists[mix.file] || this.noTrackListHtml();
         }
+    },
+
+    noTrackListHtml() {
+        return `
+            <div class="flex flex-col items-center justify-center py-12 text-center gap-3">
+                <span class="material-symbols-outlined text-4xl text-outline-variant">queue_music</span>
+                <p class="font-bold text-on-surface-variant">No track list</p>
+                <p class="text-sm text-on-surface-variant/60">La tracklist n'est pas disponible pour ce mix.</p>
+            </div>
+        `;
     },
 
     seekToTime(seconds) {

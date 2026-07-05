@@ -48,6 +48,83 @@ async function updateRss() {
     let playlistUpdated = false;
     let newPlaylistEntries = [];
 
+    // Pass 1: detect new items from MP3 files (XML is optional)
+    for (const mixFile of mixFiles) {
+      if (path.extname(mixFile) !== '.mp3') continue;
+
+      const mp3Basename = path.basename(mixFile, '.mp3');
+
+      const alreadyInRss = rssJs.rss.channel[0].item.some(item => {
+        if (!item.enclosure || !item.enclosure[0] || !item.enclosure[0].$.url) return false;
+        const urlBasename = path.basename(item.enclosure[0].$.url, '.mp3');
+        return mp3Basename.toLowerCase() === urlBasename.toLowerCase();
+      });
+
+      if (alreadyInRss) continue;
+
+      console.log(`New mix found: ${mp3Basename}`);
+
+      // Try to load XML tracklist if available
+      const xmlPath = path.join(MIXS_XML_DIR, mp3Basename + '.xml');
+      let playlistHtml = '<p>No track list</p>';
+      let durationHms = '00:00:00';
+
+      if (existsSync(xmlPath)) {
+        const mixFileContent = await fs.readFile(xmlPath, 'utf-8');
+        const mixJs = await parser.parseStringPromise(mixFileContent);
+
+        if (mixJs.recordEvents && mixJs.recordEvents.track) {
+          const tracks = mixJs.recordEvents.track;
+          tracks.sort((a, b) => parseFloat(a.interval[0].$.start) - parseFloat(b.interval[0].$.start));
+          playlistHtml = `<h4>Playlist:</h4><ul>\n` +
+            tracks.map(track => `  <li>${track.$.artist} - ${track.$.song}</li>`).join('\n') +
+            `\n</ul>`;
+        }
+
+        if (mixJs.recordEvents && mixJs.recordEvents.$) {
+          durationHms = secondsToHms(mixJs.recordEvents.$.length);
+        }
+      } else {
+        console.log(`No XML found for ${mp3Basename}, registering with no track list.`);
+      }
+
+      const mp3Path = path.join(MIXS_XML_DIR, mixFile);
+      const stats = await fs.stat(mp3Path);
+      const lengthBytes = stats.size;
+
+      // Extract title components from filename: 2026-01-25-House-Mix
+      const parts = mp3Basename.split('-');
+      const dateStr = parts.slice(0, 3).join('-');
+      const mixTitle = parts.slice(3).join(' ');
+      const formattedDate = formatDate(dateStr);
+
+      const newItem = {
+        title: [`JefBinomed - ${dateStr} - ${mixTitle}`],
+        'itunes:author': ['JefBinomed'],
+        'itunes:subtitle': [`${mixTitle}`],
+        description: [`<p>${mixTitle} of ${parseInt(parts[2], 10)} ${MONTHS[parseInt(parts[1], 10) - 1]} ${parts[0]}</p>${playlistHtml}`],
+        'itunes:image': [{ $: { href: 'https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png' } }],
+        enclosure: [{ $: { url: `${STORAGE_URL_BASE}${mp3Basename}.mp3`, length: lengthBytes.toString(), type: 'audio/mpeg' } }],
+        guid: [`${STORAGE_URL_BASE}${mp3Basename}.mp3`],
+        pubDate: [formattedDate],
+        'itunes:duration': [durationHms],
+        'itunes:keywords': ['DJ JefBinomed, House, Mix'],
+        'itunes:explicit': ['false']
+      };
+
+      rssJs.rss.channel[0].item.unshift(newItem);
+
+      newPlaylistEntries.push({
+        title: `${dateStr} - ${mixTitle}`,
+        file: `${STORAGE_URL_BASE}${mp3Basename}.mp3`,
+        image: 'img/binomed_sun_flower.png'
+      });
+
+      await fs.unlink(mp3Path);
+      console.log(`Added new mix to RSS and deleted ${mp3Basename}.mp3`);
+    }
+
+    // Pass 2: enrich existing items with XML tracklist if not already present
     for (const mixFile of mixFiles) {
       if (path.extname(mixFile) !== '.xml') continue;
 
@@ -68,70 +145,23 @@ async function updateRss() {
         tracks.map(track => `  <li>${track.$.artist} - ${track.$.song}</li>`).join('\n') +
         `\n</ul>`;
 
-      let rssItem = rssJs.rss.channel[0].item.find(item => {
+      const rssItem = rssJs.rss.channel[0].item.find(item => {
         if (!item.enclosure || !item.enclosure[0] || !item.enclosure[0].$.url) return false;
-        const enclosureUrl = item.enclosure[0].$.url;
-        const urlBasename = path.basename(enclosureUrl, '.mp3');
+        const urlBasename = path.basename(item.enclosure[0].$.url, '.mp3');
         return xmlBasename.toLowerCase() === urlBasename.toLowerCase();
       });
 
       if (rssItem) {
-        // Existing item update
         let originalDescription = rssItem.description[0];
         if (typeof originalDescription === 'object' && originalDescription._) {
           originalDescription = originalDescription._;
         }
 
         if (!originalDescription.includes('<h4>Playlist:</h4>')) {
-          rssItem.description[0] = `<p>${originalDescription}</p>${playlistHtml}`;
+          const stripped = originalDescription.replace('<p>No track list</p>', '').trim();
+          rssItem.description[0] = `<p>${stripped || originalDescription}</p>${playlistHtml}`;
           console.log(`Updated playlist for existing item: ${xmlBasename}`);
         }
-      } else {
-        // New item addition
-        console.log(`New mix found: ${xmlBasename}`);
-        const mp3Path = path.join(MIXS_XML_DIR, xmlBasename + '.mp3');
-        if (!existsSync(mp3Path)) {
-          console.warn(`MP3 file not found for ${xmlBasename}. Skipping addition.`);
-          continue;
-        }
-
-        const stats = await fs.stat(mp3Path);
-        const lengthBytes = stats.size;
-        const durationSeconds = mixJs.recordEvents.$.length;
-        const durationHms = secondsToHms(durationSeconds);
-        
-        // Extract title components from filename: 2026-01-25-House-Mix
-        const parts = xmlBasename.split('-');
-        const dateStr = parts.slice(0, 3).join('-');
-        const mixTitle = parts.slice(3).join(' ');
-        const formattedDate = formatDate(dateStr);
-
-        const newItem = {
-          title: [`JefBinomed - ${dateStr} - ${mixTitle}`],
-          'itunes:author': ['JefBinomed'],
-          'itunes:subtitle': [`${mixTitle}`],
-          description: [`<p>${mixTitle} of ${parseInt(parts[2], 10)} ${MONTHS[parseInt(parts[1], 10) - 1]} ${parts[0]}</p>${playlistHtml}`],
-          'itunes:image': [{ $: { href: 'https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png' } }],
-          enclosure: [{ $: { url: `${STORAGE_URL_BASE}${xmlBasename}.mp3`, length: lengthBytes.toString(), type: 'audio/mpeg' } }],
-          guid: [`${STORAGE_URL_BASE}${xmlBasename}.mp3`],
-          pubDate: [formattedDate],
-          'itunes:duration': [durationHms],
-          'itunes:keywords': ['DJ JefBinomed, House, Mix'],
-          'itunes:explicit': ['false']
-        };
-
-        rssJs.rss.channel[0].item.unshift(newItem);
-
-        // Prepare playlist entry
-        newPlaylistEntries.push({
-          title: `${dateStr} - ${mixTitle}`,
-          file: `${STORAGE_URL_BASE}${xmlBasename}.mp3`,
-          image: 'img/binomed_sun_flower.png'
-        });
-
-        // Delete MP3
-        await fs.unlink(mp3Path);
-        console.log(`Added new mix to RSS and deleted ${xmlBasename}.mp3`);
       }
     }
 

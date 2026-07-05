@@ -16,6 +16,19 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-07-05 - HouseDiscoMix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>HouseDiscoMix</itunes:subtitle>
+      <description><![CDATA[<p>HouseDiscoMix of 5 July 2026</p><p>No track list</p>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-07-05-HouseDiscoMix.mp3" length="107724533" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-07-05-HouseDiscoMix.mp3</guid>
+      <pubDate>5 July 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-06-29 - House Beat Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Beat Mix</itunes:subtitle>
