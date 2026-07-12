@@ -1,5 +1,10 @@
 var binomedPlayList = [
     {
+        title: '2026-07-12 - FreshHouseMix',
+        file: 'https://storage.googleapis.com/binomed-mix/2026-07-12-FreshHouseMix.mp3',
+        image: 'img/binomed_sun_flower.png',
+    },
+    {
         title: '2026-07-05 - HouseDiscoMix',
         file: 'https://storage.googleapis.com/binomed-mix/2026-07-05-HouseDiscoMix.mp3',
         image: 'img/binomed_sun_flower.png',
