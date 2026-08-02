@@ -16,6 +16,37 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-08-02 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 2 August 2026</p><h4>Playlist:</h4><ul>
+  <li>Seamus Haji & Kathy Brown - A Better Place  (DJ Fudge Extended Remix)</li>
+  <li>O’Flynn - Fara - Extended Mix</li>
+  <li>Marco Valery - Do Me (DJ Spen & DJ Emmaculate Remix)</li>
+  <li>Oscar P/ FNX OMAR - Filtered African Blues</li>
+  <li>Supernova - La Nuit (Extended Mix)</li>
+  <li>Kathy Brown, Phebe Edwards, Greg Gould, Anelisa Lamola, GeO Gospel Choir & Revival Collective - Earth Song (What About Us) (Club Mix)</li>
+  <li>L'Impératrice - Vacances (Yuksek Remix)</li>
+  <li>Groove Armada - Paper Romance (Purple Disco Machine remix)</li>
+  <li>Makèz, Lyma - Come Back Tomorrow (Extended Mix)</li>
+  <li>Wamdue Project - King of My Castle (Purple disco Machine remix) (extended mix)</li>
+  <li>Kim English - I Know A Place (E-Smoove Club Mix)</li>
+  <li>Nari & Nabuk & Paolo nhe - Right Thing (Original Mix)</li>
+  <li>Baccus - Don't You Know</li>
+  <li>Polo & Pan, Yuksek - Summer Is Almost Over (Yuksek Remix)</li>
+  <li>Saraga - Red Roses</li>
+  <li>Flight Facilities & DRAMA x The Brothers Macklovitch x A‐Trak - Dancing On My Own (The Brothers Macklovitch extended remix)</li>
+  <li>Disco Ball'z - Urban O.G.  (Original Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-08-02-House-Mix.mp3" length="86779619" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-08-02-House-Mix.mp3</guid>
+      <pubDate>2 August 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:00:15</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-07-12 - FreshHouseMix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>FreshHouseMix</itunes:subtitle>
