@@ -9,11 +9,19 @@ const MIXS_XML_DIR = path.join(__dirname, 'docs', 'mixsXML');
 const STORAGE_URL_BASE = 'https://storage.googleapis.com/binomed-mix/';
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-// Rekordbox logs one TRACK block per deck load: anything shorter than this is a
-// test / a missed transition, not a track that was really played.
-const MIN_TRACK_SECONDS = 60;
+// Rekordbox logs one TRACK block per deck load. A segment shorter than this is
+// dropped only when the same track is played longer elsewhere in the mix: it was
+// cued up before being played for real. A short segment nobody replays is kept.
+const MAX_PREVIEW_SECONDS = 60;
 
 const DRY_RUN = process.argv.includes('--dry-run');
+
+// --refresh [mix] rebuilds an already published tracklist: every CUE mix by
+// default, or the single mix named right after the flag.
+const REFRESH = process.argv.includes('--refresh');
+const REFRESH_TARGET = REFRESH
+  ? (process.argv[process.argv.indexOf('--refresh') + 1] || '').replace(/^--.*/, '').replace(/\.(cue|xml|mp3)$/, '')
+  : '';
 
 const NO_TRACK_LIST = '<p>No track list</p>';
 const PLAYLIST_MARKER = '<h4>Playlist:</h4>';
@@ -157,32 +165,35 @@ function parseCueSheet(content, totalDurationSeconds) {
     canMeasure = false;
   }
 
+  for (let i = 0; i < rawTracks.length; i++) {
+    const track = rawTracks[i];
+    track.label = `${track.artist} - ${track.song}`;
+    track.key = track.label.toLowerCase();
+    // Without a duration for the mix, the last track cannot be measured.
+    const next = i + 1 < rawTracks.length ? rawTracks[i + 1].start : totalDurationSeconds;
+    track.length = canMeasure && next !== null && next !== undefined ? next - track.start : null;
+  }
+
   const tracks = [];
   const seen = new Map();
 
-  for (let i = 0; i < rawTracks.length; i++) {
-    const track = rawTracks[i];
-    const label = `${track.artist} - ${track.song}`;
-
-    if (canMeasure) {
-      const next = i + 1 < rawTracks.length ? rawTracks[i + 1].start : totalDurationSeconds;
-      // Without a duration for the mix, the last track cannot be measured: keep it.
-      if (next !== null && next !== undefined) {
-        const length = next - track.start;
-        if (length < MIN_TRACK_SECONDS) {
-          console.log(`Skipped track ${track.number} "${label}" (${Math.round(length)}s < ${MIN_TRACK_SECONDS}s)`);
-          continue;
-        }
+  for (const track of rawTracks) {
+    // A short segment is a cue-up only when the same track is played longer
+    // somewhere else. A short segment nobody replays is just a short track.
+    if (track.length !== null && track.length < MAX_PREVIEW_SECONDS) {
+      const realPlay = rawTracks.find(other => other.key === track.key && other.length > track.length);
+      if (realPlay) {
+        console.log(`Skipped track ${track.number} "${track.label}" (${Math.round(track.length)}s cue-up of track ${realPlay.number})`);
+        continue;
       }
     }
 
-    const key = label.toLowerCase();
-    if (seen.has(key)) {
-      console.log(`Skipped track ${track.number} "${label}" (duplicate of track ${seen.get(key)})`);
+    if (seen.has(track.key)) {
+      console.log(`Skipped track ${track.number} "${track.label}" (duplicate of track ${seen.get(track.key)})`);
       continue;
     }
 
-    seen.set(key, track.number);
+    seen.set(track.key, track.number);
     tracks.push({ artist: track.artist, song: track.song, start: track.start });
   }
 
@@ -349,20 +360,30 @@ async function updateRss() {
         originalDescription = originalDescription._;
       }
 
+      const refreshing = REFRESH && (REFRESH_TARGET ? REFRESH_TARGET === basename : extension === '.cue');
+
       // Nothing left to do for this mix: skip before parsing it again.
       const hasTracklist = originalDescription.includes(PLAYLIST_MARKER);
       const needsJson = extension === '.cue' && !existsSync(path.join(MIXS_XML_DIR, basename + '.tracks.json'));
-      if (hasTracklist && !needsJson) continue;
+      if (hasTracklist && !needsJson && !refreshing) continue;
 
       // The mp3 is gone by now, so no duration: the last track stays unmeasured.
-      // Pass 1 ran with the mp3 at hand, so its .tracks.json stays authoritative.
+      // Pass 1 ran with the mp3 at hand, so its .tracks.json stays authoritative
+      // unless we are explicitly refreshing this mix.
       const { playlistHtml, tracks, source } = await loadTracklist(parser, basename, null);
-      if (source === 'cue' && tracks.length) await writeTracksJson(basename, tracks, true);
-
-      if (hasTracklist) continue;
+      if (source === 'cue' && tracks.length) await writeTracksJson(basename, tracks, !refreshing);
 
       if (playlistHtml === NO_TRACK_LIST) {
-        console.warn(`Skipping ${mixFile}: No tracks found.`);
+        if (!hasTracklist) console.warn(`Skipping ${mixFile}: No tracks found.`);
+        continue;
+      }
+
+      if (hasTracklist) {
+        if (!refreshing) continue;
+        const previousCount = (originalDescription.match(/<li>/g) || []).length;
+        // Keep the "<p>Mix of …</p>" header, swap the tracklist that follows it.
+        rssItem.description[0] = originalDescription.split(PLAYLIST_MARKER)[0] + playlistHtml;
+        console.log(`Refreshed ${basename} (${previousCount} -> ${tracks.length} tracks)`);
         continue;
       }
 
