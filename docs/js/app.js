@@ -176,28 +176,36 @@ const App = {
         }
     },
 
+    /**
+     * Timecoded tracklist of a mix, whatever its source format.
+     * Rekordbox mixes ship a .tracks.json built by update_rss.js, VirtualDJ ones
+     * keep their original .xml export.
+     * @param {String} mp3Name Basename of the mix, without extension.
+     * @return {Array} Array of {song, artist, start}.
+     */
+    async fetchDetailedTracks(mp3Name) {
+        const jsonResponse = await fetch(`./mixsXML/${mp3Name}.tracks.json`);
+        if (jsonResponse.ok) {
+            return await jsonResponse.json();
+        }
+
+        const xmlResponse = await fetch(`./mixsXML/${mp3Name}.xml`);
+        if (!xmlResponse.ok) throw new Error('No tracklist found');
+
+        const xmlDoc = new DOMParser().parseFromString(await xmlResponse.text(), "text/xml");
+        return Array.from(xmlDoc.getElementsByTagName('track')).map(node => ({
+            song: node.getAttribute('song'),
+            artist: node.getAttribute('artist'),
+            start: parseFloat(node.getElementsByTagName('interval')[0]?.getAttribute('start') || 0)
+        }));
+    },
+
     async loadDetailedTracklist(mix) {
         const container = document.getElementById('tracklist-container');
         try {
             const mp3Name = mix.file.split('/').pop().replace('.mp3', '');
-            const xmlPath = `./mixsXML/${mp3Name}.xml`;
-            
-            const response = await fetch(xmlPath);
-            if (!response.ok) throw new Error('XML not found');
-            
-            const text = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(text, "text/xml");
-            const trackNodes = xmlDoc.getElementsByTagName('track');
-            
-            this.currentDetailedTracks = [];
-            for (let node of trackNodes) {
-                const song = node.getAttribute('song');
-                const artist = node.getAttribute('artist');
-                const start = parseFloat(node.getElementsByTagName('interval')[0]?.getAttribute('start') || 0);
-                this.currentDetailedTracks.push({ song, artist, start });
-            }
 
+            this.currentDetailedTracks = await this.fetchDetailedTracks(mp3Name);
             this.currentDetailedTracks.sort((a, b) => a.start - b.start);
 
             if (this.currentDetailedTracks.length === 0) {
