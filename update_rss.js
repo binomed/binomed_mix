@@ -298,6 +298,15 @@ async function updateRss() {
 
       if (findRssItem(rssJs, mp3Basename)) continue;
 
+      // Rekordbox playlist exports sometimes leave a leftover "01 " track-number
+      // prefix on the filename. That breaks the YYYY-MM-DD parsing below and
+      // puts a raw space in the enclosure URL, so catch it here instead of
+      // publishing a corrupt item.
+      if (!/^\d{4}-\d{2}-\d{2}-/.test(mp3Basename)) {
+        console.warn(`Skipping "${mixFile}": filename doesn't start with YYYY-MM-DD-, rename it and rerun.`);
+        continue;
+      }
+
       console.log(`New mix found: ${mp3Basename}`);
 
       const mp3Path = path.join(MIXS_XML_DIR, mixFile);
