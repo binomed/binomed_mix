@@ -16,6 +16,36 @@
     <itunes:category text="Music"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>JefBinomed - 2026-10-04 - House Mix</title>
+      <itunes:author>JefBinomed</itunes:author>
+      <itunes:subtitle>House Mix</itunes:subtitle>
+      <description><![CDATA[<p>House Mix of 4 October 2026</p><h4>Playlist:</h4><ul>
+  <li>Softmal, Nytron - My Girl</li>
+  <li>Black Box - I Don't Know Anybody Else (Mot</li>
+  <li>Fatboy Slim - Praise You (Purple Disco Machine extended remix)</li>
+  <li>Me & My Toothbrush - Sister (Original Club Mix)</li>
+  <li>Kid Fonque, Sio - Rekindled</li>
+  <li>Oscar P/ FNX OMAR - Filtered African Blues</li>
+  <li>Noir Glacé - Crazy - AFRO HOUSE</li>
+  <li>Polo & Pan, Yuksek - Summer Is Almost Over (Yuksek Remix)</li>
+  <li>Selace - So Hooked on Your Lovin (Mouss</li>
+  <li>Wamdue Project - King of My Castle (Purple disco Machine remix) (extended mix)</li>
+  <li>Michel Gondry - Beautiful (DATA Remix)</li>
+  <li>Caiiro/Awen - Your Voice (Adam Port Remix)</li>
+  <li>Tuccillo/Patty Pravo - Bambola</li>
+  <li>Makèz, Lyma - Come Back Tomorrow (Extended Mix)</li>
+  <li>Boris Dlugosch feat. RÃÂÃÂ³isÃÂÃÂ­n Murphy - Never Enough (Sir Piers & Ed Funkclub remix)</li>
+  <li>Jaegerossa - Shining (Extended Mix)</li>
+</ul>]]></description>
+      <itunes:image href="https://jef.binomed.fr/binomed_mix/img/binomed_sun_flower.png"/>
+      <enclosure url="https://storage.googleapis.com/binomed-mix/2026-10-04-House-Mix.mp3" length="89319340" type="audio/mpeg"/>
+      <guid>https://storage.googleapis.com/binomed-mix/2026-10-04-House-Mix.mp3</guid>
+      <pubDate>4 October 2026 21:10:00 +0100</pubDate>
+      <itunes:duration>01:02:01</itunes:duration>
+      <itunes:keywords>DJ JefBinomed, House, Mix</itunes:keywords>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>JefBinomed - 2026-09-27 - House Mix</title>
       <itunes:author>JefBinomed</itunes:author>
       <itunes:subtitle>House Mix</itunes:subtitle>
